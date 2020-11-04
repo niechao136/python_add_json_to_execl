@@ -1,0 +1,882 @@
+{
+    "general": {
+        "time": {
+            "short_month": "1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月",
+            "short_day": "日,一,二,三,四,五,六"
+        },
+        "btn": {
+            "next": "下一步",
+            "store": "儲存",
+            "add": "新增",
+            "prev": "上一步",
+            "join": "加入",
+            "settings": "設定",
+            "sign_out": "登出",
+            "add_new_widget": "新增圖表",
+            "save": "存檔",
+            "cancel": "取消",
+            "copy": "複製",
+            "confirm": "確定",
+            "done": "完成",
+            "delete": "刪除",
+            "reset": "還原",
+            "clear": "清除",
+            "Analyticssave": "套用",
+            "Apply": "套用"
+        },
+        "month_name": {
+            "Jan": "一月",
+            "Feb": "二月",
+            "Mar": "三月",
+            "Apr": "四月",
+            "May": "五月",
+            "Jun": "六月",
+            "Jul": "七月",
+            "Aug": "八月",
+            "Sep": "九月",
+            "Oct": "十月",
+            "Nov": "十一月",
+            "Dec": "十二月"
+        },
+        "week_name": {
+            "Monday": "一",
+            "Tuesday": "二",
+            "Wednesday": "三",
+            "Thursday": "四",
+            "Friday": "五",
+            "Saturday": "六",
+            "Sunday": "日"
+        },
+        "month_week": {
+            "Week#1": "第一週",
+            "Week#2": "第二週",
+            "Week#3": "第三週",
+            "Week#4": "第四週",
+            "Week#5": "第五週",
+            "Week#6": "第六週",
+            "Week#7": "第七週"
+        },
+        "Loading": {
+            "title": "加載中..."
+        },
+        "no_data": "沒有數據",
+        "error": {
+            "login_again": "賬號已登出，請重新登錄！"
+        }
+    },
+    "header": {
+        "guidance": "快速導航",
+        "language": "選擇語言",
+        "logout": "登出系統",
+        "analytics": "營運分析",
+        "dashboard": "數據儀錶盤",
+        "inspection": "智慧巡檢",
+        "signage": "互動看板",
+        "setting": "系統設定",
+        "recognition": "來客識別",
+        "attendance": "智慧考勤"
+    },
+    "sidebar": {
+        "edit_profile": "編輯用戶資訊",
+        "dashboard": "儀錶板",
+        "system_dashboard": "系統儀錶板",
+        "custom_dashboard": "自定儀錶板",
+        "add_dashboard": "新增儀錶板",
+        "board_name_placeholder": "儀錶板名稱"
+    },
+    "widget_area": {
+        "empty_tips": {
+            "title": "歡迎開始使用您的儀表板",
+            "subtitle": "您可以開始新增圖表"
+        }
+    },
+    "widget": {
+        "comparison": {
+            "title": "比較",
+            "location": "跨區比較",
+            "period": "跨時比較",
+            "single_store_analysis": "單店分析",
+            "weekly_average": "選取範圍內周間平均",
+            "single_store_comparison": "單店比較",
+            "align_weekend": "對齊周末",
+            "date": "日期",
+            "this_week": "本周",
+            "last_week": "上周",
+            "analysis_mode": "分析模式",
+            "week": "周同比",
+            "weekly_ring_ratio": "周環比",
+            "this_month": "本月",
+            "last_month": "上月",
+            "same_month_last_year": "去年同月",
+            "month": "月同比",
+            "month_ring_ratio": "月環比",
+            "one-week_analysis": "單周分析",
+            "single_month_analysis": "單月分析",
+            "and": "到",
+            "store": "門市",
+            "item": "項目",
+            "inquire": "查詢",
+            "interval_greater_than_31_days": "時間最長不能超過31天。",
+            "start_date_no_longer_than_the_end_date": "起始日期，不可大於結束日期。"
+        },
+        "heat_map": {
+            "heatmap_widget_list": "熱區圖列表",
+            "focus_zone_list": "興趣區域列表",
+            "focus_zone_id": "興趣區域編號#",
+            "focus_zone_title": "興趣區域名稱",
+            "focus_zone_products": "區域內產品列表",
+            "zone": "區域",
+            "freq": "頻率",
+            "dwell": "停留"
+        },
+        "additional_data": {
+            "title": "資料比較"
+        },
+        "period": {
+            "title": "時間區段"
+        },
+        "compare": {
+            "title": "比較時段"
+        },
+        "show": {
+            "title": "時間單位"
+        },
+        "settting": {
+            "data_source": "數據來源",
+            "data_store_name": "全部區域",
+            "today_date": "今天",
+            "yesterday_date": "昨天",
+            "last_week_date": "上週同日",
+            "last_month_date": "上月同日",
+            "sources": "個區域"
+        },
+        "EmptyStorelist": {
+            "title": "沒有店家或者傳感器"
+        }
+    },
+    "pin": {
+        "title": "釘選",
+        "desc": "選擇釘選到…"
+    },
+    "report": {
+        "title": "報告",
+        "table_header": {
+            "date": "日期",
+            "time": "時間",
+            "week": "周",
+            "total": "總計",
+            "average": "平均",
+            "total_average": "總平均"
+        },
+        "people": " (人)",
+        "ranking": "前5名門店",
+        "rankingStore": "門店名稱",
+        "widget_type": {
+            "traffic": "Traffic",
+            "wifi_traffic": "Wifi Traffic",
+            "wifi_outdoor_traffic": "Wifi Outdoor Traffic",
+            "people_counting_outdoor": "People Counting Outdoor",
+            "conversion_rate": "Conversion rate",
+            "transactions": "Transactions",
+            "sales_volume": "Sales Volume",
+            "turn-in_rate": "Turn-in rate",
+            "cvt_sales_shopper": "Sale per Shopper",
+            "cvt_carry_rate": "Sales Conversion",
+            "cvt_return_rate": "Returning Customers",
+            "cvt_turnin_rate": "Turn in Rate",
+            "store_turn_in_rate": "全店進入率",
+            "space_turn_in_rate": "空間進入率",
+            "cvt_avg_dwell": "Avg Dwell Time"
+        }
+    },
+    "ui_settings": {
+        "title": "設定",
+        "field": {
+            "language": {
+                "title": "語言"
+            },
+            "theme": {
+                "title": "主題顏色",
+                "option": {
+                    "dark": "暗色系",
+                    "light": "亮色系"
+                }
+            }
+        }
+    },
+    "board_settings": {
+        "title": {
+            "edit": "儀錶板設定",
+            "add": "新增儀錶板",
+            "delete": "刪除儀錶板"
+        },
+        "board_name": {
+            "title": "儀錶板名稱",
+            "placeholder": "請輸入儀錶板名稱"
+        },
+        "tip": {
+            "edit": "編輯後請點擊 「儲存」。" ,
+            "add": "請輸入儀錶板名稱,輸入完成請點擊 「下一步」 建立你的第一個圖表。",
+            "delete": "確認刪除儀錶版,請點擊 「確認」。"
+        },
+        "copy": {
+            "title": "複製給",
+            "placeholder": "請輸入消費者名稱"
+        }
+    },
+    "widget_editor": {
+        "title": {
+            "add": "新增圖表",
+            "edit": "編輯圖表",
+            "setting": "資料源設定",
+            "delete": "删除圖表",
+            "edit_favorite_zone": "編輯興趣區域"
+        },
+        "tip": {
+            "edit": "編輯後請點擊「儲存」完成編輯圖表。",
+            "add": "請輸入圖表設定，輸入完成請點擊「新增」完成新增圖表。",
+            "add_board": "請輸入圖表設定，輸入完成請點擊「新增」建立你的第一個圖表。",
+            "setting": "編輯後請點擊「儲存」完成資料來源設定。",
+            "delete": "確認删除圖表，請點擊「確認」。"
+        },
+        "widget_title": {
+            "title": "圖表名稱",
+            "placeholder": "請輸入圖表名稱"
+        },
+        "widget_type": {
+            "title": "數據類型"
+        },
+        "chart_type": {
+            "title": "圖表類型"
+        },
+        "widget_size": {
+            "title": "圖表尺寸"
+        },
+        "date": {
+            "title": "日期",
+            "options": {
+                "today": "今日",
+                "yesterday": "昨日",
+                "day_of_last_week": "上週同日",
+                "day_of_last_mouth": "上月同日",
+                "date_period": "日期區間",
+                "start_date": "選擇開始日期",
+                "end_date": "選擇結束日期",
+                "specific_date": "自選日期"
+            }
+        },
+        "btn": {
+            "delete_zone": "刪除選擇區域",
+            "delete_this": "刪除圖表"
+        },
+        "delete_confirm_desc": "確認刪除此圖表?",
+        "account_inactive": "帳號未啟用"
+    },
+    "guidance": {
+        "title": {
+            "page1": "歡迎使用 Store BI",
+            "page2": "系統儀表板洞悉零售場域深度特性",
+            "page3": "自訂儀表板彈性客制專屬數據中心",
+            "page4": "下一次登入系統是否顯示快速導覽?"
+        },
+        "tip": {
+            "page1": "Store BI 是一套全方位的數據分析可視化服務，讓上雲的資料轉換為簡單易懂的圖表，發揮數據最大價值，除提供您零售場域經常使用的系統預設儀表板外，亦可根據各市場域需求自訂專屬圖表內容。",
+            "page2": "Store BI 精選零售場域四大常用系統儀表板 : 熱區分析、日期分析、單店分析及多店分析。讓您快速設定時間、焚店條件後即可產生報表，除了檢視報表外，亦可下載至電腦本機。",
+            "page3": "您可以選定數據類型後，根據數據屬性選擇合適的圖表類型來建立專屬您的自訂儀表板。亦可從系統儀表板中釘選圖表至自訂儀表板中，成為零售業者決策及規劃之最佳輔助利器。",
+            "page4_1": "若下一次登入系統要顯示快速導覽，請點擊「是」。",
+            "page4_2": "若下一次登入系統不要顯示快速導覽，請點擊「否」。"
+        },
+        "btn": {
+            "yes": "是",
+            "no": "否",
+            "skip": "略過"
+        }
+    },
+    "data_source_settings": {
+        "title": "資料源設定",
+        "tab_name": {
+            "new": "新增店家來源"
+        }
+    },
+    "period_settings": {
+        "title": "時間區間",
+        "tab_name": {
+            "new": "新增日期"
+        },
+        "field": {
+            "select_date": {
+                "title": "日期"
+            }
+        }
+    },
+    "data_source_selector": {
+        "title": "選擇資料來源",
+        "titleA": "選擇資料來源-A",
+        "titleB": "選擇資料來源-B",
+        "field": {
+            "data_name": {
+                "title": "資料名稱",
+                "multiple_store": "門店組合",
+                "select_store": "選擇門店",
+                "store_list": "門店清單",
+                "space_name": "空間名稱",
+                "monitor_list": "監測器列表",
+                "select_space": "選取空間",
+                "monitor_type": "監測類型",
+                "monitor_name": "監測名稱",
+                "selected_monitor": "選取感測器",
+                "formula": "公式"
+            },
+            "all_source": {
+                "title": "門店及群組清單",
+                "all_select": "全部選擇",
+                "input_placeholder": "搜尋門店或群組",
+                "input_search": "搜尋",
+                "selected_space_monitor": "選取空間及感測"
+            },
+            "selected_source": {
+                "title": "已選取的門店及群組",
+                "selected_list": "已選取清單",
+                "selected_space_monitor_list": "已選取空間與監測清單",
+                "title_for_space": "已選取的門店、空間、監測器"
+            }
+        },
+        "monitor_type": {
+            "StoreEntrance": "全店入口",
+            "HeatMap": "熱區分析",
+            "Entrance": "一般入口",
+            "ShopperPath": "路徑分析",
+            "OutOfStorePassengerFlow": "店外客流",
+            "Pos": "交易資訊",
+            "ChannelPassengerFlow": "通道客流",
+            "AirQuality": "空氣品質",
+            "OutOfSpacePassengerFlow": "空間外客流",
+            "Demographics": "客層辦識",
+            "Wifi": "Wifi",
+            "Space": "空間"
+        }
+    },
+    "option": {
+        "default": {
+            "please_select": "請選擇",
+            "tag": "標籤",
+            "zone1": "區域一",
+            "zone2": "區域二",
+            "none": "無"
+        },
+        "widget_type": {
+            "traffic": "客流量",
+            "stays": "店内人數",
+            "wifi_traffic": "Wifi客流量",
+            "wifi_outdoor_traffic": "Wifi店外客流",
+            "people_counting_outdoor": "店外客流",
+            "conversion_rate": "提袋率",
+            "transactions": "交易筆數",
+            "sales_volume": "銷售額",
+            "age": "年齡",
+            "gender": "性別",
+            "passby": "過店人數",
+            "turn-in_rate": "進店比率",
+            "heat_map": "顧客熱區",
+            "shopper_path": "路徑分析",
+            "ranking": "門店排名",
+            "cvt_sales_shopper": "人均消費",
+            "cvt_carry_rate": "提袋率",
+            "cvt_return_rate": "熟客率",
+            "cvt_turnin_rate": "進店率",
+            "store_turn_in_rate": "全店進入率",
+            "space_turn_in_rate": "空間進入率",
+            "cvt_avg_dwell": "平均停留時間",
+            "iaq": "空氣品質",
+            "weather_tep": "天氣溫度",
+            "weather": "天氣",
+            "audience_traffic": "觸及人數",
+            "audience_viewer": "收看人數",
+            "cvt_eyecatch_rate": "吸睛度",
+            "cvt_avg_view": "平均收看時間",
+            "audience_age": "觀眾年齡",
+            "audience_gender": "觀眾性別",
+            "customer_age": "顧客年齡",
+            "customer_gender": "顧客性別",
+            "maxtraffic": "客潮尖峰時段",
+            "predict": "預測",
+            "ppc_store_outside": "店外客流",
+            "ppc_passageway": "通道客流",
+            "ppc_space_outside": "空間外客流",
+            "ppc_store_entry_in": "全店入口 - 進客流",
+            "ppc_store_entry_out": "全店入口 - 出客流",
+            "ppc_space_entry_in": "空間客流 - 進客流",
+            "ppc_space_entry_out": "空間客流 - 出客流",
+            "ppc_conversion_rate": "轉換率"
+        },
+        "chart_type": {
+            "bar": "長條圖",
+            "infographic": "資訊圖",
+            "kpi": "關鍵指標",
+            "line": "折線圖",
+            "pie": "圓餅圖",
+            "stacked": "堆疊圖",
+            "table": "表格",
+            "matrix": "數據矩陣",
+            "picture": "圖片"
+        },
+        "widget_size": {
+            "super": "大",
+            "big": "中",
+            "small": "小",
+            "x-super": "超級大"
+        },
+        "chart_date": {
+            "today": "今日",
+            "yesterday": "昨日",
+            "day_of_last_week": "上週同日",
+            "day_of_last_mouth": "上月同日",
+            "specific_date": "自選日期"
+        },
+        "period": {
+            "dd": "日",
+            "ww": "周",
+            "mm": "月",
+            "yyyy": "年"
+        },
+        "compare": {
+            "yesterday": "上一日",
+            "this_week_average": "本月週平均",
+            "this_month_average": "本月平均",
+            "last_week": "上一週",
+            "13weeks_average": "近13週平均",
+            "last_month": "前一月",
+            "3months_average": "近三月平均",
+            "last_year": "去年",
+            "same_day_last_year": "去年同日",
+            "last_week_of_the_same_week": "去年同周",
+            "same_month_last_year": "去年同月",
+            "today_date": "今天",
+            "yesterday_date": "昨天",
+            "last_week_date": "上週同日",
+            "last_month_date": "上月同日",
+            "7days_ago": "過去7天",
+            "30days_ago": "過去30天",
+            "90days_ago": "過去90天",
+            "specific_date": "自選日期"
+        },
+        "date": {
+            "week": "周同比",
+            "weekly_ring_ratio": "周環比",
+            "month": "月同比",
+            "month_ring_ratio": "月環比",
+            "specific_date": "自選日期",
+            "this_week": "本周",
+            "last_week": "上周",
+            "this_month": "本月",
+            "last_month": "上月",
+            "same_month_last_year": "去年同月"
+        },
+        "show": {
+            "hh": "小時",
+            "dd": "天",
+            "wd": "日期",
+            "ww": "周",
+            "mm": "月",
+            "w": "周"
+        }
+    },
+    "chart": {
+        "age": {
+            "unit": "人",
+            "type": {
+                "10": "10 - 19 歲",
+                "20": "20 - 39 歲",
+                "40": "40 - 59 歲",
+                "60": "60 歲以上"
+            }
+        },
+        "gender": {
+            "unit": "人",
+            "type": {
+                "male": "男性",
+                "female": "女性"
+            }
+        },
+        "traffic": {
+            "unit": "客流量"
+        },
+        "wifi_traffic": {
+            "unit": "Wifi客流量"
+        },
+        "wifi_outdoor_traffic": {
+            "unit": "Wifi店外客流量"
+        },
+        "people_counting_outdoor": {
+            "unit": "店外客流量"
+        },
+        "sales_volume": {
+            "unit": "營業額"
+        },
+        "transactions": {
+            "unit": "交易筆數"
+        },
+        "conversion_rate": {
+            "unit": "%"
+        },
+        "cvt_sales_shopper": {
+            "unit": "$/人"
+        },
+        "cvt_carry_rate": {
+            "unit": "%"
+        },
+        "cvt_return_rate": {
+            "unit": "%"
+        },
+        "cvt_turnin_rate": {
+            "unit": "%"
+        },
+        "cvt_avg_dwell": {
+            "unit": "秒"
+        },
+        "heat_map": {
+            "type": {
+                "dwell_unit_sec": "  秒",
+                "hist": "人次",
+                "hist_unit": "秒",
+                "dwell_unit_min": "分",
+                "dwell": "時間",
+                "dwell_tooltip": "平均停留",
+                "dwell_time": "停留時間",
+                "freq": "人次"
+            }
+        },
+        "ranking": {
+            "type": {
+                "pin": "進店人數",
+                "trade_num": "交易筆數",
+                "sales": "銷售額",
+                "turn_in": "進店率",
+                "co2": "二氧化碳",
+                "pm10": "PM10",
+                "pm25": "PM2.5"
+            }
+        },
+        "iaq": {
+            "co": "一氧化碳",
+            "co2": "二氧化碳",
+            "hcho": "甲醛",
+            "hum": "濕度",
+            "pm10": "PM10",
+            "pm25": "PM2.5",
+            "tep": "溫度",
+            "tvoc": "揮發性氣體",
+            "o3": "臭氧",
+            "ch4": "瓦斯偵測",
+            "nh3": "氨氣偵測",
+            "type": {
+                "first": "低",
+                "second": "中",
+                "third": "高",
+                "fourth": "警示",
+                "hum_first": "乾燥",
+                "hum_second": "舒適",
+                "hum_third": "潮濕",
+                "tep_first": "冷",
+                "tep_second": "舒適",
+                "tep_third": "熱"
+            }
+        },
+        "weather_tep": {
+            "type": {
+                "conditions": "天氣",
+                "avg_temp_c": "平均氣溫",
+                "high_temp_c": "最高氣溫",
+                "low_temp_c": "最低氣溫"
+            },
+            "unit": {
+                "conditions": "天氣",
+                "avg_temp_c": "攝氏度",
+                "high_temp_c": "攝氏度",
+                "low_temp_c": "攝氏度"
+            },
+            "conditions": {
+                "0": "未知天氣",
+                "1": "晴",
+                "2": "陰",
+                "3": "雨",
+                "4": "雪",
+                "5": "極端天氣"
+            }
+        },
+        "audience_traffic": {
+            "unit": "觸及人數"
+        },
+        "audience_viewer": {
+            "unit": "收看人數"
+        },
+        "cvt_eyecatch_rate": {
+            "unit": "%"
+        },
+        "cvt_avg_view": {
+            "unit": "秒"
+        },
+        "audience_age": {
+            "unit": "觀眾年齡"
+        },
+        "audience_gender": {
+            "unit": "觀眾性別"
+        }
+    },
+    "login": {
+        "title": "Ushop+ 優店聯網",
+        "field": {
+            "email": "電子郵件(作為登入帳號)",
+            "password": "密碼"
+        },
+        "btn": {
+            "forget": "忘記密碼",
+            "signIn": "登入"
+        },
+        "rememberMe": "記住我的帳號",
+        "error": {
+            "emailFormatError": "電子郵件格式錯誤",
+            "fieldError": "部分欄位空白, 請輸入",
+            "inputEmail": "請輸入帳號",
+            "inputPsw": "請輸入密碼",
+            "EmailorPswError": " 登入失敗, 請確認帳號及密碼"
+        }
+    },
+    "reset_password": {
+        "title": "重設密碼",
+        "new_password": "新密碼",
+        "confirm_password": "確認新密碼",
+        "success_message": "密碼重設成功. 請重新登入",
+        "btn": {
+            "reset": "重設密碼",
+            "login": "回登入頁面"
+        },
+        "error": {
+            "passwordNotMatch": "密碼錯誤, 請確認",
+            "FormatError": "密碼格式錯誤(6~12位字母和数字)"
+        }
+    },
+    "forget_password": {
+        "error": {
+            "2001": "重設密碼的email發送失敗。"
+        }
+    },
+    "heatmap": {
+        "analytics": {
+            "title": "熱點分析"
+        }
+    },
+    "shopperpath": {
+        "analytics": {
+            "title": "路徑分析"
+        },
+        "hot_path": "熱門路徑",
+        "path": "路徑",
+        "popularity": "熱門度"
+    },
+    "overview": {
+        "title": "全覽",
+        "traffic": {
+            "kpi": {
+                "title": "進店人數"
+            },
+            "matrix": {
+                "title": "單周客流分佈"
+            },
+            "group": {
+                "title": "客流 & 顧客屬性"
+            }
+        },
+        "transactions": {
+            "kpi": {
+                "title": "交易筆數"
+            }
+        },
+        "sales_volume": {
+            "kpi": {
+                "title": "銷售額"
+            }
+        },
+        "conversion_rate": {
+            "kpi": {
+                "title": "提袋率"
+            }
+        },
+        "age": {
+            "pie": {
+                "title": "年齡分布"
+            }
+        },
+        "gender": {
+            "stacked": {
+                "title": "性別分布"
+            }
+        },
+        "kpi": {
+            "group": {
+                "title": "關鍵指標"
+            },
+            "cvt_sales_shopper": {
+                "title": "人均消費"
+            },
+            "cvt_turnin_rate": {
+                "title": "進店率"
+            },
+            "space_turn_in_rate": {
+                "title": "空間進入率"
+            },
+            "store_turn_in_rate": {
+                "title": "全店進入率"
+            },
+            "cvt_carry_rate": {
+                "kpi": {
+                    "title": "提袋率"
+                }
+            },
+            "cvt_return_rate": {
+                "title": "熟客率"
+            },
+            "cvt_avg_dwell": {
+                "title": "平均停留時間",
+                "sec": "秒"
+            },
+            "iaq": {
+                "title": "空氣品質指標"
+            }
+        },
+        "ranking": {
+            "kpi": {
+                "title": "門店排名"
+            }
+        },
+        "weather": {
+            "kpi": {
+                "title": "天氣"
+            }
+        },
+        "audience": {
+            "traffic": {
+                "kpi": {
+                    "title": "觸及人數"
+                }
+            },
+            "viewer": {
+                "kpi": {
+                    "title": "收看人數"
+                },
+                "matrix": {
+                    "title": "單周收視人次分布"
+                }
+            },
+            "cvt_eyecatch_rate": {
+                "kpi": {
+                    "title": "吸睛度"
+                }
+            },
+            "cvt_avg_view": {
+                "kpi": {
+                    "title": "平均收看時間"
+                }
+            },
+            "age": {
+                "pie": {
+                    "title": "觀眾年齡"
+                }
+            },
+            "gender": {
+                "stacked": {
+                    "title": "觀眾性別"
+                }
+            }
+        },
+        "max_traffic": {
+            "kpi": {
+                "title": "客潮尖峰時段"
+            }
+        },
+        "electricity_consumption": {
+            "kpi": {
+                "title": "用電量"
+            }
+        },
+        "water_consumption": {
+            "kpi": {
+                "title": "用水量"
+            }
+        }
+    },
+    "analytics": {
+        "title": "客流分析",
+        "traffic": {
+            "line": {
+                "title": "進店人數"
+            }
+        },
+        "predict": {
+            "line": {
+                "title": "預測"
+            }
+        },
+        "air": {
+            "line": {
+                "title": "空氣品質分析"
+            },
+            "pie": {
+                "title": "空氣品質分佈"
+            },
+            "bar": {
+                "title": "空氣品質七週分析"
+            }
+        }
+    },
+    "predict": {
+        "analytics": {
+            "title": "預測分析"
+        }
+    },
+    "week": {
+        "analytics": {
+            "title": "單周分析"
+        }
+    },
+    "month": {
+        "analytics": {
+            "title": "單月分析"
+        }
+    },
+    "date": {
+        "analytics": {
+            "title": "日期分析"
+        }
+    },
+    "store": {
+        "analytics": {
+            "title": "單店分析"
+        },
+        "comparison": {
+            "title": "單店比較"
+        }
+    },
+    "audience": {
+        "analytics": {
+            "title": "關注分析"
+        }
+    },
+    "signage": {
+        "analytics": {
+            "title": "看板分析"
+        }
+    },
+    "data_type_change": {
+        "title": "人數 / 百分比"
+    },
+    "colornote": {
+        "lowest": "最低",
+        "highest": "最高"
+    },
+    "air": {
+        "analytics": {
+            "title": "空氣品質分析"
+        }
+    }
+}

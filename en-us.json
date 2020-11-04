@@ -1,0 +1,882 @@
+{
+    "general": {
+        "time": {
+            "short_month": "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec",
+            "short_day": "S,M,T,W,T,F,S"
+        },
+        "btn": {
+            "next": "Next",
+            "store": "Save",
+            "add": "Add",
+            "prev": "Back",
+            "join": "Join",
+            "settings": "Set",
+            "sign_out": "Sign Out",
+            "add_new_widget": "Add Widget",
+            "save": "Save",
+            "cancel": "Cancel",
+            "copy": "Copy",
+            "confirm": "Confirm",
+            "done": "Done",
+            "delete": "Delete",
+            "reset": "Revert",
+            "clear": "Clear",
+            "Analyticssave": "OK",
+            "Apply": "Save"
+        },
+        "month_name": {
+            "Jan": "January",
+            "Feb": "February",
+            "Mar": "March",
+            "Apr": "April",
+            "May": "May",
+            "Jun": "June",
+            "Jul": "July",
+            "Aug": "August",
+            "Sep": "September",
+            "Oct": "October",
+            "Nov": "November",
+            "Dec": "December"
+        },
+        "week_name": {
+            "Monday": "Mon.",
+            "Tuesday": "Tue.",
+            "Wednesday": "Wed.",
+            "Thursday": "Thur.",
+            "Friday": "Fri.",
+            "Saturday": "Sat.",
+            "Sunday": "Sun."
+        },
+        "month_week": {
+            "Week#1": "Week#1",
+            "Week#2": "Week#2",
+            "Week#3": "Week#3",
+            "Week#4": "Week#4",
+            "Week#5": "Week#5",
+            "Week#6": "Week#6",
+            "Week#7": "Week#7"
+        },
+        "Loading": {
+            "title": "Loading..."
+        },
+        "no_data": "No data",
+        "error": {
+            "login_again": "User has been logged out, please log back in!"
+        }
+    },
+    "header": {
+        "guidance": "Navigation",
+        "language": "Language",
+        "logout": "Logout",
+        "Analytics": "Analysis",
+        "dashboard": "Dashboard",
+        "inspection": "Inspection",
+        "signage": "Signage",
+        "setting": "Setting",
+        "recognition": "VIP Recognition",
+        "attendance": "Attendance"
+    },
+    "sidebar": {
+        "edit_profile": "Edit Profile",
+        "dashboard": "Dashboard",
+        "system_dashboard": "System Board",
+        "custom_dashboard": "Custom Board",
+        "add_dashboard": "Add Dashboard",
+        "board_name_placeholder": "Dashboard Name"
+    },
+    "widget_area": {
+        "empty_tips": {
+            "title": "Welcome to your new dashboard",
+            "subtitle": "You can start to add widget here"
+        }
+    },
+    "widget": {
+        "comparison": {
+            "title": "Comparison",
+            "location": "Location",
+            "period": "Period",
+            "single_store_analysis": "Store Analysis",
+            "weekly_average": "Weekly average",
+            "single_store_comparison": "Store Comparison",
+            "align_weekend": "Align weekend",
+            "date": "Date",
+            "this_week": "This week",
+            "last_week": "Last week",
+            "analysis_mode": "Analysis mode",
+            "week": "compare with last week",
+            "weekly_ring_ratio": "compare with the past 12 weeks",
+            "this_month": "This month",
+            "last_month": "Last month",
+            "same_month_last_year": "Same month last year",
+            "month": "compare with the same month last year",
+            "month_ring_ratio": "compare with the past 3 months",
+            "one-week_analysis": "Weekly Analysis",
+            "single_month_analysis": "Monthly Analysis",
+            "and": "to",
+            "store": "Store",
+            "item": "Item",
+            "inquire": "Inquire",
+            "interval_greater_than_31_days": "The maximum time cannot exceed 31 days.",
+            "start_date_no_longer_than_the_end_date": "Start date, no greater than the end date."
+        },
+        "heat_map": {
+            "heatmap_widget_list": "Heatmap Widget List",
+            "focus_zone_list": "Favorite Zone List",
+            "focus_zone_id": "Favorite Zone ID#",
+            "focus_zone_title": "Favorite Zone Title",
+            "focus_zone_products": "Products in Zone",
+            "zone": "Zone",
+            "freq": "Freq",
+            "dwell": "Dwell"
+        },
+        "additional_data": {
+            "title": "Additional Data"
+        },
+        "period": {
+            "title": "Period"
+        },
+        "compare": {
+            "title": "Comparison with"
+        },
+        "show": {
+            "title": "Show"
+        },
+        "settting": {
+            "data_source": "Data Source",
+            "data_store_name": "All Regions",
+            "today_date": "Today",
+            "yesterday_date": "Yesterday",
+            "last_week_date": "Same day last week",
+            "last_month_date": "Same day last month",
+            "sources": "Regions"
+        },
+        "EmptyStorelist": {
+            "title": "Empty store or sensor list"
+        }
+    },
+    "pin": {
+        "title": "Pin",
+        "desc": "Select dashboard that you want to pin this widget."
+    },
+    "report": {
+        "title": "Report",
+        "table_header": {
+            "date": "Date",
+            "time": "Time",
+            "week": "Week",
+            "total": "Total",
+            "average": "Average",
+            "total_average": "Total average",
+            "widget_type": {
+                "traffic": "Traffic",
+                "wifi_traffic": "Wifi Traffic",
+                "wifi_outdoor_traffic": "Wifi Outdoor Traffic",
+                "people_counting_outdoor": "People Counting Outdoor",
+                "conversion_rate": "Conversion rate",
+                "transactions": "Transactions",
+                "sales_volume": "Sales Volume",
+                "turn-in_rate": "Turn-in rate",
+                "cvt_sales_shopper": "Sale per Shopper",
+                "cvt_carry_rate": "Sales Conversion",
+                "cvt_return_rate": "Returning Customers",
+                "cvt_turnin_rate": "Turn in Rate",
+                "store_turn_in_rate": "Store turn-in rate",
+                "space_turn_in_rate": "Space turn-in rate",
+                "cvt_avg_dwell": "Avg Dwell Time"
+            }
+        },
+        "people": "(People)",
+        "ranking": "Top 5 Store",
+        "rankingStore": "Store Name"
+    },
+    "ui_settings": {
+        "title": "Settings",
+        "field": {
+            "language": {
+                "title": "Language"
+            },
+            "theme": {
+                "title": "Theme Color",
+                "option": {
+                    "dark": "Dark",
+                    "light": "Light"
+                }
+            }
+        }
+    },
+    "board_settings": {
+        "title": {
+            "edit": "Dashboard Settings",
+            "add": "Add Dashboard",
+            "delete": "Delete Dashboard"
+        },
+        "board_name": {
+            "title": "Dashboard Name",
+            "placeholder": "Please enter the dashboard name"
+        },
+        "tip": {
+            "edit": "After editing, click 「 Save 」",
+            "add": "Please enter the dashboard name, enter complete click 「 Next 」 to build your first widget." ,
+            "delete": "Confirm to delete the dashboard, please click 「 Confirm 」"
+        },
+        "copy":{
+            "title": "Copy to",
+            "placeholder": "Please enter the user name"
+        }
+    },
+    "widget_editor": {
+        "title": {
+            "add": "Add Widget",
+            "edit": "Edit Widget",
+            "setting": "Data Source Settings",
+            "delete": "Delete Widget",
+            "edit_favorite_zone": "Edit Favorite Zone"
+        },
+        "tip": {
+            "edit": "After editing, click「 Save 」to finish editing the widget.",
+            "add": "Please input the widget settings, and click「 add 」to complete the new widget. ",
+            "add_board": "Please input the widget settings, and click「 add 」 to create your first widget. ",
+            "setting": "After editing, click「 Save 」to complete the data source setting. ",
+            "delete": "Confirm to delete the widget, please click 「 Confirm 」."
+        },
+        "widget_title": {
+            "title": "Widget Title",
+            "placeholder": "Please input the widget title"
+        },
+        "widget_type": {
+            "title": "Data Type"
+        },
+        "chart_type": {
+            "title": "Chart Type"
+        },
+        "widget_size": {
+            "title": "Widget Size"
+        },
+        "date": {
+            "title": "Date",
+            "options": {
+                "today": "Today",
+                "yesterday": "Yesterday",
+                "day_of_last_week": "Day last week",
+                "day_of_last_mouth": "Day last month",
+                "date_period": "Date Period",
+                "start_date": "Select Start Date",
+                "end_date": "Select End Date",
+                "specific_date": "Specific Date"
+            }
+        },
+        "btn": {
+            "delete_zone": "Delete Selected Zone",
+            "delete_this": "Delete This Widget"
+        },
+        "delete_confirm_desc": "Are you sure you want to delete this widget?",
+        "account_inactive": "Account status is inactive"
+    },
+    "guidance": {
+        "title": {
+            "page1": "Welcome to Store BI",
+            "page2": "System board insight into retail field depth features",
+            "page3": "Custom board elastic custom data center",
+            "page4": "Does the next time you login display the navigation?"
+        },
+        "tip": {
+            "page1": "Store BI is a comprehensive set of data analytics visualization services that transform data from the cloud into easy-to-understand charts to maximize the value of your data, in addition to providing system-preset dashboards that you often use in your retail field, and to tailor your own chart content to the needs of each market domain.",
+            "page2": "Store BI select four commonly used system dashboards in retail areas: Heatmap, Date Analysis, Store Analysis, and Store Comparison. It allows you to quickly set the time and store conditions to generate reports. In addition to viewing reports, it can also be downloaded to your computer.",
+            "page3": "After selecting the data type, you can select the appropriate chart type according to the data attributes to create your own custom dashboard. You can also pin the chart from the system dashboard to the custom dashboard to become a retail The best auxiliary tool for industry players' decision-making and planning.",
+            "page4_1": "If you want to display the navigation when you login next time, please click「Yes」.",
+            "page4_2": "If you do not want to display the navigation when you login next time, please click「No」."
+        },
+        "btn": {
+            "yes": "Yes",
+            "no": "No",
+            "skip": "Skip"
+        }
+    },
+    "data_source_settings": {
+        "title": "Data Source Settings",
+        "tab_name": {
+            "new": "New"
+        }
+    },
+    "period_settings": {
+        "title": "Period Settings",
+        "tab_name": {
+            "new": "New"
+        },
+        "field": {
+            "select_date": {
+                "title": "Date"
+            }
+        }
+    },
+    "data_source_selector": {
+        "title": "Source Selection",
+        "titleA": "Choose Source-A",
+        "titleB": "Choose Source-B",
+        "field": {
+            "data_name": {
+                "title": "Title",
+                "multiple_store": "Store Combination",
+                "select_store": "Choose store",
+                "store_list": "Store list",
+                "space_name": "Space name",
+                "monitor_list": "List of monitors",
+                "select_space": "Select space",
+                "monitor_type": "Type of monitor",
+                "monitor_name": "Monitor name",
+                "selected_monitor": "Select monitor",
+                "formula": "formula"
+            },
+            "all_source": {
+                "title": "All stores and groups",
+                "all_select": "Select All",
+                "input_placeholder": "Search for stores or groups",
+                "input_search": "search",
+                "selected_space_monitor": "Select space and monitor"
+            },
+            "selected_source": {
+                "title": "Selected stores",
+                "selected_list": "Selected list",
+                "selected_space_monitor_list": "Selected space and monitoring list",
+                "title_for_space": "Selected stores, spaces, monitors"
+            }
+        },
+        "monitor_type": {
+            "StoreEntrance": "Whole store entrance",
+            "HeatMap": "Hot zone analysis",
+            "Entrance": "General entrance",
+            "ShopperPath": "Path analysis",
+            "OutOfStorePassengerFlow": "Out-of-store passenger flow",
+            "Pos": "Transaction information",
+            "ChannelPassengerFlow": "Channel passenger flow",
+            "AirQuality": "Air quality",
+            "OutOfSpacePassengerFlow": "Out-space passenger flow",
+            "Demographics": "Demographics",
+            "Wifi": "Wifi analysis",
+            "Space": "Space"
+        }
+    },
+    "option": {
+        "default": {
+            "please_select": "Please Select",
+            "tag": "Tag",
+            "zone1": "Zone 1",
+            "zone2": "Zone 2",
+            "none": "None"
+        },
+        "widget_type": {
+            "traffic": "Traffic",
+            "stays": "Occupancy",
+            "wifi_traffic": "Wifi Traffic",
+            "wifi_outdoor_traffic": "Wifi Outdoor Traffic",
+            "people_counting_outdoor": "People Counting Outdoor",
+            "conversion_rate": "Conversion rate",
+            "transactions": "Transactions",
+            "sales_volume": "Sales Volume",
+            "age": "Age",
+            "gender": "Gender",
+            "passby": "Passby",
+            "turn-in_rate": "Turn-in rate",
+            "heat_map": "Heatmap",
+            "shopper_path": "Shopper Path",
+            "ranking": "Store Ranking",
+            "cvt_sales_shopper": "Sale per Shopper",
+            "cvt_carry_rate": "Sales Conversion",
+            "cvt_return_rate": "Returning Customers",
+            "cvt_turnin_rate": "Turn in Rate",
+            "store_turn_in_rate": "Store turn-in rate",
+            "space_turn_in_rate": "Space turn-in rate",
+            "cvt_avg_dwell": "Avg Dwell Time",
+            "iaq": "IAQ",
+            "weather_tep": "Temperature",
+            "weather": "Weather",
+            "audience_traffic": "Passing Traffic",
+            "audience_viewer": "Viewers",
+            "cvt_eyecatch_rate": "Eye-Catching Rate",
+            "cvt_avg_view": "Avg. View time",
+            "audience_age": "Audience - Age",
+            "audience_gender": "Audience - Gender",
+            "customer_age": "Customer - Age",
+            "customer_gender": "Customer - Gender",
+            "maxtraffic": "Max Traffic",
+            "predict": "Predict",
+            "ppc_store_outside": "Out-of-store passenger flow",
+            "ppc_passageway": "Channel passenger flow",
+            "ppc_space_outside": "Outside space traffic",
+            "ppc_store_entry_in": "Main entrance - In",
+            "ppc_store_entry_out": "Main entrance - Out",
+            "ppc_space_entry_in": "Space entrance - In",
+            "ppc_space_entry_out": "Space entrance - Out",
+            "ppc_conversion_rate": "Conversion rate"
+        },
+        "chart_type": {
+            "bar": "Bar",
+            "infographic": "Infographic",
+            "kpi": "KPI",
+            "line": "Line",
+            "pie": "Pie",
+            "table": "Table",
+            "matrix": "Matrix",
+            "picture": "Picture",
+            "stacked": "Stacked"
+        },
+        "widget_size": {
+            "super": "Super(Big)",
+            "big": "Big(Medium)",
+            "small": "Small",
+            "x-super": "X-Super"
+        },
+        "chart_date": {
+            "today": "Today",
+            "yesterday": "Yesterday",
+            "day_of_last_week": "Day last week",
+            "day_of_last_mouth": "Day last month",
+            "specific_date": "Specific Date"
+        },
+        "period": {
+            "dd": "Day",
+            "ww": "Week",
+            "mm": "Month",
+            "yyyy": "Year"
+        },
+        "compare": {
+            "yesterday": "Last day",
+            "this_week_average": "Average of this weekly",
+            "this_month_average": "Average of this month",
+            "last_week": "Last week",
+            "13weeks_average": "Average of the last 13 weeks",
+            "last_month": "Last month",
+            "3months_average": "Average of the last 3 months",
+            "last_year": "Last year",
+            "same_day_last_year": "Same day last year",
+            "last_week_of_the_same_week": "Same ISO week last year",
+            "same_month_last_year": "Same month last year",
+            "today_date": "Today",
+            "yesterday_date": "Yesterday",
+            "last_week_date": "Same day last week",
+            "last_month_date": "Same day last month",
+            "7days_ago": "Last 7 Days",
+            "30days_ago": "Last 30 Days",
+            "90days_ago": "Last 90 Days",
+            "specific_date": "Specific Date"
+        },
+        "date": {
+            "week": "compare with last week",
+            "weekly_ring_ratio": "compare with the past 12 weeks",
+            "month": "compare with the same month last year",
+            "month_ring_ratio": "compare with the past 3 months",
+            "specific_date": "Specific Date",
+            "this_week": "This week",
+            "last_week": "Last week",
+            "this_month": "This month",
+            "last_month": "Last month",
+            "same_month_last_year": "Same month last year"
+        },
+        "show": {
+            "hh": "Hourly",
+            "dd": "Daily",
+            "wd": "Week Day",
+            "ww": "Weekly",
+            "mm": "Monthly",
+            "w": "W"
+        }
+    },
+    "chart": {
+        "age": {
+            "unit": "People",
+            "type": {
+                "10": "10-19",
+                "20": "20-39",
+                "40": "40-59",
+                "60": "Over 60"
+            }
+        },
+        "gender": {
+            "unit": "People",
+            "type": {
+                "male": "Male",
+                "female": "Female"
+            }
+        },
+        "traffic": {
+            "unit": "Traffic"
+        },
+        "wifi_traffic": {
+            "unit": "Wifi Traffic"
+        },
+        "wifi_outdoor_traffic": {
+            "unit": "Wifi Outdoor Traffic"
+        },
+        "people_counting_outdoor": {
+            "unit": "People Counting Outdoor"
+        },
+        "sales_volume": {
+            "unit": "Sales Volume"
+        },
+        "transactions": {
+            "unit": "Transactions"
+        },
+        "conversion_rate": {
+            "unit": "%"
+        },
+        "cvt_sales_shopper": {
+            "unit": "$/Person"
+        },
+        "cvt_carry_rate": {
+            "unit": "%"
+        },
+        "cvt_return_rate": {
+            "unit": "%"
+        },
+        "cvt_turnin_rate": {
+            "unit": "%"
+        },
+        "cvt_avg_dwell": {
+            "unit": "Sec"
+        },
+        "heat_map": {
+            "type": {
+                "dwell_unit_sec": "Sec per visit",
+                "hist": "Visits",
+                "hist_unit": "Sec",
+                "dwell_unit_min": "Min",
+                "dwell": "Times",
+                "dwell_tooltip": "",
+                "dwell_time": "Dwell Time",
+                "freq": "Visits"
+            }
+        },
+        "ranking": {
+            "type": {
+                "pin": "Visitors",
+                "trade_num": "Transactions",
+                "sales": "Sales Volume",
+                "turn_in": "Turn in Rate",
+                "co2": "co2",
+                "pm10": "PM10",
+                "pm25": "PM2.5"
+            }
+        },
+        "iaq": {
+            "co": "co",
+            "co2": "co2",
+            "hcho": "hcho",
+            "hum": "hum",
+            "pm10": "PM10",
+            "pm25": "PM2.5",
+            "tep": "tep",
+            "tvoc": "tvoc",
+            "o3": "o3",
+            "ch4": "ch4",
+            "nh3": "nh3",
+            "type": {
+                "first": "low",
+                "second": "middle",
+                "third": "high",
+                "fourth": "warning",
+                "hum_first": "dry",
+                "hum_second": "comfort",
+                "hum_third": "damp",
+                "tep_first": "cold",
+                "tep_second": "comfort",
+                "tep_third": "hot"
+            }
+        },
+        "weather_tep": {
+            "type": {
+                "conditions": "weather",
+                "avg_temp_c": "avg tep",
+                "high_temp_c": "high tep",
+                "low_temp_c": "low tep"
+            },
+            "unit": {
+                "conditions": "weather",
+                "avg_temp_c": "℃",
+                "high_temp_c": "℃",
+                "low_temp_c": "℃"
+            },
+            "conditions": {
+                "0": "unknown",
+                "1": "sunny",
+                "2": "cloudy",
+                "3": "rainy",
+                "4": "snowy",
+                "5": "extreme"
+            }
+        },
+        "audience_traffic": {
+            "unit": "Passing Traffic"
+        },
+        "audience_viewer": {
+            "unit": "Viewers"
+        },
+        "cvt_eyecatch_rate": {
+            "unit": "%"
+        },
+        "cvt_avg_view": {
+            "unit": "Sec"
+        },
+        "audience_age": {
+            "unit": "Audience - Age"
+        },
+        "audience_gender": {
+            "unit": "Audience - Gender"
+        }
+    },
+    "login": {
+        "title": "Ushop+ 優店聯網",
+        "field": {
+            "email": "Email ( Login account )",
+            "password": "Password"
+        },
+        "btn": {
+            "forget": "Forget",
+            "signIn": "Sign In"
+        },
+        "rememberMe": "Remember my account",
+        "error": {
+            "emailFormatError": "Not email format, Please try again.",
+            "fieldError": "Some fields are empty, Please try again.",
+            "inputEmail": "Please enter your account.",
+            "inputPsw": "Please enter your password.",
+            "EmailorPswError": "Login fail, Please check your account and password. "
+        }
+    },
+    "reset_password": {
+        "title": "Reset Password",
+        "new_password": "New Password",
+        "confirm_password": "Confirm New Password",
+        "success_message": "Your password has been changed successfully. Please use new password to login.",
+        "btn": {
+            "reset": "Reset Password",
+            "login": "Sign In Now"
+        },
+        "error": {
+            "passwordNotMatch": "Password doesn't match, please check again.",
+            "FormatError": "Password Format Error!( 6~12 characters and numbers)"
+        }
+    },
+    "forget_password": {
+        "error": {
+            "2001": "Email reset failed to reset password."
+        }
+    },
+    "heatmap": {
+        "analytics": {
+            "title": "Heatmap"
+        }
+    },
+    "shopperpath": {
+        "analytics": {
+            "title": "Shopper Path"
+        },
+        "hot_path": "Hot path",
+        "path": "Path ",
+        "popularity": "Popularity"
+    },
+    "overview": {
+        "title": "Overview",
+        "traffic": {
+            "kpi": {
+                "title": "Visitors"
+            },
+            "matrix": {
+                "title": "Weekly Visitor"
+            },
+            "group": {
+                "title": "Store Traffic & Shopper Demographics"
+            }
+        },
+        "transactions": {
+            "kpi": {
+                "title": "Transactions"
+            }
+        },
+        "sales_volume": {
+            "kpi": {
+                "title": "Sales Volume"
+            }
+        },
+        "conversion_rate": {
+            "kpi": {
+                "title": "Conversion Rate"
+            }
+        },
+        "age": {
+            "pie": {
+                "title": "Age"
+            }
+        },
+        "gender": {
+            "stacked": {
+                "title": "Gender"
+            }
+        },
+        "kpi": {
+            "group": {
+                "title": "Store KPI"
+            },
+            "cvt_sales_shopper": {
+                "title": "Sale per Shopper"
+            },
+            "cvt_turnin_rate": {
+                "title": "Turn in Rate"
+            },
+            "space_turn_in_rate": {
+                "title": "Space turn-in rate"
+            },
+            "store_turn_in_rate": {
+                "title": "Store turn-in rate"
+            },
+            "cvt_carry_rate": {
+                "kpi": {
+                    "title": "Sales Conversion"
+                }
+            },
+            "cvt_return_rate": {
+                "title": "Returning Customers"
+            },
+            "cvt_avg_dwell": {
+                "title": "Avg Dwell Time",
+                "sec": "sec"
+            },
+            "iaq": {
+                "title": "Indoor Air Quality Analysis"
+            }
+        },
+        "ranking": {
+            "kpi": {
+                "title": "Store Ranking"
+            }
+        },
+        "weather": {
+            "kpi": {
+                "title": "Weather"
+            }
+        },
+        "audience": {
+            "traffic": {
+                "kpi": {
+                    "title": "Passing Traffic"
+                }
+            },
+            "viewer": {
+                "kpi": {
+                    "title": "Viewers"
+                },
+                "matrix": {
+                    "title": "Weekly Viewers"
+                }
+            },
+            "cvt_eyecatch_rate": {
+                "kpi": {
+                    "title": "Eye-Catching Rate"
+                }
+            },
+            "cvt_avg_view": {
+                "kpi": {
+                    "title": "Avg. View time"
+                }
+            },
+            "age": {
+                "pie": {
+                    "title": "Audience - Age"
+                }
+            },
+            "gender": {
+                "stacked": {
+                    "title": "Audience - Gender"
+                }
+            }
+        },
+        "max_traffic": {
+            "kpi": {
+                "title": "Max Traffic"
+            }
+        },
+        "electricity_consumption": {
+            "kpi": {
+                "title": "Electricity Consumption"
+            }
+        },
+        "water_consumption": {
+            "kpi": {
+                "title": "Water Consumption"
+            }
+        }
+    },
+    "analytics": {
+        "title": "Traffic",
+        "traffic": {
+            "line": {
+                "title": "Visitors"
+            }
+        },
+        "predict": {
+            "line": {
+                "title": "Forecast"
+            }
+        },
+        "air": {
+            "line": {
+                "title": "Indoor Air Quality Analysis"
+            },
+            "pie": {
+                "title": "Indoor Air quality distribution"
+            },
+            "bar": {
+                "title": "Indoor Air Quality Seven-week Analysis"
+            }
+        }
+    },
+    "predict": {
+        "analytics": {
+            "title": "Prediction"
+        }
+    },
+    "week": {
+        "analytics": {
+            "title": "Weekly Analysis"
+        }
+    },
+    "month": {
+        "analytics": {
+            "title": "Monthly Analysis"
+        }
+    },
+    "date": {
+        "analytics": {
+            "title": "Date Analysis"
+        }
+    },
+    "store": {
+        "analytics": {
+            "title": "Store Analysis"
+        },
+        "comparison": {
+            "title": "Store Comparison"
+        }
+    },
+    "audience": {
+        "analytics": {
+            "title": "Audience Analysis"
+        }
+    },
+    "signage": {
+        "analytics": {
+            "title": "Signage Analysis"
+        }
+    },
+    "data_type_change": {
+        "title": "Number / Percent"
+    },
+    "colornote": {
+        "lowest": "lowest",
+        "highest": "highest"
+    },
+    "air": {
+        "analytics": {
+            "title": "Indoor Air Quality Analysis"
+        }
+    }
+}
