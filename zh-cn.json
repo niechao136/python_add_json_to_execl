@@ -1,882 +1,582 @@
 {
-    "general": {
-        "time": {
-            "short_month": "1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月",
-            "short_day": "日,一,二,三,四,五,六"
-        },
-        "btn": {
-            "next": "下一步",
-            "store": "储存",
-            "add": "新增",
-            "prev": "上一步",
-            "join": "加入",
-            "settings": "设定",
-            "sign_out": "退出",
-            "add_new_widget": "新增图表",
-            "save": "保存",
-            "cancel": "取消",
-            "copy": "复制",
-            "confirm": "确定",
-            "done": "完成",
-            "delete": "删除",
-            "reset": "还原",
-            "clear": "清除",
-            "Analyticssave": "应用",
-            "Apply": "保存"
-        },
-        "month_name": {
-            "Jan": "一月",
-            "Feb": "二月",
-            "Mar": "三月",
-            "Apr": "四月",
-            "May": "五月",
-            "Jun": "六月",
-            "Jul": "七月",
-            "Aug": "八月",
-            "Sep": "九月",
-            "Oct": "十月",
-            "Nov": "十一月",
-            "Dec": "十二月"
-        },
-        "week_name": {
-            "Monday": "一",
-            "Tuesday": "二",
-            "Wednesday": "三",
-            "Thursday": "四",
-            "Friday": "五",
-            "Saturday": "六",
-            "Sunday": "日"
-        },
-        "month_week": {
-            "Week#1": "第一周",
-            "Week#2": "第二周",
-            "Week#3": "第三周",
-            "Week#4": "第四周",
-            "Week#5": "第五周",
-            "Week#6": "第六周",
-            "Week#7": "第七周"
-        },
-        "loading": {
-            "title": "加载中..."
-        },
-        "no_data": "没有数据",
-        "error": {
-            "login_again": "账号已登出，请重新登录！"
-        }
-    },
-    "header": {
-        "guidance": "快速导航",
-        "language": "选择语言",
-        "logout": "登出系统",
-        "analytics": "营运分析",
-        "dashboard": "数据仪表盘",
-        "inspection": "智能巡检",
-        "signage": "互动广告牌",
-        "setting": "系统设定",
-        "recognition": "来客识別",
-        "attendance": "智能考勤"
-    },
-    "sidebar": {
-        "edit_profile": "编辑用户信息",
-        "dashboard": "仪表板",
-        "system_dashboard": "系统仪表盘",
-        "custom_dashboard": "自定仪表盘",
-        "add_dashboard": "新增仪表盘",
-        "board_name_placeholder": "仪表板名称"
-    },
-    "widget_area": {
-        "empty_tips": {
-            "title": "欢迎开始使用您的仪表板",
-            "subtitle": "您可以开始新增图表"
-        }
-    },
-    "widget": {
-        "comparison": {
-            "title": "比较",
-            "location": "跨区比较",
-            "period": "跨时比较",
-            "single_store_analysis": "单店分析",
-            "weekly_average": "选取范围内周间平均",
-            "single_store_comparison": "单店比较",
-            "align_weekend": "对齐周末",
-            "date": "日期",
-            "this_week": "本周",
-            "last_week": "上周",
-            "analysis_mode": "分析模式",
-            "week": "周同比",
-            "weekly_ring_ratio": "周环比",
-            "this_month": "本月",
-            "last_month": "上月",
-            "same_month_last_year": "去年同月",
-            "month": "月同比",
-            "month_ring_ratio": "月环比",
-            "one-week_analysis": "单周分析",
-            "single_month_analysis": "单月分析",
-            "and": "到",
-            "store": "门市",
-            "item": "项目",
-            "inquire": "查询",
-            "interval_greater_than_31_days": "时间最长不能超过31天。",
-            "start_date_no_longer_than_the_end_date": "起始日期，不可大于结束日期。"
-        },
-        "heat_map": {
-            "heatmap_widget_list": "热区图列表",
-            "focus_zone_list": "兴趣区域列表",
-            "focus_zone_id": "兴趣区域编号#",
-            "focus_zone_title": "兴趣区域名称",
-            "focus_zone_products": "区域内产品列表",
-            "zone": "区域",
-            "freq": "频率",
-            "dwell": "停留"
-        },
-        "additional_data": {
-            "title": "数据比较"
-        },
-        "period": {
-            "title": "时间区段"
-        },
-        "compare": {
-            "title": "比较法定"
-        },
-        "show": {
-            "title": "时间单位"
-        },
-        "settting": {
-            "data_source": "数据来源",
-            "data_store_name": "全部区域",
-            "today_date": "今天",
-            "yesterday_date": "昨天",
-            "last_week_date": "上周同日",
-            "last_month_date": "上月同日",
-            "sources": "个区域"
-        },
-        "EmptyStorelist": {
-            "title": "没有店家或者传感器"
-        }
-    },
-    "pin": {
-        "title": "钉选",
-        "desc": "选择钉选到…"
-    },
-    "report": {
-        "title": "报告",
-        "table_header": {
-            "date": "日期",
-            "time": "时间",
-            "week": "周",
-            "total": "总计",
-            "average": "平均",
-            "total_average": "总平均"
-        },
-        "people": " (人)",
-        "ranking": "前5名门店",
-        "rankingStore": "门店名称",
-        "widget_type": {
-            "traffic": "Traffic",
-            "wifi_traffic": "Wifi Traffic",
-            "wifi_outdoor_traffic": "Wifi Outdoor Traffic",
-            "people_counting_outdoor": "People Counting Outdoor",
-            "conversion_rate": "Conversion rate",
-            "transactions": "Transactions",
-            "sales_volume": "Sales Volume",
-            "turn-in_rate": "Turn-in rate",
-            "cvt_sales_shopper": "Sale per Shopper",
-            "cvt_carry_rate": "Sales Conversion",
-            "cvt_return_rate": "Returning Customers",
-            "cvt_turnin_rate": "Turn in Rate",
-            "store_turn_in_rate": "全店进入率",
-            "space_turn_in_rate": "空间进入率",
-            "cvt_avg_dwell": "Avg Dwell Time"
-        }
-    },
-    "ui_settings": {
-        "title": "设定",
-        "field": {
-            "language": {
-                "title": "语言"
-            },
-            "theme": {
-                "title": "主题颜色",
-                "option": {
-                    "dark": "暗色系",
-                    "light": "亮色系"
-                }
-            }
-        }
-    },
-    "board_settings": {
-        "title": {
-            "edit": "仪表板设定",
-            "add": "新增仪表板",
-            "delete": "删除仪表板"
-        },
-        "tip": {
-            "edit": "编辑后请点击 「储存」完成仪表板设定。",
-            "add": "请输入仪表板名称，输入完成请点击 「下一步」 建立你的第一个图表。",
-            "delete": "确认删除仪表版，请点击 「确认」。"
-        },
-        "board_name": {
-            "title": "仪表板名称",
-            "placeholder": "请输入仪表板名称"
-        },
-        "copy": {
-            "title": "复制给",
-            "placeholder": "请输入使用者名称"
-        }
-    },
-    "widget_editor": {
-        "title": {
-            "add": "新增图表",
-            "edit": "编辑图表",
-            "setting": "数据源设定",
-            "delete": "删除图表",
-            "edit_favorite_zone": "编辑兴趣区域"
-        },
-        "tip": {
-            "edit": "编辑后请点击 「储存」完成编辑图表。",
-            "add": "请输入图表设置，输入完成请点击 「新增」 完成新增图表。",
-            "add_board": "请输入图表设置，输入完成请点击 「新增」 建立你的第一个图表。",
-            "setting": "编辑后请点击 「储存」完成数据源设定。",
-            "delete": "确认删除图表，请点击 「确认」。"
-        },
-        "widget_title": {
-            "title": "图表名称",
-            "placeholder": "请输入图表名称"
-        },
-        "widget_type": {
-            "title": "数据类型"
-        },
-        "chart_type": {
-            "title": "图表类型"
-        },
-        "widget_size": {
-            "title": "图表尺寸"
-        },
-        "date": {
-            "title": "日期",
-            "options": {
-                "today": "今日",
-                "yesterday": "昨日",
-                "day_of_last_week": "上周同日",
-                "day_of_last_mouth": "上月同日",
-                "date_period": "日期区间",
-                "start_date": "选择开始日期",
-                "end_date": "选择结束日期",
-                "specific_date": "选择日期"
-            }
-        },
-        "btn": {
-            "delete_zone": "刪除选择区域",
-            "delete_this": "删除图表"
-        },
-        "delete_confirm_desc": "确认删除此图表?",
-        "account_inactive": "账号未启用"
-    },
-    "guidance": {
-        "title": {
-            "page1": "欢迎使用 Store BI",
-            "page2": "系统仪表板洞悉零售场域深度特性",
-            "page3": "自订仪表板弹性客制专属数据中心",
-            "page4": "下一次登入系统是否显示快速导览?"
-        },
-        "tip": {
-            "page1": "Store BI 是一套全方位的数据分析可视化服务，让上云的数据转换为简单易懂的图表，发挥数据最大价值，除提供您零售场域经常使用的系统预设仪表板外，亦可根据各市场域需求自订专属图表内容。",
-            "page2": "Store BI 精选零售场域四大常用系统仪表板：热区分析、日期分析、单店分析及多店分析。让您快速设定时间、焚店条件后即可产生报表，除了检视报表外，亦可下载至电脑本地。",
-            "page3": "您可以选定数据类型后，根据数据属性选择合适的图表类型来建立专属您的自订仪表板。亦可从系统仪表板中钉选图表至自订仪表板中，成为零售业者决策及规划之最佳辅助利器。",
-            "page4_1": "若下一次登入系统要显示快速导览，请点击「是」。",
-            "page4_2": "若下一次登入系統不要顯示快速導覽，請點擊「否」。"
-        },
-        "btn": {
-            "yes": "是",
-            "no": "否",
-            "skip": "略过"
-        }
-    },
-    "data_source_settings": {
-        "title": "数据源设定",
-        "tab_name": {
-            "new": "新增店家来源"
-        }
-    },
-    "period_settings": {
-        "title": "时间区间",
-        "tab_name": {
-            "new": "新增日期"
-        },
-        "field": {
-            "select_date": {
-                "title": "日期"
-            }
-        }
-    },
-    "data_source_selector": {
-        "title": "选择数据来源",
-        "titleA": "选择资料来源-A",
-        "titleB": "选择资料来源-B",
-        "field": {
-            "data_name": {
-                "title": "数据名称",
-                "multiple_store": "门店组合",
-                "select_store": "选择门店",
-                "store_list": "门店清单",
-                "space_name": "空间名称",
-                "monitor_list": "监测器列表",
-                "select_space": "选取空间",
-                "monitor_type": "监测类型",
-                "monitor_name": "监测名称",
-                "selected_monitor": "选取感测器",
-                "formula": "公式"
-            },
-            "all_source": {
-                "title": "门店及群组清单",
-                "all_select": "全部选择",
-                "input_placeholder": "搜索门店或群组",
-                "input_search": "搜寻",
-                "selected_space_monitor": "选取空间及感测"
-            },
-            "selected_source": {
-                "title": "已选取的门店",
-                "selected_list": "已选取清单",
-                "selected_space_monitor_list": "已选取空间与监测清单",
-                "title_for_space": "已选取的门店、空间、监测器"
-            }
-        },
-        "monitor_type": {
-            "StoreEntrance": "全店入口",
-            "HeatMap": "热区分析",
-            "Entrance": "一般入口",
-            "ShopperPath": "路径分析",
-            "OutOfStorePassengerFlow": "店外客流",
-            "Pos": "交易资讯",
-            "ChannelPassengerFlow": "通道客流",
-            "AirQuality": "空气品质",
-            "OutOfSpacePassengerFlow": "空间外客流",
-            "Demographics": "客层办识",
-            "Wifi": "Wifi",
-            "Space": "空间"
-        }
-    },
-    "option": {
-        "default": {
-            "please_select": "请选择",
-            "tag": "标签",
-            "zone1": "区域一",
-            "zone2": "区域二",
-            "none": "无"
-        },
-        "widget_type": {
-            "traffic": "客流量",
-            "stays": "店内人数",
-            "wifi_traffic": "Wifi客流量",
-            "wifi_outdoor_traffic": "Wifi店外客流",
-            "people_counting_outdoor": "店外客流",
-            "conversion_rate": "提袋率",
-            "transactions": "交易笔数",
-            "sales_volume": "销售额",
-            "age": "年龄",
-            "gender": "性别",
-            "passby": "过店人数",
-            "turn-in_rate": "进店比率",
-            "heat_map": "顾客热区",
-            "shopper_path": "路径分析",
-            "ranking": "门店排名",
-            "cvt_sales_shopper": "人均消费",
-            "cvt_carry_rate": "提袋率",
-            "cvt_return_rate": "熟客率",
-            "cvt_turnin_rate": "进店率",
-            "store_turn_in_rate": "全店进入率",
-            "space_turn_in_rate": "空间进入率",
-            "cvt_avg_dwell": "平均停留时间",
-            "iaq": "空气品质",
-            "weather_tep": "天气温度",
-            "weather": "天气",
-            "audience_traffic": "触及人数",
-            "audience_viewer": "收看人数",
-            "cvt_eyecatch_rate": "吸睛度",
-            "cvt_avg_view": "平均收看时间",
-            "audience_age": "观众年龄",
-            "audience_gender": "观众性别",
-            "customer_age": "顾客年龄",
-            "customer_gender": "顾客性别",
-            "maxtraffic": "客潮尖峰时段",
-            "predict": "预测",
-            "ppc_store_outside": "店外客流",
-            "ppc_passageway": "通道客流",
-            "ppc_space_outside": "空间外客流",
-            "ppc_store_entry_in": "全店入口 - 进客流",
-            "ppc_store_entry_out": "全店入口 - 出客流",
-            "ppc_space_entry_in": "一般入口 - 进客流",
-            "ppc_space_entry_out": "一般入口 - 出客流",
-            "ppc_conversion_rate": "转换率"
-        },
-        "chart_type": {
-            "bar": "柱状图",
-            "infographic": "信息图",
-            "kpi": "关键指标",
-            "line": "折线图",
-            "pie": "圆饼图",
-            "stacked": "堆叠图",
-            "table": "表格",
-            "matrix": "数据矩阵",
-            "picture": "图片"
-        },
-        "widget_size": {
-            "super": "大",
-            "big": "中",
-            "small": "小",
-            "x-super": "超級大"
-        },
-        "chart_date": {
-            "today": "今日",
-            "yesterday": "昨日",
-            "day_of_last_week": "上周同日",
-            "day_of_last_mouth": "上月同日",
-            "specific_date": "选择日期"
-        },
-        "period": {
-            "dd": "日",
-            "ww": "周",
-            "mm": "月",
-            "yyyy": "年"
-        },
-        "compare": {
-            "yesterday": "上一日",
-            "this_week_average": "本月周平均",
-            "this_month_average": "本月平均",
-            "last_week": "上一周",
-            "13weeks_average": "近13周平均",
-            "last_month": "前一月",
-            "3months_average": "近三月平均",
-            "last_year": "去年",
-            "same_day_last_year": "去年同日",
-            "last_week_of_the_same_week": "去年同周",
-            "same_month_last_year": "去年同月",
-            "today_date": "今天",
-            "yesterday_date": "昨天",
-            "last_week_date": "上周同日",
-            "last_month_date": "上月同日",
-            "7days_ago": "过去7天",
-            "30days_ago": "过去30天",
-            "90days_ago": "过去90天",
-            "specific_date": "选择日期"
-        },
-        "date": {
-            "week": "周同比",
-            "weekly_ring_ratio": "周环比",
-            "month": "月同比",
-            "month_ring_ratio": "月环比",
-            "specific_date": "选择日期",
-            "this_week": "本周",
-            "last_week": "上周",
-            "this_month": "本月",
-            "last_month": "上月",
-            "same_month_last_year": "去年同月"
-        },
-        "show": {
-            "hh": "小时",
-            "dd": "天",
-            "wd": "日期",
-            "ww": "周",
-            "mm": "月",
-            "w": "周"
-        }
-    },
-    "chart": {
-        "age": {
-            "unit": "人",
-            "type": {
-                "10": "10 - 19 岁",
-                "20": "20 - 39 岁",
-                "40": "40 - 59 岁",
-                "60": "60 岁以上"
-            }
-        },
-        "gender": {
-            "unit": "人",
-            "type": {
-                "male": "男性",
-                "female": "女性"
-            }
-        },
-        "traffic": {
-            "unit": "客流量"
-        },
-        "wifi_traffic": {
-            "unit": "Wifi客流量"
-        },
-        "wifi_outdoor_traffic": {
-            "unit": "Wifi店外客流量"
-        },
-        "people_counting_outdoor": {
-            "unit": "店外客流量"
-        },
-        "sales_volume": {
-            "unit": "营业额"
-        },
-        "transactions": {
-            "unit": "交易笔数"
-        },
-        "conversion_rate": {
-            "unit": "%"
-        },
-        "cvt_sales_shopper": {
-            "unit": "$/人"
-        },
-        "cvt_carry_rate": {
-            "unit": "%"
-        },
-        "cvt_return_rate": {
-            "unit": "%"
-        },
-        "cvt_turnin_rate": {
-            "unit": "%"
-        },
-        "cvt_avg_dwell": {
-            "unit": "秒"
-        },
-        "heat_map": {
-            "type": {
-                "dwell_unit_sec": "  秒",
-                "hist": "人次",
-                "hist_unit": "秒",
-                "dwell_unit_min": " 分",
-                "dwell": "时间",
-                "dwell_tooltip": "平均停留",
-                "dwell_time": "停留时间",
-                "freq": "人次"
-            }
-        },
-        "ranking": {
-            "type": {
-                "pin": "进店人数",
-                "trade_num": "交易笔数",
-                "sales": "销售额",
-                "turn_in": "进店率",
-                "co2": "二氧化碳",
-                "pm10": "PM10",
-                "pm25": "PM2.5"
-            }
-        },
-        "iaq": {
-            "co": "一氧化碳",
-            "co2": "二氧化碳",
-            "hcho": "甲醛",
-            "hum": "湿度",
-            "pm10": "PM10",
-            "pm25": "PM2.5",
-            "tep": "温度",
-            "tvoc": "挥发性气体",
-            "o3": "臭氧",
-            "ch4": "瓦斯侦测",
-            "nh3": "厕所异味侦测",
-            "type": {
-                "first": "低",
-                "second": "中",
-                "third": "高",
-                "fourth": "警示",
-                "hum_first": "乾燥",
-                "hum_second": "舒適",
-                "hum_third": "潮濕",
-                "tep_first": "冷",
-                "tep_second": "舒適",
-                "tep_third": "熱"
-            }
-        },
-        "weather_tep": {
-            "type": {
-                "conditions": "天气",
-                "avg_temp_c": "平均气温",
-                "high_temp_c": "最高气温",
-                "low_temp_c": "最低气温"
-            },
-            "unit": {
-                "conditions": "天气",
-                "avg_temp_c": "摄氏度",
-                "high_temp_c": "摄氏度",
-                "low_temp_c": "摄氏度"
-            },
-            "conditions": {
-                "0": "未知天气",
-                "1": "晴",
-                "2": "阴",
-                "3": "雨",
-                "4": "雪",
-                "5": "极端天气"
-            }
-        },
-        "audience_traffic": {
-            "unit": "触及人数"
-        },
-        "audience_viewer": {
-            "unit": "收看人数"
-        },
-        "cvt_eyecatch_rate": {
-            "unit": "%"
-        },
-        "cvt_avg_view": {
-            "unit": "秒"
-        },
-        "audience_age": {
-            "unit": "观众年龄"
-        },
-        "audience_gender": {
-            "unit": "观众性别"
-        }
-    },
+  "views": {
     "login": {
-        "title": "Ushop+ 优店联网",
-        "field": {
-            "email": "电子邮件(作为登入账号)",
-            "password": "密码"
-        },
-        "btn": {
-            "forget": "忘记密码",
-            "signIn": "登入"
-        },
-        "rememberMe": "记住我的帐号",
-        "error": {
-            "emailFormatError": "电子邮件格式错误",
-            "fieldError": "部分字段空白, 请输入",
-            "inputEmail": "请输入账号",
-            "inputPsw": "请输入密码",
-            "EmailorPswError": " 登入失败,请确认账号及密码"
-        }
+      "email": "账号名称",
+      "password": "密码",
+      "remember": "记住账号",
+      "forget": "忘记密码？",
+      "submit": "登 录",
+      "message": "密码错误",
+      "noAccount": "没有账号？",
+      "join": "加入我们",
+      "tip": "请输入邮箱地址",
+      "reset": "请输入你的电子邮箱以重设密码",
+      "success": "发送成功",
+      "failed": "发送错误",
+      "check": "请检查您的电子邮件，并按照步骤重置密码。"
     },
-    "reset_password": {
-        "title": "重设密码",
-        "new_password": "新密码",
-        "confirm_password": "确认新密码",
-        "success_message": "密码重设成功. 请重新登入",
-        "btn": {
-            "reset": "重设密码",
-            "login": "回登入页面"
-        },
-        "error": {
-            "passwordNotMatch": "密码错误, 请确认",
-            "FormatError": "密码格式错误(6~12位字母和数字)"
-        }
+    "join": {
+      "title": "订阅账号申请",
+      "name": "企业名称",
+      "tip_name": "请输入企业名称",
+      "email": "账号名称（eMail）",
+      "tip": "请输入账号名称",
+      "check": "输入验证码",
+      "submit": "确认送出",
+      "thank": "谢谢您的订阅申请。",
+      "please": "请登录您的eMail信箱启动您的账号",
+      "phone": "若有任何问题欢迎来电咨询，客服专线：+8862-792-7818 #2527",
+      "contact": "或来信给我们，eMail：Contact.StoreVue@advantech.com"
     },
-    "forget_password": {
-        "error": {
-            "2001": "重设密码的email发送失败。"
-        }
-    },
-    "heatmap": {
-        "analytics": {
-            "title": "热点分析"
-        }
-    },
-    "shopperpath": {
-        "analytics": {
-            "title": "路径分析"
-        },
-        "hot_path": "热门路径",
-        "path": "路径",
-        "popularity": "热门度"
-    },
-    "overview": {
-        "title": "全览",
-        "traffic": {
-            "kpi": {
-                "title": "进店人数"
-            },
-            "matrix": {
-                "title": "单周客流分布"
-            },
-            "group": {
-                "title": "客流 & 顾客属性"
-            }
-        },
-        "transactions": {
-            "kpi": {
-                "title": "交易笔数"
-            }
-        },
-        "sales_volume": {
-            "kpi": {
-                "title": "销售额"
-            }
-        },
-        "conversion_rate": {
-            "kpi": {
-                "title": "提袋率"
-            }
-        },
-        "age": {
-            "pie": {
-                "title": "年龄分布"
-            }
-        },
-        "gender": {
-            "stacked": {
-                "title": "性别分布"
-            }
-        },
-        "kpi": {
-            "group": {
-                "title": "关键指标"
-            },
-            "cvt_sales_shopper": {
-                "title": "人均消费"
-            },
-            "cvt_turnin_rate": {
-                "title": "进店率"
-            },
-            "space_turn_in_rate": {
-                "title": "空间进入率"
-            },
-            "store_turn_in_rate": {
-                "title": "全店进入率"
-            },
-            "cvt_carry_rate": {
-                "kpi": {
-                    "title": "提袋率"
-                }
-            },
-            "cvt_return_rate": {
-                "title": "熟客率"
-            },
-            "cvt_avg_dwell": {
-                "title": "平均停留时间",
-                "sec": "秒"
-            },
-            "iaq": {
-                "title": "空气品质指标"
-            }
-        },
-        "ranking": {
-            "kpi": {
-                "title": "门店排名"
-            }
-        },
-        "weather": {
-            "kpi": {
-                "title": "天气"
-            }
-        },
-        "audience": {
-            "traffic": {
-                "kpi": {
-                    "title": "触及人数"
-                }
-            },
-            "viewer": {
-                "kpi": {
-                    "title": "收看人数"
-                },
-                "matrix": {
-                    "title": "单周收视人次分布"
-                }
-            },
-            "cvt_eyecatch_rate": {
-                "kpi": {
-                    "title": "吸睛度"
-                }
-            },
-            "cvt_avg_view": {
-                "kpi": {
-                    "title": "平均收看时间"
-                }
-            },
-            "age": {
-                "pie": {
-                    "title": "观众年龄"
-                }
-            },
-            "gender": {
-                "stacked": {
-                    "title": "观众性别"
-                }
-            }
-        },
-        "max_traffic": {
-            "kpi": {
-                "title": "客潮尖峰时段"
-            }
-        },
-        "electricity_consumption": {
-            "kpi": {
-                "title": "用电量"
-            }
-        },
-        "water_consumption": {
-            "kpi": {
-                "title": "用水量"
-            }
-        }
-    },
-    "analytics": {
-        "title": "客流分析",
-        "traffic": {
-            "line": {
-                "title": "进店人数"
-            }
-        },
-        "predict": {
-            "line": {
-                "title": "预测"
-            }
-        },
-        "air": {
-            "line": {
-                "title": "空气品质分析"
-            },
-            "pie": {
-                "title": "空气品质分布"
-            },
-            "bar": {
-                "title": "空气品质七周分析"
-            }
-        }
-    },
-    "predict": {
-        "analytics": {
-            "title": "预测分析"
-        }
-    },
-    "week": {
-        "analytics": {
-            "title": "单周分析"
-        }
-    },
-    "month": {
-        "analytics": {
-            "title": "单月分析"
-        }
-    },
-    "date": {
-        "analytics": {
-            "title": "日期分析"
-        }
-    },
-    "store": {
-        "analytics": {
-            "title": "单店分析"
-        },
-        "comparison": {
-            "title": "单店比较"
-        }
-    },
-    "audience": {
-        "analytics": {
-            "title": "关注分析"
-        }
-    },
-    "signage": {
-        "analytics": {
-            "title": "看板分析"
-        }
-    },
-    "data_type_change": {
-        "title": "人数 / 百分比"
-    },
-    "colornote": {
-        "lowest": "最低",
-        "highest": "最高"
-    },
-    "air": {
-        "analytics": {
-            "title": "空气品质分析"
-        }
+    "reset": {
+      "title": "重设密码",
+      "new": "新密码",
+      "confirm": "确认新密码",
+      "tip": {
+        "enter": "请输入密码",
+        "confirm": "请再次输入密码",
+        "same": "两次输入密码不一致！",
+        "error": "页面地址错误，缺失验证密钥。",
+        "success": "密码重设成功. 请重新登入。"
+      }
     }
+  },
+  "common": {
+    "sidebar": {
+      "overview": "订阅总览",
+      "brand": "品牌管理",
+      "user": "用户管理",
+      "subscribe": "订阅管理"
+    },
+    "loading": {
+      "add": "新增中...",
+      "update": "修改中...",
+      "activate": "启用中...",
+      "deactivate": "停用中...",
+      "delete": "删除中...",
+      "export": "导出中...",
+      "import": "导入中...",
+      "read": "读取中...",
+      "upload": "上传中..."
+    },
+    "search": "请输入关键词",
+    "operation": "操作",
+    "detail": "详细信息",
+    "no_data": "没有数据",
+    "all": "全部选择",
+    "logout": "登出",
+    "success": "成功",
+    "failed": "错误",
+    "card": {
+      "overview": "服务门店总数",
+      "one_month": "下月到期门店数",
+      "two_week": "逾期2周门店数",
+      "three_month": "逾期3个月门店数",
+      "total": "设备总数",
+      "abnormal": "异常",
+      "offline": "离线",
+      "registered": "注册未启用"
+    }
+  },
+  "button": {
+    "confirm": "确定",
+    "cancel": "取消",
+    "save": "保存",
+    "select": "选择",
+    "send": "发送",
+    "confirm_deactivate": "确认停用",
+    "confirm_delete": "确认删除",
+    "confirm_activate": "确认启用",
+    "template": "模板",
+    "export": "导出",
+    "import": "导入"
+  },
+  "brand": {
+    "label": {
+      "id": "品牌 ID",
+      "name": "品牌名称",
+      "contact_name": "联络人",
+      "contact_email": "联络邮箱",
+      "contact_phone": "联络电话",
+      "contact_address": "联络地址",
+      "admin_email": "管理员邮箱",
+      "admin_name": "管理员姓名",
+      "admin_phone": "管理员电话",
+      "admin": "负责人",
+      "status": "状态",
+      "stores": "门店数量",
+      "initial_date": "加入日期",
+      "base_info": "品牌基本信息",
+      "admin_info": "品牌管理员信息"
+    },
+    "status": {
+      "20": "正常",
+      "40": "已停用"
+    },
+    "title": {
+      "add": "新增品牌",
+      "update": "修改品牌信息",
+      "info": "品牌信息",
+      "activate": "启用品牌账户",
+      "deactivate": "停用品牌账户",
+      "delete": "删除品牌账户"
+    },
+    "tip": {
+      "add": "请输入品牌信息, 输入完成后请点击「确认」。",
+      "add_confirm": "确认新增品牌？",
+      "update": "确认修改品牌信息？",
+      "activate": "确认启用品牌账户？",
+      "deactivate": "确认停用品牌账户？",
+      "delete": "确认删除品牌账户？",
+      "deactivate_confirm": "此账号下已分配了分店，确认停用品牌账户请点击 「确认停用」。",
+      "delete_confirm": "此账号下已分配了分店，确认删除品牌账户请点击 「确认删除」。",
+      "name": "请输入品牌名称",
+      "contact_name": "请输入联络人",
+      "contact_email": "请输入联络邮箱",
+      "contact_phone": "请输入联络电话",
+      "contact_address": "请输入联络地址",
+      "admin_email": "请输入管理员邮箱",
+      "admin_name": "请输入管理员姓名",
+      "admin_phone": "请输入管理员电话",
+      "email_format": "请输入正确的邮箱地址"
+    },
+    "success": {
+      "add": "新增品牌成功！",
+      "update": "修改品牌信息成功！",
+      "activate": "启用品牌账户成功！",
+      "deactivate": "停用品牌账户成功！",
+      "delete": "删除品牌账户成功！"
+    },
+    "failed": {
+      "add": "新增品牌失败！",
+      "update": "修改品牌信息失败！",
+      "activate": "启用品牌账户失败！",
+      "deactivate": "停用品牌账户失败！",
+      "delete": "删除品牌账户失败！"
+    }
+  },
+  "store": {
+    "push": [
+      "门店ID", "门店名称", "国家/地区", "区域一", "区域二",
+      "门店地址", "门店电话", "门店时区", "天气地址", "备注说明", "分店代码"
+    ],
+    "label": {
+      "store_id": "门店ID",
+      "store_name": "门店名称",
+      "country": "国家/地区",
+      "province": "区域一",
+      "city": "区域二",
+      "address": "门店地址",
+      "tel": "门店电话",
+      "time_zone": "门店时区",
+      "descr": "备注说明",
+      "store_status": "门店状态",
+      "base_info": "门店基本信息",
+      "area_info": "门店区域信息"
+    },
+    "title": {
+      "add": "新增门店",
+      "update": "修改门店信息",
+      "info": "门店信息",
+      "import": "导入门店",
+      "export": "导出门店"
+    },
+    "tip": {
+      "add": "请输入门店信息, 输入完成后请点击「确认」。",
+      "add_confirm": "确认新增门店？",
+      "update": "确认修改门店信息？",
+      "import": "文件加载成功, 确认导入门店？",
+      "begin": "开始读取文件",
+      "export": ["已选择", "门店, 确认导出这些门店？"],
+      "error": [
+        "请选择需要导出的门店！",
+        "请上传xlsx或xls类型的文件！",
+        "请不要上传空的execl文件！",
+        "execl文件数据格式错误！",
+        "execl文件中没有符合格式要求的门店！"
+      ],
+      "row": ["第", "行：", "未填写！", "不在列表中！", "格式不正确！"],
+      "upload": [
+        "读取文件成功，共有",
+        "门店符合格式。正在上传中... (",
+        " / ", ")"
+      ],
+      "success": [
+        "导入完成，",
+        "家门店中，导入成功",
+        "家"
+      ],
+      "store_name": "请输入门店名称",
+      "country": "请选择国家/地区",
+      "province": "请输入区域一",
+      "city": "请输入区域二",
+      "address": "请输入门店地址",
+      "tel": "请输入门店电话",
+      "time_zone": "请选择门店时区",
+      "descr": "请输入备注说明"
+    },
+    "success": {
+      "add": "新增门店成功！",
+      "update": "修改门店信息成功！",
+      "import": "导入门店成功！",
+      "export": "导出门店成功！"
+    },
+    "failed": {
+      "add": "新增门店失败！",
+      "update": "修改门店信息失败！",
+      "import": "导入门店失败！",
+      "export": "导出门店失败！"
+    }
+  },
+  "user": {
+    "label": {
+      "status": "用户状态",
+      "name": "用户名称",
+      "setting": "账号设置",
+      "role": "系统权限",
+      "brand_role": "品牌权限",
+      "base_info": "用户基本信息",
+      "selected": "已选择的品牌",
+      "account": "账号",
+      "brand": "品牌",
+      "join": "加入日期"
+    },
+    "status": {
+      "1": "待启用",
+      "20": "正常",
+      "40": "已停用"
+    },
+    "role": {
+      "4": "系统管理员",
+      "6": "管理员",
+      "5": "一般用户"
+    },
+    "title": {
+      "add": "新增用户",
+      "update": "修改用户信息",
+      "info": "用户信息",
+      "activate": "启用用户账号",
+      "deactivate": "停用用户账号",
+      "delete": "删除用户账号"
+    },
+    "tip": {
+      "add": "请输入用户信息, 输入完成后请点击「确认」。",
+      "add_confirm": "确认新增用户？",
+      "update": "确认修改用户信息？",
+      "activate": "确认启用用户账号？",
+      "deactivate": "确认停用用户账号？",
+      "delete": "确认删除用户账号？",
+      "deactivate_confirm": "此账号下已分配了品牌，确认停用用户账号请点击 「确认停用」。",
+      "delete_confirm": "此账号下已分配了品牌，确认删除用户账号请点击 「确认删除」。",
+      "name": "请输入用户名称",
+      "setting": "请输入账号设置",
+      "role": "请选择系统权限",
+      "brand_role": "请选择品牌权限"
+    },
+    "success": {
+      "add": "新增用户成功！",
+      "update": "修改用户信息成功！",
+      "activate": "启用用户账号成功！",
+      "deactivate": "停用用户账号成功！",
+      "delete": "删除用户账号成功！"
+    },
+    "failed": {
+      "add": "新增用户失败！",
+      "update": "修改用户信息失败！",
+      "activate": "启用用户账号失败！",
+      "deactivate": "停用用户账号失败！",
+      "delete": "删除用户账号失败！"
+    }
+  },
+  "device": {
+    "status": {
+      "0": "注销",
+      "1": "注册",
+      "20": "启用",
+      "21": "在线",
+      "22": "离线",
+      "23": "异常",
+      "24": "暂停",
+      "25": "关店",
+      "40": "停用",
+      "60": "过期",
+      "61": "终止",
+      "62": "只读",
+      "70": "删除"
+    }
+  },
+  "subscribe": {
+    "service": "订阅服务",
+    "activate_date": "启用日期",
+    "expired_date": "到期日期",
+    "device_type": "设备类型",
+    "device_name": "设备名称",
+    "device_status": "设备状态",
+    "number": "数量",
+    "cycle": "订阅周期",
+    "status": "订阅状态",
+    "services_name": "服务名称",
+    "service_view": "服务检视",
+    "device_view": "设备检视",
+    "subscribe_activate": "订阅启用",
+    "deactivate_service": "未启用服务数量",
+    "serial":    "序号",
+    "serial_number":    "新增服务序号",
+    "activate_service": "启用订阅服务",
+    "selected_number": "已选择数量：",
+    "month": ["个月", "个月"],
+    "subscribe_status": ["下月到期", "逾期两周", "逾期三个周", "未订阅"],
+    "tip": {
+      "serial_number": "请输入需要新增的服务序号",
+      "activate_service": "请选择需要启用的服务名称",
+      "device": "请选择需要启用的设备",
+      "activating": ["已选择", "个设备，正在启用中... (", " / ", ")"]
+    },
+    "confirm": {
+      "serial_number": "确认新增服务序号？",
+      "activate_service": ["已选择", "个设备，确认启用这些设备？"]
+    },
+    "success": {
+      "serial_number": "新增服务序号成功！",
+      "activate_service": [
+        "启用成功, ",
+        "个设备中，启用成功",
+        "个"
+      ]
+    },
+    "failed": {
+      "serial_number": "新增服务序号失败！"
+    }
+  },
+  "validate": {
+    "success": {
+      "tip": "如果您没有收到密码，请与您的帐户管理员联系。",
+      "title": "Validation Successful 验证成功",
+      "descr1": "您的电子邮件已验证，您的帐户已创建。",
+      "descr2": "请检查您的电子邮件以获取密码。"
+    },
+    "failed": {
+      "title": "Validation Failed 验证失败",
+      "descr": "请与您的帐户管理员联系。"
+    }
+  },
+  "country": {
+    "Iceland": "冰岛",
+    "Afghanistan": "阿富汗",
+    "Arab": "阿拉伯联合酋长国",
+    "Oman": "阿曼",
+    "Azerbaijan": "阿塞拜疆",
+    "Estonia": "爱沙尼亚",
+    "Austria": "奥地利",
+    "Ireland": "爱尔兰",
+    "Albania": "阿尔巴尼亚",
+    "Andorra": "安道尔",
+    "Egypt": "埃及",
+    "Algeria": "阿尔及利亚",
+    "Ethiopia": "埃塞俄比亚",
+    "Angola": "安哥拉",
+    "Australia": "澳大利亚",
+    "Antigua": "安提瓜和巴布达",
+    "Anguilla": "安圭拉(英)",
+    "Aruba": "阿鲁巴(荷)",
+    "Argentina": "阿根廷",
+    "Bhutan": "不丹",
+    "Pakistan": "巴基斯坦",
+    "Palestine": "巴勒斯坦",
+    "Bahrain": "巴林",
+    "Belarus": "白俄罗斯",
+    "Poland": "波兰",
+    "Belgium": "比利时",
+    "Bulgaria": "保加利亚",
+    "Bosnia": "波斯尼亚和墨塞哥维那",
+    "Burundi": "布隆迪",
+    "Burkina": "布基纳法索",
+    "Benin": "贝宁",
+    "Papua": "巴布亚新几内亚",
+    "Northern": "北马里亚纳(美)",
+    "Belize": "伯利兹",
+    "Panama": "巴拿马",
+    "Barbados": "巴巴多斯",
+    "Puerto": "波多黎各(美)",
+    "Bolivia": "玻利维亚",
+    "Brazil": "巴西",
+    "Paraguay": "巴拉圭",
+    "North": "朝鲜",
+    "Equatorial": "赤道几内亚",
+    "Timor": "东帝汶",
+    "Denmark": "丹麦",
+    "Germany": "德国",
+    "Togo": "多哥",
+    "Dominican": "多米尼加共和国",
+    "Dominica": "多米尼克",
+    "Russia": "俄罗斯",
+    "Eritrea": "厄立特里亚",
+    "Ecuador": "厄瓜多尔",
+    "Philippines": "菲律宾",
+    "Finland": "芬兰",
+    "Faroe": "法罗群岛(丹)",
+    "France": "法国",
+    "Vatican": "梵蒂冈",
+    "Cape": "佛得角",
+    "Fiji": "斐济群岛",
+    "Polynesia": "法属波利尼西亚",
+    "Guiana": "法属圭亚那",
+    "Georgia": "格鲁吉亚",
+    "Congo": "刚果共和国",
+    "Democratic": "刚果民主共和国",
+    "Gambia": "冈比亚",
+    "Guam": "关岛(美)",
+    "Greenland": "格陵兰(丹)",
+    "Costa": "哥斯达黎加",
+    "Cuba": "古巴",
+    "Grenada": "格林纳达",
+    "Guadeloupe": "瓜德罗普(法)",
+    "Columbia": "哥伦比亚",
+    "Guyana": "圭亚那",
+    "Korea": "韩国",
+    "Kazakhstan": "哈萨克斯坦",
+    "Netherlands": "荷兰",
+    "Honduras": "洪都拉斯",
+    "Haiti": "海地",
+    "Antilles": "荷属安的列斯",
+    "Cambodia": "柬埔寨",
+    "Kyrgyzstan": "吉尔吉斯斯坦",
+    "Czech": "捷克",
+    "Djibouti": "吉布提",
+    "Guinea": "几内亚",
+    "Bissau": "几内亚比绍",
+    "Ghana": "加纳",
+    "Canary": "加那利群岛(西)",
+    "Zimbabwe": "津巴布韦",
+    "Kiribati": "基里巴斯",
+    "Canada": "加拿大",
+    "Qatar": "卡塔尔",
+    "Kuwait": "科威特",
+    "Croatia": "克罗地亚",
+    "Kenya": "肯尼亚",
+    "Cameroon": "喀麦隆",
+    "Cote": "科特迪瓦",
+    "Comoros": "科摩罗",
+    "Cook": "库克群岛(新)",
+    "Cayman": "开曼群岛(英)",
+    "Bermuda": "百慕大(英)",
+    "Laos": "老挝",
+    "Lebanon": "黎巴嫩",
+    "Lithuania": "立陶宛",
+    "Liechtenstein": "列支敦士登",
+    "Luxembourg": "卢森堡",
+    "Romania": "罗马尼亚",
+    "Libya": "利比亚",
+    "Rwanda": "卢旺达",
+    "Liberia": "利比里亚",
+    "Lesotho": "莱索托",
+    "Reunion": "留尼旺(法)",
+    "Mongolia": "蒙古",
+    "Myanmar": "缅甸",
+    "Malaysia": "马来西亚",
+    "Bangladesh": "孟加拉国",
+    "Maldives": "马尔代夫",
+    "Moldova": "摩尔多瓦",
+    "Monaco": "摩纳哥",
+    "Macedonia": "马其顿",
+    "Malta": "马耳他",
+    "Morocco": "摩洛哥",
+    "Madeira": "马德拉群岛(葡)",
+    "Mauritania": "毛里塔尼亚",
+    "Mali": "马里",
+    "Malawi": "马拉维",
+    "Mozambique": "莫桑比克",
+    "Madagascar": "马达加斯加",
+    "Mauritius": "毛里求斯",
+    "Micronesia": "密克罗尼西亚",
+    "Marshall": "马绍尔群岛",
+    "USA": "美国",
+    "Mexico": "墨西哥",
+    "Virgin": "美属维尔京群岛",
+    "Montserrat": "蒙特塞拉特(英)",
+    "Martinique": "马提尼克(法)",
+    "Peru": "秘鲁",
+    "Nepal": "尼泊尔",
+    "Norway": "挪威",
+    "Niger": "尼日尔",
+    "Namibia": "纳米比亚",
+    "Africa": "南非",
+    "Nauru": "瑙鲁",
+    "Niue": "纽埃(新)",
+    "Nicaragua": "尼加拉瓜",
+    "Portugal": "葡萄牙",
+    "Palau": "帕劳",
+    "Pitcairn": "皮特凯恩岛(英)",
+    "Japan": "日本",
+    "Sweden": "瑞典",
+    "Switzerland": "瑞士",
+    "Sri": "斯里兰卡",
+    "Saudi": "沙特阿拉伯",
+    "Cyprus": "塞浦路斯",
+    "Slovakia": "斯洛伐克",
+    "Serbia": "塞尔维亚",
+    "Slovenia": "斯洛文尼亚",
+    "San": "圣马力诺",
+    "Sudan": "苏丹",
+    "Somalia": "索马里",
+    "Seychelles": "塞舌尔",
+    "Sao": "圣多美及普林西比",
+    "Senegal": "塞内加尔",
+    "Sierra": "塞拉利昂",
+    "Kingdom": "斯威士兰",
+    "St": "圣赫勒拿(英)",
+    "Solomon": "所罗门群岛",
+    "Samoa": "萨摩亚",
+    "Caledonia": "新喀里多尼亚(法)",
+    "El": "萨尔瓦多",
+    "Nevis": "圣基茨和尼维斯",
+    "Grenadines": "圣文森特和格林纳丁斯",
+    "Suriname": "苏里南",
+    "Thailand": "泰国",
+    "Taiwan": "台湾",
+    "Tajikistan": "塔吉克斯坦",
+    "Turkmenistan": "土库曼斯坦",
+    "Turkey": "土耳其",
+    "Tunisia": "突尼斯",
+    "Tanzania": "坦桑尼亚",
+    "Tuvalu": "图瓦卢",
+    "Tonga": "汤加",
+    "Tokelau": "托克劳(新)",
+    "Trinidad": "特立尼达和多巴哥",
+    "Turks": "特克斯和凯科斯群岛",
+    "Brunei": "文莱",
+    "Uzbekistan": "乌兹别克斯坦",
+    "Ukraine": "乌克兰",
+    "Uganda": "乌干达",
+    "Vanuatu": "瓦努阿图",
+    "Wallis": "瓦利斯与富图纳(法)",
+    "Guatemala": "危地马拉",
+    "Venezuela": "委内瑞拉",
+    "Uruguay": "乌拉圭",
+    "Singapore": "新加坡",
+    "Syria": "叙利亚",
+    "Hungary": "匈牙利",
+    "Greece": "希腊",
+    "Spain": "西班牙",
+    "Sahara": "西撒哈拉(未独立)",
+    "Zealand": "新西兰",
+    "Vietnam": "越南",
+    "Indonesia": "印度尼西亚",
+    "India": "印度",
+    "Iraq": "伊拉克",
+    "Jordan": "约旦",
+    "Israel": "以色列",
+    "Yemen": "也门",
+    "Armenia": "亚美尼亚",
+    "UK": "英国",
+    "Italy": "意大利",
+    "Azores": "亚速尔群岛(葡)",
+    "Jamaica": "牙买加",
+    "British": "英属维尔京群岛",
+    "China": "中国",
+    "Chad": "乍得",
+    "Central": "中非",
+    "Zambia": "赞比亚",
+    "Chile": "智利"
+  }
 }

@@ -1,882 +1,582 @@
 {
-    "general": {
-        "time": {
-            "short_month": "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec",
-            "short_day": "S,M,T,W,T,F,S"
-        },
-        "btn": {
-            "next": "Next",
-            "store": "Save",
-            "add": "Add",
-            "prev": "Back",
-            "join": "Join",
-            "settings": "Set",
-            "sign_out": "Sign Out",
-            "add_new_widget": "Add Widget",
-            "save": "Save",
-            "cancel": "Cancel",
-            "copy": "Copy",
-            "confirm": "Confirm",
-            "done": "Done",
-            "delete": "Delete",
-            "reset": "Revert",
-            "clear": "Clear",
-            "Analyticssave": "OK",
-            "Apply": "Save"
-        },
-        "month_name": {
-            "Jan": "January",
-            "Feb": "February",
-            "Mar": "March",
-            "Apr": "April",
-            "May": "May",
-            "Jun": "June",
-            "Jul": "July",
-            "Aug": "August",
-            "Sep": "September",
-            "Oct": "October",
-            "Nov": "November",
-            "Dec": "December"
-        },
-        "week_name": {
-            "Monday": "Mon.",
-            "Tuesday": "Tue.",
-            "Wednesday": "Wed.",
-            "Thursday": "Thur.",
-            "Friday": "Fri.",
-            "Saturday": "Sat.",
-            "Sunday": "Sun."
-        },
-        "month_week": {
-            "Week#1": "Week#1",
-            "Week#2": "Week#2",
-            "Week#3": "Week#3",
-            "Week#4": "Week#4",
-            "Week#5": "Week#5",
-            "Week#6": "Week#6",
-            "Week#7": "Week#7"
-        },
-        "Loading": {
-            "title": "Loading..."
-        },
-        "no_data": "No data",
-        "error": {
-            "login_again": "User has been logged out, please log back in!"
-        }
-    },
-    "header": {
-        "guidance": "Navigation",
-        "language": "Language",
-        "logout": "Logout",
-        "Analytics": "Analysis",
-        "dashboard": "Dashboard",
-        "inspection": "Inspection",
-        "signage": "Signage",
-        "setting": "Setting",
-        "recognition": "VIP Recognition",
-        "attendance": "Attendance"
-    },
-    "sidebar": {
-        "edit_profile": "Edit Profile",
-        "dashboard": "Dashboard",
-        "system_dashboard": "System Board",
-        "custom_dashboard": "Custom Board",
-        "add_dashboard": "Add Dashboard",
-        "board_name_placeholder": "Dashboard Name"
-    },
-    "widget_area": {
-        "empty_tips": {
-            "title": "Welcome to your new dashboard",
-            "subtitle": "You can start to add widget here"
-        }
-    },
-    "widget": {
-        "comparison": {
-            "title": "Comparison",
-            "location": "Location",
-            "period": "Period",
-            "single_store_analysis": "Store Analysis",
-            "weekly_average": "Weekly average",
-            "single_store_comparison": "Store Comparison",
-            "align_weekend": "Align weekend",
-            "date": "Date",
-            "this_week": "This week",
-            "last_week": "Last week",
-            "analysis_mode": "Analysis mode",
-            "week": "compare with last week",
-            "weekly_ring_ratio": "compare with the past 12 weeks",
-            "this_month": "This month",
-            "last_month": "Last month",
-            "same_month_last_year": "Same month last year",
-            "month": "compare with the same month last year",
-            "month_ring_ratio": "compare with the past 3 months",
-            "one-week_analysis": "Weekly Analysis",
-            "single_month_analysis": "Monthly Analysis",
-            "and": "to",
-            "store": "Store",
-            "item": "Item",
-            "inquire": "Inquire",
-            "interval_greater_than_31_days": "The maximum time cannot exceed 31 days.",
-            "start_date_no_longer_than_the_end_date": "Start date, no greater than the end date."
-        },
-        "heat_map": {
-            "heatmap_widget_list": "Heatmap Widget List",
-            "focus_zone_list": "Favorite Zone List",
-            "focus_zone_id": "Favorite Zone ID#",
-            "focus_zone_title": "Favorite Zone Title",
-            "focus_zone_products": "Products in Zone",
-            "zone": "Zone",
-            "freq": "Freq",
-            "dwell": "Dwell"
-        },
-        "additional_data": {
-            "title": "Additional Data"
-        },
-        "period": {
-            "title": "Period"
-        },
-        "compare": {
-            "title": "Comparison with"
-        },
-        "show": {
-            "title": "Show"
-        },
-        "settting": {
-            "data_source": "Data Source",
-            "data_store_name": "All Regions",
-            "today_date": "Today",
-            "yesterday_date": "Yesterday",
-            "last_week_date": "Same day last week",
-            "last_month_date": "Same day last month",
-            "sources": "Regions"
-        },
-        "EmptyStorelist": {
-            "title": "Empty store or sensor list"
-        }
-    },
-    "pin": {
-        "title": "Pin",
-        "desc": "Select dashboard that you want to pin this widget."
-    },
-    "report": {
-        "title": "Report",
-        "table_header": {
-            "date": "Date",
-            "time": "Time",
-            "week": "Week",
-            "total": "Total",
-            "average": "Average",
-            "total_average": "Total average",
-            "widget_type": {
-                "traffic": "Traffic",
-                "wifi_traffic": "Wifi Traffic",
-                "wifi_outdoor_traffic": "Wifi Outdoor Traffic",
-                "people_counting_outdoor": "People Counting Outdoor",
-                "conversion_rate": "Conversion rate",
-                "transactions": "Transactions",
-                "sales_volume": "Sales Volume",
-                "turn-in_rate": "Turn-in rate",
-                "cvt_sales_shopper": "Sale per Shopper",
-                "cvt_carry_rate": "Sales Conversion",
-                "cvt_return_rate": "Returning Customers",
-                "cvt_turnin_rate": "Turn in Rate",
-                "store_turn_in_rate": "Store turn-in rate",
-                "space_turn_in_rate": "Space turn-in rate",
-                "cvt_avg_dwell": "Avg Dwell Time"
-            }
-        },
-        "people": "(People)",
-        "ranking": "Top 5 Store",
-        "rankingStore": "Store Name"
-    },
-    "ui_settings": {
-        "title": "Settings",
-        "field": {
-            "language": {
-                "title": "Language"
-            },
-            "theme": {
-                "title": "Theme Color",
-                "option": {
-                    "dark": "Dark",
-                    "light": "Light"
-                }
-            }
-        }
-    },
-    "board_settings": {
-        "title": {
-            "edit": "Dashboard Settings",
-            "add": "Add Dashboard",
-            "delete": "Delete Dashboard"
-        },
-        "board_name": {
-            "title": "Dashboard Name",
-            "placeholder": "Please enter the dashboard name"
-        },
-        "tip": {
-            "edit": "After editing, click 「 Save 」",
-            "add": "Please enter the dashboard name, enter complete click 「 Next 」 to build your first widget." ,
-            "delete": "Confirm to delete the dashboard, please click 「 Confirm 」"
-        },
-        "copy":{
-            "title": "Copy to",
-            "placeholder": "Please enter the user name"
-        }
-    },
-    "widget_editor": {
-        "title": {
-            "add": "Add Widget",
-            "edit": "Edit Widget",
-            "setting": "Data Source Settings",
-            "delete": "Delete Widget",
-            "edit_favorite_zone": "Edit Favorite Zone"
-        },
-        "tip": {
-            "edit": "After editing, click「 Save 」to finish editing the widget.",
-            "add": "Please input the widget settings, and click「 add 」to complete the new widget. ",
-            "add_board": "Please input the widget settings, and click「 add 」 to create your first widget. ",
-            "setting": "After editing, click「 Save 」to complete the data source setting. ",
-            "delete": "Confirm to delete the widget, please click 「 Confirm 」."
-        },
-        "widget_title": {
-            "title": "Widget Title",
-            "placeholder": "Please input the widget title"
-        },
-        "widget_type": {
-            "title": "Data Type"
-        },
-        "chart_type": {
-            "title": "Chart Type"
-        },
-        "widget_size": {
-            "title": "Widget Size"
-        },
-        "date": {
-            "title": "Date",
-            "options": {
-                "today": "Today",
-                "yesterday": "Yesterday",
-                "day_of_last_week": "Day last week",
-                "day_of_last_mouth": "Day last month",
-                "date_period": "Date Period",
-                "start_date": "Select Start Date",
-                "end_date": "Select End Date",
-                "specific_date": "Specific Date"
-            }
-        },
-        "btn": {
-            "delete_zone": "Delete Selected Zone",
-            "delete_this": "Delete This Widget"
-        },
-        "delete_confirm_desc": "Are you sure you want to delete this widget?",
-        "account_inactive": "Account status is inactive"
-    },
-    "guidance": {
-        "title": {
-            "page1": "Welcome to Store BI",
-            "page2": "System board insight into retail field depth features",
-            "page3": "Custom board elastic custom data center",
-            "page4": "Does the next time you login display the navigation?"
-        },
-        "tip": {
-            "page1": "Store BI is a comprehensive set of data analytics visualization services that transform data from the cloud into easy-to-understand charts to maximize the value of your data, in addition to providing system-preset dashboards that you often use in your retail field, and to tailor your own chart content to the needs of each market domain.",
-            "page2": "Store BI select four commonly used system dashboards in retail areas: Heatmap, Date Analysis, Store Analysis, and Store Comparison. It allows you to quickly set the time and store conditions to generate reports. In addition to viewing reports, it can also be downloaded to your computer.",
-            "page3": "After selecting the data type, you can select the appropriate chart type according to the data attributes to create your own custom dashboard. You can also pin the chart from the system dashboard to the custom dashboard to become a retail The best auxiliary tool for industry players' decision-making and planning.",
-            "page4_1": "If you want to display the navigation when you login next time, please click「Yes」.",
-            "page4_2": "If you do not want to display the navigation when you login next time, please click「No」."
-        },
-        "btn": {
-            "yes": "Yes",
-            "no": "No",
-            "skip": "Skip"
-        }
-    },
-    "data_source_settings": {
-        "title": "Data Source Settings",
-        "tab_name": {
-            "new": "New"
-        }
-    },
-    "period_settings": {
-        "title": "Period Settings",
-        "tab_name": {
-            "new": "New"
-        },
-        "field": {
-            "select_date": {
-                "title": "Date"
-            }
-        }
-    },
-    "data_source_selector": {
-        "title": "Source Selection",
-        "titleA": "Choose Source-A",
-        "titleB": "Choose Source-B",
-        "field": {
-            "data_name": {
-                "title": "Title",
-                "multiple_store": "Store Combination",
-                "select_store": "Choose store",
-                "store_list": "Store list",
-                "space_name": "Space name",
-                "monitor_list": "List of monitors",
-                "select_space": "Select space",
-                "monitor_type": "Type of monitor",
-                "monitor_name": "Monitor name",
-                "selected_monitor": "Select monitor",
-                "formula": "formula"
-            },
-            "all_source": {
-                "title": "All stores and groups",
-                "all_select": "Select All",
-                "input_placeholder": "Search for stores or groups",
-                "input_search": "search",
-                "selected_space_monitor": "Select space and monitor"
-            },
-            "selected_source": {
-                "title": "Selected stores",
-                "selected_list": "Selected list",
-                "selected_space_monitor_list": "Selected space and monitoring list",
-                "title_for_space": "Selected stores, spaces, monitors"
-            }
-        },
-        "monitor_type": {
-            "StoreEntrance": "Whole store entrance",
-            "HeatMap": "Hot zone analysis",
-            "Entrance": "General entrance",
-            "ShopperPath": "Path analysis",
-            "OutOfStorePassengerFlow": "Out-of-store passenger flow",
-            "Pos": "Transaction information",
-            "ChannelPassengerFlow": "Channel passenger flow",
-            "AirQuality": "Air quality",
-            "OutOfSpacePassengerFlow": "Out-space passenger flow",
-            "Demographics": "Demographics",
-            "Wifi": "Wifi analysis",
-            "Space": "Space"
-        }
-    },
-    "option": {
-        "default": {
-            "please_select": "Please Select",
-            "tag": "Tag",
-            "zone1": "Zone 1",
-            "zone2": "Zone 2",
-            "none": "None"
-        },
-        "widget_type": {
-            "traffic": "Traffic",
-            "stays": "Occupancy",
-            "wifi_traffic": "Wifi Traffic",
-            "wifi_outdoor_traffic": "Wifi Outdoor Traffic",
-            "people_counting_outdoor": "People Counting Outdoor",
-            "conversion_rate": "Conversion rate",
-            "transactions": "Transactions",
-            "sales_volume": "Sales Volume",
-            "age": "Age",
-            "gender": "Gender",
-            "passby": "Passby",
-            "turn-in_rate": "Turn-in rate",
-            "heat_map": "Heatmap",
-            "shopper_path": "Shopper Path",
-            "ranking": "Store Ranking",
-            "cvt_sales_shopper": "Sale per Shopper",
-            "cvt_carry_rate": "Sales Conversion",
-            "cvt_return_rate": "Returning Customers",
-            "cvt_turnin_rate": "Turn in Rate",
-            "store_turn_in_rate": "Store turn-in rate",
-            "space_turn_in_rate": "Space turn-in rate",
-            "cvt_avg_dwell": "Avg Dwell Time",
-            "iaq": "IAQ",
-            "weather_tep": "Temperature",
-            "weather": "Weather",
-            "audience_traffic": "Passing Traffic",
-            "audience_viewer": "Viewers",
-            "cvt_eyecatch_rate": "Eye-Catching Rate",
-            "cvt_avg_view": "Avg. View time",
-            "audience_age": "Audience - Age",
-            "audience_gender": "Audience - Gender",
-            "customer_age": "Customer - Age",
-            "customer_gender": "Customer - Gender",
-            "maxtraffic": "Max Traffic",
-            "predict": "Predict",
-            "ppc_store_outside": "Out-of-store passenger flow",
-            "ppc_passageway": "Channel passenger flow",
-            "ppc_space_outside": "Outside space traffic",
-            "ppc_store_entry_in": "Main entrance - In",
-            "ppc_store_entry_out": "Main entrance - Out",
-            "ppc_space_entry_in": "Space entrance - In",
-            "ppc_space_entry_out": "Space entrance - Out",
-            "ppc_conversion_rate": "Conversion rate"
-        },
-        "chart_type": {
-            "bar": "Bar",
-            "infographic": "Infographic",
-            "kpi": "KPI",
-            "line": "Line",
-            "pie": "Pie",
-            "table": "Table",
-            "matrix": "Matrix",
-            "picture": "Picture",
-            "stacked": "Stacked"
-        },
-        "widget_size": {
-            "super": "Super(Big)",
-            "big": "Big(Medium)",
-            "small": "Small",
-            "x-super": "X-Super"
-        },
-        "chart_date": {
-            "today": "Today",
-            "yesterday": "Yesterday",
-            "day_of_last_week": "Day last week",
-            "day_of_last_mouth": "Day last month",
-            "specific_date": "Specific Date"
-        },
-        "period": {
-            "dd": "Day",
-            "ww": "Week",
-            "mm": "Month",
-            "yyyy": "Year"
-        },
-        "compare": {
-            "yesterday": "Last day",
-            "this_week_average": "Average of this weekly",
-            "this_month_average": "Average of this month",
-            "last_week": "Last week",
-            "13weeks_average": "Average of the last 13 weeks",
-            "last_month": "Last month",
-            "3months_average": "Average of the last 3 months",
-            "last_year": "Last year",
-            "same_day_last_year": "Same day last year",
-            "last_week_of_the_same_week": "Same ISO week last year",
-            "same_month_last_year": "Same month last year",
-            "today_date": "Today",
-            "yesterday_date": "Yesterday",
-            "last_week_date": "Same day last week",
-            "last_month_date": "Same day last month",
-            "7days_ago": "Last 7 Days",
-            "30days_ago": "Last 30 Days",
-            "90days_ago": "Last 90 Days",
-            "specific_date": "Specific Date"
-        },
-        "date": {
-            "week": "compare with last week",
-            "weekly_ring_ratio": "compare with the past 12 weeks",
-            "month": "compare with the same month last year",
-            "month_ring_ratio": "compare with the past 3 months",
-            "specific_date": "Specific Date",
-            "this_week": "This week",
-            "last_week": "Last week",
-            "this_month": "This month",
-            "last_month": "Last month",
-            "same_month_last_year": "Same month last year"
-        },
-        "show": {
-            "hh": "Hourly",
-            "dd": "Daily",
-            "wd": "Week Day",
-            "ww": "Weekly",
-            "mm": "Monthly",
-            "w": "W"
-        }
-    },
-    "chart": {
-        "age": {
-            "unit": "People",
-            "type": {
-                "10": "10-19",
-                "20": "20-39",
-                "40": "40-59",
-                "60": "Over 60"
-            }
-        },
-        "gender": {
-            "unit": "People",
-            "type": {
-                "male": "Male",
-                "female": "Female"
-            }
-        },
-        "traffic": {
-            "unit": "Traffic"
-        },
-        "wifi_traffic": {
-            "unit": "Wifi Traffic"
-        },
-        "wifi_outdoor_traffic": {
-            "unit": "Wifi Outdoor Traffic"
-        },
-        "people_counting_outdoor": {
-            "unit": "People Counting Outdoor"
-        },
-        "sales_volume": {
-            "unit": "Sales Volume"
-        },
-        "transactions": {
-            "unit": "Transactions"
-        },
-        "conversion_rate": {
-            "unit": "%"
-        },
-        "cvt_sales_shopper": {
-            "unit": "$/Person"
-        },
-        "cvt_carry_rate": {
-            "unit": "%"
-        },
-        "cvt_return_rate": {
-            "unit": "%"
-        },
-        "cvt_turnin_rate": {
-            "unit": "%"
-        },
-        "cvt_avg_dwell": {
-            "unit": "Sec"
-        },
-        "heat_map": {
-            "type": {
-                "dwell_unit_sec": "Sec per visit",
-                "hist": "Visits",
-                "hist_unit": "Sec",
-                "dwell_unit_min": "Min",
-                "dwell": "Times",
-                "dwell_tooltip": "",
-                "dwell_time": "Dwell Time",
-                "freq": "Visits"
-            }
-        },
-        "ranking": {
-            "type": {
-                "pin": "Visitors",
-                "trade_num": "Transactions",
-                "sales": "Sales Volume",
-                "turn_in": "Turn in Rate",
-                "co2": "co2",
-                "pm10": "PM10",
-                "pm25": "PM2.5"
-            }
-        },
-        "iaq": {
-            "co": "co",
-            "co2": "co2",
-            "hcho": "hcho",
-            "hum": "hum",
-            "pm10": "PM10",
-            "pm25": "PM2.5",
-            "tep": "tep",
-            "tvoc": "tvoc",
-            "o3": "o3",
-            "ch4": "ch4",
-            "nh3": "nh3",
-            "type": {
-                "first": "low",
-                "second": "middle",
-                "third": "high",
-                "fourth": "warning",
-                "hum_first": "dry",
-                "hum_second": "comfort",
-                "hum_third": "damp",
-                "tep_first": "cold",
-                "tep_second": "comfort",
-                "tep_third": "hot"
-            }
-        },
-        "weather_tep": {
-            "type": {
-                "conditions": "weather",
-                "avg_temp_c": "avg tep",
-                "high_temp_c": "high tep",
-                "low_temp_c": "low tep"
-            },
-            "unit": {
-                "conditions": "weather",
-                "avg_temp_c": "℃",
-                "high_temp_c": "℃",
-                "low_temp_c": "℃"
-            },
-            "conditions": {
-                "0": "unknown",
-                "1": "sunny",
-                "2": "cloudy",
-                "3": "rainy",
-                "4": "snowy",
-                "5": "extreme"
-            }
-        },
-        "audience_traffic": {
-            "unit": "Passing Traffic"
-        },
-        "audience_viewer": {
-            "unit": "Viewers"
-        },
-        "cvt_eyecatch_rate": {
-            "unit": "%"
-        },
-        "cvt_avg_view": {
-            "unit": "Sec"
-        },
-        "audience_age": {
-            "unit": "Audience - Age"
-        },
-        "audience_gender": {
-            "unit": "Audience - Gender"
-        }
-    },
+  "views": {
     "login": {
-        "title": "Ushop+ 優店聯網",
-        "field": {
-            "email": "Email ( Login account )",
-            "password": "Password"
-        },
-        "btn": {
-            "forget": "Forget",
-            "signIn": "Sign In"
-        },
-        "rememberMe": "Remember my account",
-        "error": {
-            "emailFormatError": "Not email format, Please try again.",
-            "fieldError": "Some fields are empty, Please try again.",
-            "inputEmail": "Please enter your account.",
-            "inputPsw": "Please enter your password.",
-            "EmailorPswError": "Login fail, Please check your account and password. "
-        }
+      "email": "Email",
+      "password": "Password",
+      "remember": "Remember",
+      "forget": "Forget Password?",
+      "submit": "Sign In",
+      "message": "Password Error.",
+      "noAccount": "Don't have an account?",
+      "join": "Join StoreVue",
+      "tip": "Please enter your email address",
+      "reset": "Please enter your email address to reset your password",
+      "success": "Send successfully",
+      "failed": "Sending error",
+      "check": "Please check your email and follow the steps to reset your password."
     },
-    "reset_password": {
-        "title": "Reset Password",
-        "new_password": "New Password",
-        "confirm_password": "Confirm New Password",
-        "success_message": "Your password has been changed successfully. Please use new password to login.",
-        "btn": {
-            "reset": "Reset Password",
-            "login": "Sign In Now"
-        },
-        "error": {
-            "passwordNotMatch": "Password doesn't match, please check again.",
-            "FormatError": "Password Format Error!( 6~12 characters and numbers)"
-        }
+    "join": {
+      "title": "Account apply",
+      "name": "Company Name",
+      "tip_name": "Please enter the company name",
+      "email": "Account Name (eMail)",
+      "tip": "Please enter the account name",
+      "check": "Enter verification code",
+      "submit": "Confirm to submit",
+      "thank": "Thank you for your subscription request.",
+      "please": "Please log in to your eMail mailbox to activate your account",
+      "phone": "If you have any questions, please call us, customer service hotline: +8862-792-7818 #2527",
+      "contact": "Or write to us, email: Contact.StoreVue@advantech.com"
     },
-    "forget_password": {
-        "error": {
-            "2001": "Email reset failed to reset password."
-        }
-    },
-    "heatmap": {
-        "analytics": {
-            "title": "Heatmap"
-        }
-    },
-    "shopperpath": {
-        "analytics": {
-            "title": "Shopper Path"
-        },
-        "hot_path": "Hot path",
-        "path": "Path ",
-        "popularity": "Popularity"
-    },
-    "overview": {
-        "title": "Overview",
-        "traffic": {
-            "kpi": {
-                "title": "Visitors"
-            },
-            "matrix": {
-                "title": "Weekly Visitor"
-            },
-            "group": {
-                "title": "Store Traffic & Shopper Demographics"
-            }
-        },
-        "transactions": {
-            "kpi": {
-                "title": "Transactions"
-            }
-        },
-        "sales_volume": {
-            "kpi": {
-                "title": "Sales Volume"
-            }
-        },
-        "conversion_rate": {
-            "kpi": {
-                "title": "Conversion Rate"
-            }
-        },
-        "age": {
-            "pie": {
-                "title": "Age"
-            }
-        },
-        "gender": {
-            "stacked": {
-                "title": "Gender"
-            }
-        },
-        "kpi": {
-            "group": {
-                "title": "Store KPI"
-            },
-            "cvt_sales_shopper": {
-                "title": "Sale per Shopper"
-            },
-            "cvt_turnin_rate": {
-                "title": "Turn in Rate"
-            },
-            "space_turn_in_rate": {
-                "title": "Space turn-in rate"
-            },
-            "store_turn_in_rate": {
-                "title": "Store turn-in rate"
-            },
-            "cvt_carry_rate": {
-                "kpi": {
-                    "title": "Sales Conversion"
-                }
-            },
-            "cvt_return_rate": {
-                "title": "Returning Customers"
-            },
-            "cvt_avg_dwell": {
-                "title": "Avg Dwell Time",
-                "sec": "sec"
-            },
-            "iaq": {
-                "title": "Indoor Air Quality Analysis"
-            }
-        },
-        "ranking": {
-            "kpi": {
-                "title": "Store Ranking"
-            }
-        },
-        "weather": {
-            "kpi": {
-                "title": "Weather"
-            }
-        },
-        "audience": {
-            "traffic": {
-                "kpi": {
-                    "title": "Passing Traffic"
-                }
-            },
-            "viewer": {
-                "kpi": {
-                    "title": "Viewers"
-                },
-                "matrix": {
-                    "title": "Weekly Viewers"
-                }
-            },
-            "cvt_eyecatch_rate": {
-                "kpi": {
-                    "title": "Eye-Catching Rate"
-                }
-            },
-            "cvt_avg_view": {
-                "kpi": {
-                    "title": "Avg. View time"
-                }
-            },
-            "age": {
-                "pie": {
-                    "title": "Audience - Age"
-                }
-            },
-            "gender": {
-                "stacked": {
-                    "title": "Audience - Gender"
-                }
-            }
-        },
-        "max_traffic": {
-            "kpi": {
-                "title": "Max Traffic"
-            }
-        },
-        "electricity_consumption": {
-            "kpi": {
-                "title": "Electricity Consumption"
-            }
-        },
-        "water_consumption": {
-            "kpi": {
-                "title": "Water Consumption"
-            }
-        }
-    },
-    "analytics": {
-        "title": "Traffic",
-        "traffic": {
-            "line": {
-                "title": "Visitors"
-            }
-        },
-        "predict": {
-            "line": {
-                "title": "Forecast"
-            }
-        },
-        "air": {
-            "line": {
-                "title": "Indoor Air Quality Analysis"
-            },
-            "pie": {
-                "title": "Indoor Air quality distribution"
-            },
-            "bar": {
-                "title": "Indoor Air Quality Seven-week Analysis"
-            }
-        }
-    },
-    "predict": {
-        "analytics": {
-            "title": "Prediction"
-        }
-    },
-    "week": {
-        "analytics": {
-            "title": "Weekly Analysis"
-        }
-    },
-    "month": {
-        "analytics": {
-            "title": "Monthly Analysis"
-        }
-    },
-    "date": {
-        "analytics": {
-            "title": "Date Analysis"
-        }
-    },
-    "store": {
-        "analytics": {
-            "title": "Store Analysis"
-        },
-        "comparison": {
-            "title": "Store Comparison"
-        }
-    },
-    "audience": {
-        "analytics": {
-            "title": "Audience Analysis"
-        }
-    },
-    "signage": {
-        "analytics": {
-            "title": "Signage Analysis"
-        }
-    },
-    "data_type_change": {
-        "title": "Number / Percent"
-    },
-    "colornote": {
-        "lowest": "lowest",
-        "highest": "highest"
-    },
-    "air": {
-        "analytics": {
-            "title": "Indoor Air Quality Analysis"
-        }
+    "reset": {
+      "title": "Reset Password",
+      "new": "New Password",
+      "confirm": "Confirm new password",
+      "tip": {
+        "enter": "Please enter your password",
+        "confirm": "Please enter the password again",
+        "same": "The two input passwords are inconsistent!",
+        "error": "The page address is wrong, the verification key is missing.",
+        "success": "Password reset successfully. Please log in again."
+      }
     }
+  },
+  "common": {
+    "sidebar": {
+      "overview": "Overview",
+      "brand": "Brand Management",
+      "user": "User Management",
+      "subscribe": "Subscribe Management"
+    },
+    "loading": {
+      "add": "Adding...",
+      "update": "Modifying...",
+      "activate": "Activating...",
+      "deactivate": "Deactivating...",
+      "delete": "Deleting...",
+      "export": "Exporting...",
+      "import": "Importing...",
+      "read": "Reading...",
+      "upload": "Uploading..."
+    },
+    "search": "Keyword Search",
+    "operation": "Operation",
+    "detail": "Detail Info",
+    "no_data": "No Data",
+    "all": "All Select",
+    "logout": "Log Out",
+    "success": "Success",
+    "failed": "Failed",
+    "card": {
+      "overview": "Total number of service stores",
+      "one_month": "Expire within a month",
+      "two_week": "Expired within 2 weeks",
+      "three_month": "Expired more than 3 months",
+      "total": "Total number of devices",
+      "abnormal": "Abnormal",
+      "offline": "Offline",
+      "registered": "Registered"
+    }
+  },
+  "button": {
+    "confirm": "OK",
+    "cancel": "Cancel",
+    "save": "Save",
+    "select": "Select",
+    "send": "Send",
+    "confirm_deactivate": "Confirm Deactivate",
+    "confirm_delete": "Confirm Delete",
+    "confirm_activate": "Confirm Activate",
+    "template": "Template",
+    "export": "Export",
+    "import": "Import"
+  },
+  "brand": {
+    "label": {
+      "id": "Brand ID",
+      "name": "Brand Name",
+      "contact_name": "Contact Name",
+      "contact_email": "Contact Email",
+      "contact_phone": "Contact Phone",
+      "contact_address": "Contact Address",
+      "admin_email": "Admin Email",
+      "admin_name": "Admin Name",
+      "admin_phone": "Admin Phone",
+      "admin": "Admin",
+      "status": "Status",
+      "stores": "Stores Number",
+      "initial_date": "Initial Date",
+      "base_info": "Brand Base Info",
+      "admin_info": "Brand Admin Info"
+    },
+    "status": {
+      "20": "Normal",
+      "40": "Deactivated"
+    },
+    "title": {
+      "add": "Add Brand",
+      "update": "Modify Brand Info",
+      "info": "Brand Info",
+      "activate": "Activate Brand",
+      "deactivate": "Deactivate Brand",
+      "delete": "Delete Brand"
+    },
+    "tip": {
+      "add": "Please enter the brand information, and click 「OK」 after completing the entry.",
+      "add_confirm": "Confirm to Add Brand?",
+      "update": "Confirm to Modify Brand Info?",
+      "activate": "Confirm to Activate Brand?",
+      "deactivate": "Confirm to Deactivate Brand?",
+      "delete": "Confirm to Delete Brand?",
+      "deactivate_confirm": "The Account has been assigned stores. Confirm to Deactivate Brand, please click「Confirm Deactivate」.",
+      "delete_confirm": "The Account has been assigned stores. Confirm to Delete Brand, please click「Confirm Delete」.",
+      "name": "Please enter Brand Name",
+      "admin_email": "Please enter Admin Email",
+      "contact_name": "Please enter Contact Name",
+      "contact_email": "Please enter Contact Email",
+      "contact_phone": "Please enter Contact Phone",
+      "contact_address": "Please enter Contact Address",
+      "admin_name": "Please enter Admin Name",
+      "admin_phone": "Please enter Admin Phone",
+      "email_format": "Please enter correct email address"
+    },
+    "success": {
+      "add": "Add Brand Successfully!",
+      "update": "Modify Brand Info Successfully!",
+      "activate": "Activate Brand Successfully!",
+      "deactivate": "Deactivate Brand Successfully!",
+      "delete": "Delete Brand Successfully!"
+    },
+    "failed": {
+      "add": "Add Brand Failed!",
+      "update": "Modify Brand Info Failed!",
+      "activate": "Activate Brand Failed!",
+      "deactivate": "Deactivate Brand Failed!",
+      "delete": "Delete Brand Failed!"
+    }
+  },
+  "store": {
+    "push": [
+      "Store ID", "Store Name", "Country / Region", "Region I", "Region II",
+      "Store Address", "Store Phone", "Time zone", "Weather Address", "Note", "Store Core"
+    ],
+    "label": {
+      "store_id": "Store ID",
+      "store_name": "Store Name",
+      "country": "Country / Region",
+      "province": "Region I",
+      "city": "Region II",
+      "address": "Store Address",
+      "tel": "Store Phone",
+      "time_zone": "Time zone",
+      "descr": "Note",
+      "store_status": "Store Status",
+      "base_info": "Store Base Info",
+      "area_info": "Store Region Info"
+    },
+    "title": {
+      "add": "Add Store",
+      "update": "Modify Store Info",
+      "info": "Store Info",
+      "import": "Import Store",
+      "export": "Export Store"
+    },
+    "tip": {
+      "add": "Please enter the store information, and click 「OK」 after completing the entry.",
+      "add_confirm": "Confirm to Add Store?",
+      "update": "Confirm to Modify Store Info?",
+      "import": "The file loaded successfully, confirm to import the stores?",
+      "begin": "Start reading the file",
+      "export": ["", " stores have been selected, confirm to export these stores?"],
+      "error": [
+        "Please select stores to export!",
+        "Please upload .xlsx, .xls files!",
+        "Please don't upload empty files!",
+        "Data format error!",
+        "Store format error!"
+      ],
+      "row": ["Row ", ": ", " is empty!", " isn't in the list!", "'format is incorrect!"],
+      "upload": [
+        "Read the file successfully, there are ",
+        " stores conform to the format. Uploading... (",
+        " / ", ")"
+      ],
+      "success": [
+        "Import successfully, in ",
+        " stores, ",
+        " stores have been added successfully"
+      ],
+      "store_name": "Please enter Store Name",
+      "country": "Please select Country / Region",
+      "province": "Please enter Region I",
+      "city": "Please enter Region II",
+      "address": "Please enter Store Address",
+      "tel": "Please enter Store Phone",
+      "time_zone": "Please select Time zone",
+      "descr": "Please enter Note"
+    },
+    "success": {
+      "add": "Add Store Successfully!",
+      "update": "Modify Store Info Successfully!",
+      "import": "Import Store Successfully!",
+      "export": "Export Store Successfully!"
+    },
+    "failed": {
+      "add": "Add Store Failed!",
+      "update": "Modify Store Info Failed!",
+      "import": "Import Store Failed!",
+      "export": "Export Store Failed!"
+    }
+  },
+  "user": {
+    "label": {
+      "status": "User Status",
+      "name": "User Name",
+      "setting": "Account Setting",
+      "role": "System Role",
+      "brand_role": "Brand Role",
+      "base_info": "Base User Info",
+      "selected": "Selected Brand",
+      "account": "Account",
+      "brand": "Brand",
+      "join": "Initial Date"
+    },
+    "status": {
+      "1": "Registered",
+      "20": "Normal",
+      "40": "Deactivated"
+    },
+    "role": {
+      "4": "Admin",
+      "6": "Manager",
+      "5": "User"
+    },
+    "title": {
+      "add": "Add User",
+      "update": "Modify User Info",
+      "info": "User Info",
+      "activate": "Activate User",
+      "deactivate": "Deactivate User",
+      "delete": "Delete User"
+    },
+    "tip": {
+      "add": "Please enter the user information, and click 「OK」 after completing the entry.",
+      "add_confirm": "Confirm to Add User?",
+      "update": "Confirm to Modify User Info?",
+      "activate": "Confirm to Activate User?",
+      "deactivate": "Confirm to Deactivate User?",
+      "delete": "Confirm to Delete User?",
+      "deactivate_confirm": "The User has been assigned brands. Confirm to Deactivate User, please click「Confirm Deactivate」.",
+      "delete_confirm": "The User has been assigned brands. Confirm to Delete User, please click「Confirm Delete」.",
+      "name": "Please enter User Name",
+      "setting": "Please enter Account Setting",
+      "role": "Please select System Role",
+      "brand_role": "Please select Brand Role"
+    },
+    "success": {
+      "add": "Add User Successfully!",
+      "update": "Modify User Info Successfully!",
+      "activate": "Activate User Successfully!",
+      "deactivate": "Deactivate User Successfully!",
+      "delete": "Delete User Successfully!"
+    },
+    "failed": {
+      "add": "Add User Failed!",
+      "update": "Modify User Info Failed!",
+      "activate": "Activate User Failed!",
+      "deactivate": "Deactivate User Failed!",
+      "delete": "Delete User Failed!"
+    }
+  },
+  "device": {
+    "status": {
+      "0": "Unregistered",
+      "1": "Registered",
+      "20": "Activated",
+      "21": "Online",
+      "22": "Offline",
+      "23": "Abnormal",
+      "24": "Pause",
+      "25": "Closed",
+      "40": "Deactivated",
+      "60": "Expired",
+      "61": "Terminated",
+      "62": "ReadOnly",
+      "70": "Delete"
+    }
+  },
+  "subscribe": {
+    "service": "Subscription",
+    "activate_date": "Activate Date",
+    "expired_date": "Expired Date",
+    "device_type": "Device Type",
+    "device_name": "Device Name",
+    "device_status": "Device Status",
+    "number": "Number",
+    "cycle": "Subscribe Cycle",
+    "status": "Subscribe Status",
+    "services_name": "Subscription",
+    "service_view": "Service View",
+    "device_view": "Device View",
+    "subscribe_activate": "Subscription Activate",
+    "deactivate_service": "Number of not Activated Services",
+    "serial":    "Serial Number",
+    "serial_number":    "Add Service Serial Number",
+    "activate_service": "Activate Subscribe Service",
+    "selected_number": "Number of Selected: ",
+    "month": [" Month", " Months"],
+    "subscribe_status": ["Expire a month", "Expired 2 weeks", "Expired 3 months", "Registered"],
+    "tip": {
+      "serial_number": "Please enter service serial number to be added",
+      "activate_service": "Please select service name to be activated",
+      "device": "Please select device to be activated",
+      "activating": ["", " devices are selected, activating... (", " / ", ")"]
+    },
+    "confirm": {
+      "serial_number": "Confirm to add service serial number?",
+      "activate_service": ["", " devices are selected, confirm to activate these devices?"]
+    },
+    "success": {
+      "serial_number": "Add service serial number successfully!",
+      "activate_service": [
+        "Activate successfully, in ",
+        " devices, ",
+        " devices have been activated successfully"
+      ]
+    },
+    "failed": {
+      "serial_number": "Add service serial number failed!"
+    }
+  },
+  "validate": {
+    "success": {
+      "tip": "If you don't receive password, please do contact your account administrator.",
+      "title": "Validation Successful 驗證成功",
+      "descr1": "Your email have been verified and your account has been created.",
+      "descr2": "Please check your email for the password."
+    },
+    "failed": {
+      "title": "Validation Failed 驗證失敗",
+      "descr": "Please contact your account administrator."
+    }
+  },
+  "country": {
+    "Iceland": "Iceland",
+    "Afghanistan": "Afghanistan",
+    "Arab": "Arab",
+    "Oman": "Oman",
+    "Azerbaijan": "Azerbaijan",
+    "Estonia": "Estonia",
+    "Austria": "Austria",
+    "Ireland": "Ireland",
+    "Albania": "Albania",
+    "Andorra": "Andorra",
+    "Egypt": "Egypt",
+    "Algeria": "Algeria",
+    "Ethiopia": "Ethiopia",
+    "Angola": "Angola",
+    "Australia": "Australia",
+    "Antigua": "Antigua",
+    "Anguilla": "Anguilla",
+    "Aruba": "Aruba",
+    "Argentina": "Argentina",
+    "Bhutan": "Bhutan",
+    "Pakistan": "Pakistan",
+    "Palestine": "Palestine",
+    "Bahrain": "Bahrain",
+    "Belarus": "Belarus",
+    "Poland": "Poland",
+    "Belgium": "Belgium",
+    "Bulgaria": "Bulgaria",
+    "Bosnia": "Bosnia",
+    "Burundi": "Burundi",
+    "Burkina": "Burkina",
+    "Benin": "Benin",
+    "Papua": "Papua",
+    "Northern": "Northern",
+    "Belize": "Belize",
+    "Panama": "Panama",
+    "Barbados": "Barbados",
+    "Puerto": "Puerto",
+    "Bolivia": "Bolivia",
+    "Brazil": "Brazil",
+    "Paraguay": "Paraguay",
+    "North": "North",
+    "Equatorial": "Equatorial",
+    "Timor": "Timor",
+    "Denmark": "Denmark",
+    "Germany": "Germany",
+    "Togo": "Togo",
+    "Dominican": "Dominican",
+    "Dominica": "Dominica",
+    "Russia": "Russia",
+    "Eritrea": "Eritrea",
+    "Ecuador": "Ecuador",
+    "Philippines": "Philippines",
+    "Finland": "Finland",
+    "Faroe": "Faroe",
+    "France": "France",
+    "Vatican": "Vatican",
+    "Cape": "Cape",
+    "Fiji": "Fiji",
+    "Polynesia": "Polynesia",
+    "Guiana": "Guiana",
+    "Georgia": "Georgia",
+    "Congo": "Congo",
+    "Democratic": "Democratic",
+    "Gambia": "Gambia",
+    "Guam": "Guam",
+    "Greenland": "Greenland",
+    "Costa": "Costa",
+    "Cuba": "Cuba",
+    "Grenada": "Grenada",
+    "Guadeloupe": "Guadeloupe",
+    "Columbia": "Columbia",
+    "Guyana": "Guyana",
+    "Korea": "Korea",
+    "Kazakhstan": "Kazakhstan",
+    "Netherlands": "Netherlands",
+    "Honduras": "Honduras",
+    "Haiti": "Haiti",
+    "Antilles": "Antilles",
+    "Cambodia": "Cambodia",
+    "Kyrgyzstan": "Kyrgyzstan",
+    "Czech": "Czech",
+    "Djibouti": "Djibouti",
+    "Guinea": "Guinea",
+    "Bissau": "Bissau",
+    "Ghana": "Ghana",
+    "Canary": "Canary",
+    "Zimbabwe": "Zimbabwe",
+    "Kiribati": "Kiribati",
+    "Canada": "Canada",
+    "Qatar": "Qatar",
+    "Kuwait": "Kuwait",
+    "Croatia": "Croatia",
+    "Kenya": "Kenya",
+    "Cameroon": "Cameroon",
+    "Cote": "Cote",
+    "Comoros": "Comoros",
+    "Cook": "Cook",
+    "Cayman": "Cayman",
+    "Bermuda": "Bermuda",
+    "Laos": "Laos",
+    "Lebanon": "Lebanon",
+    "Lithuania": "Lithuania",
+    "Liechtenstein": "Liechtenstein",
+    "Luxembourg": "Luxembourg",
+    "Romania": "Romania",
+    "Libya": "Libya",
+    "Rwanda": "Rwanda",
+    "Liberia": "Liberia",
+    "Lesotho": "Lesotho",
+    "Reunion": "Reunion",
+    "Mongolia": "Mongolia",
+    "Myanmar": "Myanmar",
+    "Malaysia": "Malaysia",
+    "Bangladesh": "Bangladesh",
+    "Maldives": "Maldives",
+    "Moldova": "Moldova",
+    "Monaco": "Monaco",
+    "Macedonia": "Macedonia",
+    "Malta": "Malta",
+    "Morocco": "Morocco",
+    "Madeira": "Madeira",
+    "Mauritania": "Mauritania",
+    "Mali": "Mali",
+    "Malawi": "Malawi",
+    "Mozambique": "Mozambique",
+    "Madagascar": "Madagascar",
+    "Mauritius": "Mauritius",
+    "Micronesia": "Micronesia",
+    "Marshall": "Marshall",
+    "USA": "USA",
+    "Mexico": "Mexico",
+    "Virgin": "Virgin",
+    "Montserrat": "Montserrat",
+    "Martinique": "Martinique",
+    "Peru": "Peru",
+    "Nepal": "Nepal",
+    "Norway": "Norway",
+    "Niger": "Niger",
+    "Namibia": "Namibia",
+    "Africa": "Africa",
+    "Nauru": "Nauru",
+    "Niue": "Niue",
+    "Nicaragua": "Nicaragua",
+    "Portugal": "Portugal",
+    "Palau": "Palau",
+    "Pitcairn": "Pitcairn",
+    "Japan": "Japan",
+    "Sweden": "Sweden",
+    "Switzerland": "Switzerland",
+    "Sri": "Sri",
+    "Saudi": "Saudi",
+    "Cyprus": "Cyprus",
+    "Slovakia": "Slovakia",
+    "Serbia": "Serbia",
+    "Slovenia": "Slovenia",
+    "San": "San",
+    "Sudan": "Sudan",
+    "Somalia": "Somalia",
+    "Seychelles": "Seychelles",
+    "Sao": "Sao",
+    "Senegal": "Senegal",
+    "Sierra": "Sierra",
+    "Kingdom": "Kingdom",
+    "St": "St",
+    "Solomon": "Solomon",
+    "Samoa": "Samoa",
+    "Caledonia": "Caledonia",
+    "El": "El",
+    "Nevis": "Nevis",
+    "Grenadines": "Grenadines",
+    "Suriname": "Suriname",
+    "Thailand": "Thailand",
+    "Taiwan": "Taiwan",
+    "Tajikistan": "Tajikistan",
+    "Turkmenistan": "Turkmenistan",
+    "Turkey": "Turkey",
+    "Tunisia": "Tunisia",
+    "Tanzania": "Tanzania",
+    "Tuvalu": "Tuvalu",
+    "Tonga": "Tonga",
+    "Tokelau": "Tokelau",
+    "Trinidad": "Trinidad",
+    "Turks": "Turks",
+    "Brunei": "Brunei",
+    "Uzbekistan": "Uzbekistan",
+    "Ukraine": "Ukraine",
+    "Uganda": "Uganda",
+    "Vanuatu": "Vanuatu",
+    "Wallis": "Wallis",
+    "Guatemala": "Guatemala",
+    "Venezuela": "Venezuela",
+    "Uruguay": "Uruguay",
+    "Singapore": "Singapore",
+    "Syria": "Syria",
+    "Hungary": "Hungary",
+    "Greece": "Greece",
+    "Spain": "Spain",
+    "Sahara": "Sahara",
+    "Zealand": "Zealand",
+    "Vietnam": "Vietnam",
+    "Indonesia": "Indonesia",
+    "India": "India",
+    "Iraq": "Iraq",
+    "Jordan": "Jordan",
+    "Israel": "Israel",
+    "Yemen": "Yemen",
+    "Zambia": "Zambia",
+    "Armenia": "Armenia",
+    "UK": "UK",
+    "Italy": "Italy",
+    "Azores": "Azores",
+    "Jamaica": "Jamaica",
+    "British": "British",
+    "China": "China",
+    "Chad": "Chad",
+    "Central": "Central",
+    "Chile": "Chile"
+  }
 }
