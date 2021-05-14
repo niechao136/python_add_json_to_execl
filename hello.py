@@ -13,14 +13,20 @@ def find_str(_json, n, s, value, key):
     if isinstance(_json, dict):
         for index in _json:
             if isinstance(_json[index], str):
-                value.append(_json[index])
                 key[s + "." + index] = len(value)
+                value.append(_json[index])
             else:
                 find_str(_json[index], n + 1, s + "." + index, value, key)
-    else:
+    elif isinstance(_json, list):
         for index in range(len(_json)):
-            value.append(_json[index])
-            key[s + "[" + str(index) + "]"] = len(value)
+            if isinstance(_json[index], str):
+                key[s + "[" + str(index) + "]"] = len(value)
+                value.append(_json[index])
+            else:
+                find_str(_json[index], n + 1, s + "[" + str(index) + "]", value, key)
+    else:
+        key[s] = len(value)
+        value.append(_json)
 
 
 def read_file(file):
@@ -32,12 +38,12 @@ def read_file(file):
 tw = read_file('./zh-tw.json')
 cn = read_file('./zh-cn.json')
 en = read_file('./en-us.json')
-find_str(cn, 0, "$i18n", cn_value, cn_key)
-find_str(tw, 0, "$i18n", tw_value, tw_key)
-find_str(en, 0, "$i18n", en_value, en_key)
+find_str(cn, 0, "lang", cn_value, cn_key)
+find_str(tw, 0, "lang", tw_value, tw_key)
+find_str(en, 0, "lang", en_value, en_key)
 book = xlwt.Workbook()  # 创建一个excel对象
 sheet = book.add_sheet('Sheet1', cell_overwrite_ok=True)  # 添加一个sheet页
-title = ["string_id", "ZH-CN", "ZH-TW", "English"]
+title = ["string_id", "zh-CN", "zh-TW", "en-US"]
 for i in range(len(title)):
     sheet.write(0, i, title[i])  # 将title数组中的字段写入到0行i列中
 for i in cn_key:
