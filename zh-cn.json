@@ -1,37 +1,59 @@
 {
   "views": {
     "login": {
-      "email": "账号名称",
+      "email": "用户邮箱",
       "password": "密码",
       "remember": "记住账号",
       "forget": "忘记密码？",
       "submit": "登 录",
-      "message": "密码错误",
-      "noAccount": "没有账号？",
+      "message": "登入失败,请确认账号及密码",
+      "noAccount": "尚未有订阅组织账号",
       "join": "加入我们",
-      "tip": "请输入邮箱地址",
-      "reset": "请输入你的电子邮箱以重设密码",
+      "tip": "用户邮箱不能为空或空格",
+      "reset": "请输入您的电子邮箱以重设密码",
+      "notfound": "系统中找不到电子邮箱：",
       "success": "发送成功",
       "failed": "发送错误",
-      "check": "请检查您的电子邮件，并按照步骤重置密码。"
+      "check": "请检查您的电子邮件，并按照步骤重置密码。",
+      "stop": "登陆失败，用户已停用。",
+      "changeAccount": "切换失败，用户或订阅组织已停用。",
+      "title": "切换订阅组织失败",
+      "or": "或"
     },
     "join": {
-      "title": "订阅账号申请",
-      "name": "企业名称",
-      "tip_name": "请输入企业名称",
-      "email": "账号名称（eMail）",
-      "tip": "请输入账号名称",
+      "title": "订阅组织申请",
+      "link": "了解有关订阅组织的更多信息？",
+      "name": "公司名称(订阅组织)",
+      "type": "产业类别",
+      "user_name": "用户名称",
+      "tip_name": "公司名称(订阅组织)不能为空或空格",
+      "tip_user_name": "用户名称不能为空或空格",
+      "topic": "已经有一个订阅账号？",
+      "email": "用户邮箱",
+      "tip": "用户邮箱不能为空或空格",
       "check": "输入验证码",
-      "submit": "确认送出",
+      "submit": "创建帐号",
       "thank": "谢谢您的订阅申请。",
-      "please": "请登录您的eMail信箱启动您的账号",
-      "phone": "若有任何问题欢迎来电咨询，客服专线：+8862-792-7818 #2527",
-      "contact": "或来信给我们，eMail：Contact.StoreVue@advantech.com"
+      "please": "请登录您的电子邮箱启动您的账号",
+      "phone": "若有任何问题欢迎来信给我们，电子邮箱：Contact.StoreVue@advantech.com",
+      "contact": "或来信给我们，电子邮箱：Contact.StoreVue@advantech.com"
+    },
+    "select": {
+      "Retailer": "零售业",
+      "Restaurant": "餐饮业",
+      "Advertising": "广告营销",
+      "Media": "媒体出版",
+      "Telecom": "电信網路",
+      "Solution": "解决方案提供商",
+      "Consultant": "顾问服务",
+      "Education": "教育研究",
+      "Others": "其他"
     },
     "reset": {
       "title": "重设密码",
       "new": "新密码",
       "confirm": "确认新密码",
+      "error": "确认新密码不能为空或空格",
       "tip": {
         "enter": "请输入密码",
         "confirm": "请再次输入密码",
@@ -39,14 +61,35 @@
         "error": "页面地址错误，缺失验证密钥。",
         "success": "密码重设成功. 请重新登入。"
       }
+    },
+    "reset_op": {
+      "old": "当前订阅组织名称",
+      "new": "新的订阅组织名称",
+      "back": "返回登录页",
+      "success": "变更订阅组织成功，请重新登入。",
+      "failed": "变更订阅组织失败！",
+      "tip": {
+        "old": "当前订阅组织名称不能为空或空格",
+        "new": "新的订阅组织名称不能为空或空格",
+        "error": "当前订阅组织名称错误",
+        "same": "新的订阅组织名称和原来相同"
+      }
     }
   },
   "common": {
+    "op": "订阅站",
     "sidebar": {
+      "op_acc": "订阅组织",
       "overview": "订阅总览",
       "brand": "品牌管理",
       "user": "用户管理",
-      "subscribe": "订阅管理"
+      "subscribe": "订阅管理",
+      "login": "登录",
+      "join": "注册",
+      "reset": "重设密码",
+      "resetopname": "变更订阅组织名称",
+      "user_validate": "用户验证",
+      "op_account_validate": "订阅组织验证"
     },
     "loading": {
       "add": "新增中...",
@@ -60,18 +103,24 @@
       "upload": "上传中..."
     },
     "search": "请输入关键词",
+    "get_started": "开始使用",
+    "started": "https://support.aics.advantech.com/zh-cn/Guides_and_API_References/1613727436539769400/1613906275084430700/1613909199630292600/v1.0.0.1",
     "operation": "操作",
     "detail": "详细信息",
     "no_data": "没有数据",
     "all": "全部选择",
     "logout": "登出",
     "success": "成功",
-    "failed": "错误",
+    "failed": "失败",
+    "error": {
+      "title": "账号异常",
+      "message": "账号已登出，请重新登录！"
+    },
     "card": {
       "overview": "服务门店总数",
-      "one_month": "下月到期门店数",
-      "two_week": "逾期2周门店数",
-      "three_month": "逾期3个月门店数",
+      "one_month": "15天内到期门店数",
+      "two_week": "逾期15天内门店数",
+      "three_month": "逾期3个月内门店数",
       "total": "设备总数",
       "abnormal": "异常",
       "offline": "离线",
@@ -79,7 +128,7 @@
     }
   },
   "button": {
-    "confirm": "确定",
+    "confirm": "确认",
     "cancel": "取消",
     "save": "保存",
     "select": "选择",
@@ -123,22 +172,33 @@
     },
     "tip": {
       "add": "请输入品牌信息, 输入完成后请点击「确认」。",
+      "add_max": "新增品牌失败，已达到品牌的最大注册数量：20",
       "add_confirm": "确认新增品牌？",
       "update": "确认修改品牌信息？",
       "activate": "确认启用品牌账户？",
       "deactivate": "确认停用品牌账户？",
-      "delete": "确认删除品牌账户？",
+      "deactivated": "品牌账户已停用",
+      "delete": "删除品牌账户后品牌账户下所有门店资料将从系统移除，删除后无法复原；此外，已启用的服务将失效且无法复原或移转。若您仍确定要删除品牌账户，请再次输入密码后，点击「确认」来执行删除任务。",
       "deactivate_confirm": "此账号下已分配了分店，确认停用品牌账户请点击 「确认停用」。",
       "delete_confirm": "此账号下已分配了分店，确认删除品牌账户请点击 「确认删除」。",
       "name": "请输入品牌名称",
+      "name_error": "品牌名称不能为空或空格",
       "contact_name": "请输入联络人",
+      "contact_name_error": "联络人不能为空格",
       "contact_email": "请输入联络邮箱",
+      "contact_email_error": "联络邮箱不能为空格",
       "contact_phone": "请输入联络电话",
+      "contact_phone_error": "联络电话不能为空格",
       "contact_address": "请输入联络地址",
+      "contact_address_error": "联络地址不能为空格",
       "admin_email": "请输入管理员邮箱",
+      "admin_email_error": "管理员邮箱不能为空或空格",
       "admin_name": "请输入管理员姓名",
+      "admin_name_error": "管理员姓名不能为空格",
       "admin_phone": "请输入管理员电话",
-      "email_format": "请输入正确的邮箱地址"
+      "admin_phone_error": "管理员电话不能为空格",
+      "email_format": "请输入正确的邮箱地址",
+      "phone_format": "请输入正确的电话号码"
     },
     "success": {
       "add": "新增品牌成功！",
@@ -157,11 +217,20 @@
   },
   "store": {
     "push": [
-      "门店ID", "门店名称", "国家/地区", "区域一", "区域二",
-      "门店地址", "门店电话", "门店时区", "天气地址", "备注说明", "分店代码"
+      "门店 ID",
+      "门店名称",
+      "国家/地区",
+      "区域一",
+      "区域二",
+      "门店地址",
+      "门店电话",
+      "门店时区",
+      "天气地址",
+      "备注说明",
+      "分店代码"
     ],
     "label": {
-      "store_id": "门店ID",
+      "store_id": "门店 ID",
       "store_name": "门店名称",
       "country": "国家/地区",
       "province": "区域一",
@@ -174,10 +243,16 @@
       "base_info": "门店基本信息",
       "area_info": "门店区域信息"
     },
+    "status": {
+      "1": "已注册",
+      "60": "逾期"
+    },
     "title": {
       "add": "新增门店",
       "update": "修改门店信息",
       "info": "门店信息",
+      "delete": "删除门店",
+      "delete_store": "删除门店信息",
       "import": "导入门店",
       "export": "导出门店"
     },
@@ -185,45 +260,73 @@
       "add": "请输入门店信息, 输入完成后请点击「确认」。",
       "add_confirm": "确认新增门店？",
       "update": "确认修改门店信息？",
+      "delete": "删除门店后所有门店资料将从系统移除，删除后无法复原；此外，已启用的服务将失效且无法复原或移转。若您仍确定要删除门店，请再次输入密码后，点击「确认」来执行删除任务。",
+      "password": "密码错误！",
+      "please": "密码不能为空或空格",
       "import": "文件加载成功, 确认导入门店？",
       "begin": "开始读取文件",
-      "export": ["已选择", "门店, 确认导出这些门店？"],
+      "export": [
+        "已选择",
+        "门店, 确认导出这个门店？",
+        "门店, 确认导出这些门店？"
+      ],
       "error": [
         "请选择需要导出的门店！",
-        "请上传xlsx或xls类型的文件！",
-        "请不要上传空的execl文件！",
-        "execl文件数据格式错误！",
-        "execl文件中没有符合格式要求的门店！"
+        "请上传xlsx类型的文件！",
+        "请不要上传空的excel文件！",
+        "excel文件数据格式错误！",
+        "excel文件中没有符合格式要求的门店！"
       ],
-      "row": ["第", "行：", "未填写！", "不在列表中！", "格式不正确！"],
+      "row": [
+        "第",
+        "行：",
+        "不能为空或空格！",
+        "不在列表中！",
+        "格式不正确！",
+        "不能为空格！",
+        "已存在！"
+      ],
       "upload": [
         "读取文件成功，共有",
         "门店符合格式。正在上传中... (",
-        " / ", ")"
+        " / ",
+        ")",
+        "门店符合格式。正在上传中... ("
       ],
       "success": [
         "导入完成，",
         "家门店中，导入成功",
+        "家",
+        "家门店中，导入成功",
         "家"
       ],
       "store_name": "请输入门店名称",
+      "store_name_error": "门店名称不能为空或空格",
       "country": "请选择国家/地区",
       "province": "请输入区域一",
+      "province_error": "区域一不能为空或空格",
       "city": "请输入区域二",
+      "city_error": "区域二不能为空或空格",
       "address": "请输入门店地址",
+      "address_error": "门店地址不能为空或空格",
       "tel": "请输入门店电话",
+      "tel_error": "门店电话不能为空或空格",
+      "telNum": "门店电话格式不正确",
       "time_zone": "请选择门店时区",
-      "descr": "请输入备注说明"
+      "descr": "请输入备注说明",
+      "descr_error": "备注说明不能为空格"
     },
     "success": {
       "add": "新增门店成功！",
       "update": "修改门店信息成功！",
+      "delete": "删除门店成功！",
       "import": "导入门店成功！",
       "export": "导出门店成功！"
     },
     "failed": {
       "add": "新增门店失败！",
       "update": "修改门店信息失败！",
+      "delete": "删除门店失败！",
       "import": "导入门店失败！",
       "export": "导出门店失败！"
     }
@@ -232,12 +335,12 @@
     "label": {
       "status": "用户状态",
       "name": "用户名称",
-      "setting": "账号设置",
+      "setting": "用户邮箱",
       "role": "系统权限",
       "brand_role": "品牌权限",
       "base_info": "用户基本信息",
       "selected": "已选择的品牌",
-      "account": "账号",
+      "account": "用户邮箱",
       "brand": "品牌",
       "join": "加入日期"
     },
@@ -261,6 +364,9 @@
     },
     "tip": {
       "add": "请输入用户信息, 输入完成后请点击「确认」。",
+      "add_max": "新增用户失败，已达到用户的最大注册数量：50",
+      "exist": "已经存在系统之中",
+      "user": "用户已存在",
       "add_confirm": "确认新增用户？",
       "update": "确认修改用户信息？",
       "activate": "确认启用用户账号？",
@@ -269,7 +375,9 @@
       "deactivate_confirm": "此账号下已分配了品牌，确认停用用户账号请点击 「确认停用」。",
       "delete_confirm": "此账号下已分配了品牌，确认删除用户账号请点击 「确认删除」。",
       "name": "请输入用户名称",
-      "setting": "请输入账号设置",
+      "name_error": "用户名称不能为空或空格",
+      "setting": "请输入用户邮箱",
+      "setting_error": "用户邮箱不能为空或空格",
       "role": "请选择系统权限",
       "brand_role": "请选择品牌权限"
     },
@@ -310,8 +418,12 @@
     "activate_date": "启用日期",
     "expired_date": "到期日期",
     "device_type": "设备类型",
+    "channel": "通道/点数",
     "device_name": "设备名称",
     "device_status": "设备状态",
+    "updateTime": "更新时间",
+    "updating": "获取数据中...",
+    "count": "订阅门店数量 / 门店数量",
     "number": "数量",
     "cycle": "订阅周期",
     "status": "订阅状态",
@@ -320,44 +432,100 @@
     "device_view": "设备检视",
     "subscribe_activate": "订阅启用",
     "deactivate_service": "未启用服务数量",
-    "serial":    "序号",
-    "serial_number":    "新增服务序号",
+    "serial": "序号",
+    "serial_number": "新增服务序号",
     "activate_service": "启用订阅服务",
     "selected_number": "已选择数量：",
-    "month": ["个月", "个月"],
-    "subscribe_status": ["下月到期", "逾期两周", "逾期三个周", "未订阅"],
+    "point": "目前可用点数",
+    "date": "储值日期",
+    "store": "门店选择",
+    "all": "全选",
+    "month": [
+      "个月",
+      "个月"
+    ],
+    "subscribe_status": [
+      "15天内到期",
+      "逾期15天",
+      "逾期3个月",
+      "未订阅",
+      "正常",
+      "逾期超3月"
+    ],
     "tip": {
       "serial_number": "请输入需要新增的服务序号",
       "activate_service": "请选择需要启用的服务名称",
-      "device": "请选择需要启用的设备",
-      "activating": ["已选择", "个设备，正在启用中... (", " / ", ")"]
+      "activate_select": "列表与选择服务不一致，请点击「选择」以刷新列表",
+      "device": {
+        "account": "请选择需要启用的品牌",
+        "device": "请选择需要启用的设备",
+        "store": "请选择需要启用的门店"
+      },
+      "activating": {
+        "device": [
+          "已选择",
+          "个设备，正在启用中... (",
+          " / ",
+          ")"
+        ],
+        "store": [
+          "已选择",
+          "家门店，正在启用中... (",
+          " / ",
+          ")"
+        ]
+      }
     },
     "confirm": {
       "serial_number": "确认新增服务序号？",
-      "activate_service": ["已选择", "个设备，确认启用这些设备？"]
+      "activate_service": {
+        "device": [
+          "已选择",
+          "个设备，确认启用这个设备？",
+          "已选择",
+          "个设备，确认启用这些设备？"
+        ],
+        "store": [
+          "已选择",
+          "家门店，确认启用这个门店？",
+          "已选择",
+          "家门店，确认启用这些门店？"
+        ],
+        "account": "已选择品牌服务，确认启用该服务？"
+      }
     },
     "success": {
       "serial_number": "新增服务序号成功！",
-      "activate_service": [
-        "启用成功, ",
-        "个设备中，启用成功",
-        "个"
-      ]
+      "activate": "启用成功",
+      "activate_service": {
+        "device": [
+          "启用完成, ",
+          "个设备中，启用成功",
+          "个"
+        ],
+        "store": [
+          "启用完成, ",
+          "家门店中，启用成功",
+          "家"
+        ]
+      }
     },
     "failed": {
-      "serial_number": "新增服务序号失败！"
+      "serial_number": "新增服务序号失败！",
+      "activate": "启用失败",
+      "existed": "服务序号已经存在！",
+      "none": "服务序号不存在系统之中！"
     }
   },
   "validate": {
     "success": {
-      "tip": "如果您没有收到密码，请与您的帐户管理员联系。",
+      "tip": "如果您没有收到密码，请与您的组织管理员联系。",
       "title": "Validation Successful 验证成功",
-      "descr1": "您的电子邮件已验证，您的帐户已创建。",
-      "descr2": "请检查您的电子邮件以获取密码。"
+      "descr1": "您的电子邮件已验证，您的用户已创建。"
     },
     "failed": {
       "title": "Validation Failed 验证失败",
-      "descr": "请与您的帐户管理员联系。"
+      "descr": "请与您的组织管理员联系。"
     }
   },
   "country": {

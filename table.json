@@ -1,0 +1,200 @@
+[
+  {
+    "language": "sLengthMenu",
+    "zh-CN": "处理中...",
+    "zh-TW": "處理中...",
+    "en-US": "Processing...",
+    "ja-JP": "処理中…",
+    "ko-KR": "처리 중…",
+    "vi-VN": "Đang xử lý...",
+    "id-ID": "Memproses",
+    "th-TH": "กำลังดำเนินการ"
+  },
+  {
+    "language": "",
+    "zh-CN": "每页显示 _MENU_ 笔数据",
+    "zh-TW": "每頁顯示 _MENU_ 筆數據",
+    "en-US": "Show _MENU_ per page",
+    "ja-JP": "ページことに＿MENU_デーだ数を表示します",
+    "ko-KR": "페이지마다 _MENU_ 데이터 표시",
+    "vi-VN": "Mỗi trang hiển thị _MENU_ dòng số liệu",
+    "id-ID": "Show_Rumah_per halaman",
+    "th-TH": "แสดงข้อมูล_MENU_ ในแต่ละหน้า"
+  },
+  {
+    "language": "sZeroRecords",
+    "zh-CN": "没有匹配结果",
+    "zh-TW": "沒有匹配結果",
+    "en-US": "No match results",
+    "ja-JP": "一致する結果はありません",
+    "ko-KR": "일치 결과 없음",
+    "vi-VN": "Không có kết quả phù hợp",
+    "id-ID": "Tidak ada hasilnya",
+    "th-TH": "ไม่มีผลลัพธ์ที่ตรงกัน"
+  },
+  {
+    "language": "sInfo",
+    "zh-CN": "显示第 _START_ 至 _END_ 项结果，共 _TOTAL_ 项",
+    "zh-TW": "顯示第 _START_ 至 _END_ 項結果，共 _TOTAL_ 項",
+    "en-US": "Show _START_ to _END_ results, _TOTAL_ results in total.",
+    "ja-JP": "_TOTAL_の_START_から_END_までの結果を表示しています",
+    "ko-KR": "총_TOTAL_항목의 _START_에서_END_까지의 결과를 표시합니다",
+    "vi-VN": "Hiển thị kết quả mục thứ _START_ đến _END_, tổng cộng _TOTAL_ mục",
+    "id-ID": "Show_Mulai_to_Selesai_hasil,_Jumlah_jumlah hasilnya.",
+    "th-TH": "แสดงรายการ _START_ ถึง _END_"
+  },
+  {
+    "language": "sInfoEmpty",
+    "zh-CN": "显示第 0 至 0 项结果，共 0 项",
+    "zh-TW": "顯示第 0 至 0 項結果，共 0 項",
+    "en-US": "Show 0 to t0 results, 0 results in total.",
+    "ja-JP": "0の0から0までの結果を表示しています",
+    "ko-KR": "0에서 0까지의 결과를, 총 0 항목을 표시합니다.",
+    "vi-VN": "Hiển thị kết quả mục thứ 0 đến 0, tổng cộng 0 mục",
+    "id-ID": "Show 0 to hasil, 0 jumlah hasilnya",
+    "th-TH": "แสดงผลรายการ _START_ ถึง _END__ทั้งหมด_TOTAL_รายการ"
+  },
+  {
+    "language": "sInfoFiltered",
+    "zh-CN": "(由 _MAX_ 项结果过滤)",
+    "zh-TW": "(由 _MAX_ 項結果過濾)",
+    "en-US": "(Filtered from _MAX_ results.)",
+    "ja-JP": "（_MAX_の結果でフィルタリング）",
+    "ko-KR": "(_MAX_항목의 결과에서 필터링)",
+    "vi-VN": "(Từ kết của mục _MAX_ để sàng lọc",
+    "id-ID": "(Disaring dari_MAKSi_hasil.)",
+    "th-TH": "(กรองโดยผลรายการ _MAX_ )"
+  },
+  {
+    "language": "sInfoPostFix",
+    "zh-CN": "",
+    "zh-TW": "",
+    "en-US": "",
+    "ja-JP": "",
+    "ko-KR": "",
+    "vi-VN": "",
+    "id-ID": "",
+    "th-TH": "ค้นหา"
+  },
+  {
+    "language": "sSearch",
+    "zh-CN": "搜索:",
+    "zh-TW": "搜尋:",
+    "en-US": "Search:",
+    "ja-JP": "検索：",
+    "ko-KR": "검색:",
+    "vi-VN": "Tìm kiếm:",
+    "id-ID": "Cari:",
+    "th-TH": ""
+  },
+  {
+    "language": "sUrl",
+    "zh-CN": "",
+    "zh-TW": "",
+    "en-US": "",
+    "ja-JP": "",
+    "ko-KR": "",
+    "vi-VN": "",
+    "id-ID": "",
+    "th-TH": ""
+  },
+  {
+    "language": "sEmptyTable",
+    "zh-CN": "暂无数据",
+    "zh-TW": "暫無數據",
+    "en-US": "Empty table",
+    "ja-JP": "データがありません",
+    "ko-KR": "데이터 없음",
+    "vi-VN": "Tạm thời không có số liệu",
+    "id-ID": "Tabel Kosong",
+    "th-TH": "ไม่มีข้อมูลชั่วคราว"
+  },
+  {
+    "language": "sLoadingRecords",
+    "zh-CN": "载入中...",
+    "zh-TW": "載入中...",
+    "en-US": "Loading…",
+    "ja-JP": "読み込み中…",
+    "ko-KR": "로드 중 ...",
+    "vi-VN": "Đang tải...",
+    "id-ID": "Memuat…",
+    "th-TH": "กำลังโหลด"
+  },
+  {
+    "language": "sInfoThousands",
+    "zh-CN": ",",
+    "zh-TW": ",",
+    "en-US": ",",
+    "ja-JP": "、",
+    "ko-KR": ",",
+    "vi-VN": ",",
+    "id-ID": "",
+    "th-TH": "หน้าแรก"
+  },
+  {
+    "language": "oPaginate.sFirst",
+    "zh-CN": "首页",
+    "zh-TW": "首頁",
+    "en-US": "First Page",
+    "ja-JP": "トップページ",
+    "ko-KR": "첫 페이지",
+    "vi-VN": "Trang đầu tiên",
+    "id-ID": "Halaman Pertama",
+    "th-TH": ""
+  },
+  {
+    "language": "oPaginate.sPrevious",
+    "zh-CN": "<",
+    "zh-TW": "<",
+    "en-US": "<",
+    "ja-JP": "<",
+    "ko-KR": "<",
+    "vi-VN": "<",
+    "id-ID": "<",
+    "th-TH": ""
+  },
+  {
+    "language": "oPaginate.sNext",
+    "zh-CN": ">",
+    "zh-TW": ">",
+    "en-US": ">",
+    "ja-JP": ">>",
+    "ko-KR": ">>",
+    "vi-VN": ">",
+    "id-ID": ">",
+    "th-TH": ""
+  },
+  {
+    "language": "oPaginate.sLast",
+    "zh-CN": "末页",
+    "zh-TW": "末頁",
+    "en-US": "Last Page",
+    "ja-JP": "最後のページ",
+    "ko-KR": "마지막 페이지",
+    "vi-VN": "Trang cuối cùng",
+    "id-ID": "Halaman Terakhir",
+    "th-TH": "หน้าสุดท้าย"
+  },
+  {
+    "language": "oAria.sSortAscending",
+    "zh-CN": ": 以升序排列此列",
+    "zh-TW": ": 以升序排列此列",
+    "en-US": ": Sort Ascending",
+    "ja-JP": "：この列を昇順で並べ替えます",
+    "ko-KR": "이 열을 오름차순으로 정렬합니다",
+    "vi-VN": ": Xếp cột theo thứ tự tăng dần",
+    "id-ID": ": Urutkan Ascending",
+    "th-TH": ": เรียงลำดับแถวนี้จากน้อยไปมาก"
+  },
+  {
+    "language": "oAria.sSortDescending",
+    "zh-CN": ": 以降序排列此列",
+    "zh-TW": ": 以降序排列此列",
+    "en-US": ": Sort Descending",
+    "ja-JP": "：この列を降順で並べ替えます",
+    "ko-KR": "이 열을 내림차순으로 정렬합니다",
+    "vi-VN": ": Xếp cột theo thứ tự giảm dần",
+    "id-ID": ": Urutkan Turun",
+    "th-TH": ": เรียงลำดับแถวนี้จากมากไปน้อย"
+  }
+]

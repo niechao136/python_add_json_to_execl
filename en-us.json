@@ -6,47 +6,90 @@
       "remember": "Remember",
       "forget": "Forget Password?",
       "submit": "Sign In",
-      "message": "Password Error.",
-      "noAccount": "Don't have an account?",
-      "join": "Join StoreVue",
-      "tip": "Please enter your email address",
+      "message": "Login fail. Please check ID and password.",
+      "noAccount": "Don't have a subscribe org. account?",
+      "join": "Join Us",
+      "tip": "Email can't be empty or blank",
       "reset": "Please enter your email address to reset your password",
-      "success": "Send successfully",
+      "notfound": "Can not find email: ",
+      "success": "Send successful",
       "failed": "Sending error",
-      "check": "Please check your email and follow the steps to reset your password."
+      "check": "Please check your email and follow the steps to reset your password.",
+      "stop": "Login failed, user has been deactivated.",
+      "changeAccount": "Change failed, user or subscribe org. has been deactivated.",
+      "title": "Change subscribe org. failed",
+      "or": "Or"
     },
     "join": {
-      "title": "Account apply",
-      "name": "Company Name",
-      "tip_name": "Please enter the company name",
-      "email": "Account Name (eMail)",
-      "tip": "Please enter the account name",
+      "title": "Subscribe Org.",
+      "link": "Know more about subscription org.?",
+      "name": "Company Name (Subscription Org.)",
+      "type": "Industry Type",
+      "user_name": "User Name",
+      "tip_name": "Company Name(Subscription Org.) can't be empty.",
+      "tip_user_name": "User name can't be empty or blank.",
+      "topic": "Already have a subscription account? ",
+      "email": "Email",
+      "tip": "Email can't be empty or blank",
       "check": "Enter verification code",
-      "submit": "Confirm to submit",
+      "submit": "Create Account",
       "thank": "Thank you for your subscription request.",
-      "please": "Please log in to your eMail mailbox to activate your account",
-      "phone": "If you have any questions, please call us, customer service hotline: +8862-792-7818 #2527",
+      "please": "Please log in to your email to activate your account",
+      "phone": "If you have any questions, please write to us, email: Contact.StoreVue@advantech.com",
       "contact": "Or write to us, email: Contact.StoreVue@advantech.com"
+    },
+    "select": {
+      "Retailer": "Retailer",
+      "Restaurant": "Restaurant/F&B",
+      "Advertising": "Advertising & Marketing",
+      "Media": "Media & Publishing",
+      "Telecom": "Telecom & Network",
+      "Solution": "Solution Provider",
+      "Consultant": "Consultant Service",
+      "Education": "Education & Research",
+      "Others": "Others"
     },
     "reset": {
       "title": "Reset Password",
       "new": "New Password",
-      "confirm": "Confirm new password",
+      "confirm": "Confirm password",
+      "error": "Confirm password can't be empty or blank",
       "tip": {
         "enter": "Please enter your password",
         "confirm": "Please enter the password again",
         "same": "The two input passwords are inconsistent!",
         "error": "The page address is wrong, the verification key is missing.",
-        "success": "Password reset successfully. Please log in again."
+        "success": "Password reset successful. Please log in again."
+      }
+    },
+    "reset_op": {
+      "old": "Current Subscription Org. Name",
+      "new": "New Subscription Org. Name",
+      "back": "Sign In Now",
+      "success": "Subscription org. name changed successful. Please log in again.",
+      "failed": "Subscription org. name changed failed!",
+      "tip": {
+        "old": "Current subscription org. name can't be empty or blank",
+        "new": "New subscription org. name can't be empty or blank",
+        "error": "The current subscription org. name is incorrect",
+        "same": "The new subscription org. name is same with the current"
       }
     }
   },
   "common": {
+    "op": "Subscription",
     "sidebar": {
+      "op_acc": "Account",
       "overview": "Overview",
-      "brand": "Brand Management",
-      "user": "User Management",
-      "subscribe": "Subscribe Management"
+      "brand": "Brand",
+      "user": "User",
+      "subscribe": "Subscribe",
+      "login": "Login",
+      "join": "Register",
+      "reset": "Reset Password",
+      "resetopname": "Change Subscription Org. Name",
+      "user_validate": "User Verification",
+      "op_account_validate": "Subscribe Org. Verification"
     },
     "loading": {
       "add": "Adding...",
@@ -60,6 +103,8 @@
       "upload": "Uploading..."
     },
     "search": "Keyword Search",
+    "get_started": "Get Started",
+    "started": "https://support.aics.advantech.com/en/Guides_and_API_References/1613727436539769400/1613906275084430700/1613909199630292600/v1.0.0.1",
     "operation": "Operation",
     "detail": "Detail Info",
     "no_data": "No Data",
@@ -67,11 +112,15 @@
     "logout": "Log Out",
     "success": "Success",
     "failed": "Failed",
+    "error": {
+      "title": "User Exception",
+      "message": "User is logged out. Please log back in!"
+    },
     "card": {
       "overview": "Total number of service stores",
-      "one_month": "Expire within a month",
-      "two_week": "Expired within 2 weeks",
-      "three_month": "Expired more than 3 months",
+      "one_month": "Expire within 15 days",
+      "two_week": "Expired within 15 days",
+      "three_month": "Expired within 3 months",
       "total": "Total number of devices",
       "abnormal": "Abnormal",
       "offline": "Offline",
@@ -79,7 +128,7 @@
     }
   },
   "button": {
-    "confirm": "OK",
+    "confirm": "Confirm",
     "cancel": "Cancel",
     "save": "Save",
     "select": "Select",
@@ -122,43 +171,63 @@
       "delete": "Delete Brand"
     },
     "tip": {
-      "add": "Please enter the brand information, and click 「OK」 after completing the entry.",
-      "add_confirm": "Confirm to Add Brand?",
-      "update": "Confirm to Modify Brand Info?",
-      "activate": "Confirm to Activate Brand?",
-      "deactivate": "Confirm to Deactivate Brand?",
-      "delete": "Confirm to Delete Brand?",
-      "deactivate_confirm": "The Account has been assigned stores. Confirm to Deactivate Brand, please click「Confirm Deactivate」.",
-      "delete_confirm": "The Account has been assigned stores. Confirm to Delete Brand, please click「Confirm Delete」.",
-      "name": "Please enter Brand Name",
-      "admin_email": "Please enter Admin Email",
-      "contact_name": "Please enter Contact Name",
-      "contact_email": "Please enter Contact Email",
-      "contact_phone": "Please enter Contact Phone",
-      "contact_address": "Please enter Contact Address",
-      "admin_name": "Please enter Admin Name",
-      "admin_phone": "Please enter Admin Phone",
-      "email_format": "Please enter correct email address"
+      "add": "Please enter the brand information, and click 「Confirm」 after completing the entry.",
+      "add_max": "Add brand failed, reached the maximum number of brand registrations: 20",
+      "add_confirm": "Confirm to add brand?",
+      "update": "Confirm to modify brand info?",
+      "activate": "Confirm to activate brand?",
+      "deactivate": "Confirm to deactivate brand?",
+      "deactivated": "The brand has been deactivated",
+      "delete": "After deleting the brand, all store information under the brand will be removed from the system and cannot be restored after deletion. In addition, the activated services will become invalid and cannot be restored or migrated. If you would still like to delete the brand, please enter the password again and click 「OK」 to proceed the deletion task.",
+      "deactivate_confirm": "The brand has been assigned stores. Confirm to deactivate brand, please click 「Confirm Deactivate」.",
+      "delete_confirm": "The brand has been assigned stores. Confirm to Delete brand, please click 「Confirm Delete」.",
+      "name": "Please enter brand name",
+      "name_error": "Brand name can't be empty or blank",
+      "admin_email": "Please enter admin email",
+      "contact_name": "Please enter contact name",
+      "contact_name_error": "Contact name can't be blank",
+      "contact_email": "Please enter contact email",
+      "contact_email_error": "Contact email can't be blank",
+      "contact_phone": "Please enter contact phone",
+      "contact_phone_error": "Contact phone can't be blank",
+      "contact_address": "Please enter contact address",
+      "contact_address_error": "Contact address can't be blank",
+      "admin_name": "Please enter admin name",
+      "admin_name_error": "Admin name can't be blank",
+      "admin_email_error": "Admin email can't be empty or blank",
+      "admin_phone": "Please enter admin phone",
+      "admin_phone_error": "Admin phone can't be blank",
+      "email_format": "Please enter correct email address",
+      "phone_format": "Please enter correct phone number"
     },
     "success": {
-      "add": "Add Brand Successfully!",
-      "update": "Modify Brand Info Successfully!",
-      "activate": "Activate Brand Successfully!",
-      "deactivate": "Deactivate Brand Successfully!",
-      "delete": "Delete Brand Successfully!"
+      "add": "Add brand successful!",
+      "update": "Modify brand info successful!",
+      "activate": "Activate brand successful!",
+      "deactivate": "Deactivate brand successful!",
+      "delete": "Delete brand successful!"
     },
     "failed": {
-      "add": "Add Brand Failed!",
-      "update": "Modify Brand Info Failed!",
-      "activate": "Activate Brand Failed!",
-      "deactivate": "Deactivate Brand Failed!",
-      "delete": "Delete Brand Failed!"
+      "add": "Add brand failed!",
+      "update": "Modify brand info failed!",
+      "activate": "Activate brand failed!",
+      "deactivate": "Deactivate brand failed!",
+      "delete": "Delete brand failed!"
     }
   },
   "store": {
     "push": [
-      "Store ID", "Store Name", "Country / Region", "Region I", "Region II",
-      "Store Address", "Store Phone", "Time zone", "Weather Address", "Note", "Store Core"
+      "Store ID",
+      "Store Name",
+      "Country / Region",
+      "Region I",
+      "Region II",
+      "Store Address",
+      "Store Phone",
+      "Time zone",
+      "Weather Address",
+      "Note",
+      "Store Core"
     ],
     "label": {
       "store_id": "Store ID",
@@ -174,70 +243,104 @@
       "base_info": "Store Base Info",
       "area_info": "Store Region Info"
     },
+    "status": {
+      "1": "Registered",
+      "60": "Expired"
+    },
     "title": {
       "add": "Add Store",
       "update": "Modify Store Info",
       "info": "Store Info",
+      "delete": "Delete Store",
+      "delete_store": "Delete Store",
       "import": "Import Store",
       "export": "Export Store"
     },
     "tip": {
-      "add": "Please enter the store information, and click 「OK」 after completing the entry.",
-      "add_confirm": "Confirm to Add Store?",
-      "update": "Confirm to Modify Store Info?",
-      "import": "The file loaded successfully, confirm to import the stores?",
+      "add": "Please enter the store information, and click 「Confirm」 after completing the entry.",
+      "add_confirm": "Confirm to add store?",
+      "update": "Confirm to modify store info?",
+      "delete": "After deleting the store, all store information will be removed from the system and cannot be restored after deletion. In addition, the activated services will become invalid and cannot be restored or migrated. If you would still like to delete the store, please enter the password again and click 「OK」 to proceed the deletion task.",
+      "password": "Password error!",
+      "please": "Password can't be empty or blank",
+      "import": "The file loaded successful, confirm to import the stores?",
       "begin": "Start reading the file",
-      "export": ["", " stores have been selected, confirm to export these stores?"],
+      "export": [
+        "",
+        " store has been selected, confirm to export the store?",
+        " stores have been selected, confirm to export these stores?"
+      ],
       "error": [
         "Please select stores to export!",
-        "Please upload .xlsx, .xls files!",
+        "Please upload .xlsx files!",
         "Please don't upload empty files!",
         "Data format error!",
         "Store format error!"
       ],
-      "row": ["Row ", ": ", " is empty!", " isn't in the list!", "'format is incorrect!"],
+      "row": [
+        "Row ",
+        ": ",
+        " can't be empty or blank!",
+        " isn't in the list!",
+        "'s format is incorrect!",
+        " can't be blank!",
+        " is already exists!"
+      ],
       "upload": [
-        "Read the file successfully, there are ",
-        " stores conform to the format. Uploading... (",
-        " / ", ")"
+        "Read the file successful, there are ",
+        " store conform to the format. Uploading... (",
+        " / ",
+        ")",
+        " stores conform to the format. Uploading... ("
       ],
       "success": [
-        "Import successfully, in ",
+        "Import complete, in ",
+        " store, ",
+        " store has been added successful",
         " stores, ",
-        " stores have been added successfully"
+        " stores have been added successful"
       ],
-      "store_name": "Please enter Store Name",
-      "country": "Please select Country / Region",
-      "province": "Please enter Region I",
-      "city": "Please enter Region II",
-      "address": "Please enter Store Address",
-      "tel": "Please enter Store Phone",
+      "store_name": "Please enter store name",
+      "store_name_error": "Store name can't be empty or blank",
+      "country": "Please select country / region",
+      "province": "Please enter region I",
+      "province_error": "Region I can't be empty or blank",
+      "city": "Please enter region II",
+      "city_error": "Region II can't be empty or blank",
+      "address": "Please enter store address",
+      "address_error": "Store address can't be empty or blank",
+      "tel": "Please enter store phone",
+      "tel_error": "Store phone can't be empty or blank",
+      "telNum": "Store phone's format is incorrect",
       "time_zone": "Please select Time zone",
-      "descr": "Please enter Note"
+      "descr": "Please enter note",
+      "descr_error": "note can't be blank"
     },
     "success": {
-      "add": "Add Store Successfully!",
-      "update": "Modify Store Info Successfully!",
-      "import": "Import Store Successfully!",
-      "export": "Export Store Successfully!"
+      "add": "Add store successful!",
+      "update": "Modify store info successful!",
+      "delete": "Delete store successful!",
+      "import": "Import store successful!",
+      "export": "Export store successful!"
     },
     "failed": {
-      "add": "Add Store Failed!",
-      "update": "Modify Store Info Failed!",
-      "import": "Import Store Failed!",
-      "export": "Export Store Failed!"
+      "add": "Add store failed!",
+      "update": "Modify store info failed!",
+      "delete": "Delete store failed!",
+      "import": "Import store failed!",
+      "export": "Export store failed!"
     }
   },
   "user": {
     "label": {
       "status": "User Status",
       "name": "User Name",
-      "setting": "Account Setting",
+      "setting": "Email",
       "role": "System Role",
       "brand_role": "Brand Role",
       "base_info": "Base User Info",
       "selected": "Selected Brand",
-      "account": "Account",
+      "account": "Email",
       "brand": "Brand",
       "join": "Initial Date"
     },
@@ -260,32 +363,37 @@
       "delete": "Delete User"
     },
     "tip": {
-      "add": "Please enter the user information, and click 「OK」 after completing the entry.",
-      "add_confirm": "Confirm to Add User?",
-      "update": "Confirm to Modify User Info?",
-      "activate": "Confirm to Activate User?",
-      "deactivate": "Confirm to Deactivate User?",
-      "delete": "Confirm to Delete User?",
-      "deactivate_confirm": "The User has been assigned brands. Confirm to Deactivate User, please click「Confirm Deactivate」.",
-      "delete_confirm": "The User has been assigned brands. Confirm to Delete User, please click「Confirm Delete」.",
-      "name": "Please enter User Name",
-      "setting": "Please enter Account Setting",
-      "role": "Please select System Role",
-      "brand_role": "Please select Brand Role"
+      "add": "Please enter the user information, and click 「Confirm」 after completing the entry.",
+      "add_max": "Add user failed, reached the maximum number of user registrations: 50",
+      "exist": " is already exist",
+      "user": "User is already exist",
+      "add_confirm": "Confirm to add user?",
+      "update": "Confirm to modify user info?",
+      "activate": "Confirm to activate user?",
+      "deactivate": "Confirm to deactivate user?",
+      "delete": "Confirm to delete user?",
+      "deactivate_confirm": "The user has been assigned brands. Confirm to deactivate user, please click 「Confirm Deactivate」.",
+      "delete_confirm": "The user has been assigned brands. Confirm to delete user, please click 「Confirm Delete」.",
+      "name": "Please enter user name",
+      "setting": "Please enter email",
+      "name_error": "User name can't be empty or blank",
+      "setting_error": "Email can't be empty or blank",
+      "role": "Please select system role",
+      "brand_role": "Please select brand role"
     },
     "success": {
-      "add": "Add User Successfully!",
-      "update": "Modify User Info Successfully!",
-      "activate": "Activate User Successfully!",
-      "deactivate": "Deactivate User Successfully!",
-      "delete": "Delete User Successfully!"
+      "add": "Add user successful!",
+      "update": "Modify user info successful!",
+      "activate": "Activate user successful!",
+      "deactivate": "Deactivate user successful!",
+      "delete": "Delete user successful!"
     },
     "failed": {
-      "add": "Add User Failed!",
-      "update": "Modify User Info Failed!",
-      "activate": "Activate User Failed!",
-      "deactivate": "Deactivate User Failed!",
-      "delete": "Delete User Failed!"
+      "add": "Add user failed!",
+      "update": "Modify user info failed!",
+      "activate": "Activate user failed!",
+      "deactivate": "Deactivate user failed!",
+      "delete": "Delete user failed!"
     }
   },
   "device": {
@@ -310,8 +418,12 @@
     "activate_date": "Activate Date",
     "expired_date": "Expired Date",
     "device_type": "Device Type",
+    "channel": "CH/Point",
     "device_name": "Device Name",
     "device_status": "Device Status",
+    "updateTime": "Update Time",
+    "updating": "Getting Data...",
+    "count": "Subscription / Total",
     "number": "Number",
     "cycle": "Subscribe Cycle",
     "status": "Subscribe Status",
@@ -320,44 +432,100 @@
     "device_view": "Device View",
     "subscribe_activate": "Subscription Activate",
     "deactivate_service": "Number of not Activated Services",
-    "serial":    "Serial Number",
-    "serial_number":    "Add Service Serial Number",
+    "serial": "Serial Number",
+    "serial_number": "Add Service Serial Number",
     "activate_service": "Activate Subscribe Service",
     "selected_number": "Number of Selected: ",
-    "month": [" Month", " Months"],
-    "subscribe_status": ["Expire a month", "Expired 2 weeks", "Expired 3 months", "Registered"],
+    "point": "Currently Available Points",
+    "date": "Stored Value Date",
+    "store": "Select Store",
+    "all": "All Select",
+    "month": [
+      " Month",
+      " Months"
+    ],
+    "subscribe_status": [
+      "Expire 15 days",
+      "Expired 15 days",
+      "Expired 3 months",
+      "Unsubscribed",
+      "Normal",
+      "Expired 3+ months"
+    ],
     "tip": {
       "serial_number": "Please enter service serial number to be added",
       "activate_service": "Please select service name to be activated",
-      "device": "Please select device to be activated",
-      "activating": ["", " devices are selected, activating... (", " / ", ")"]
+      "activate_select": "The list does not match the selected service, please click 「Select」 to refresh the list",
+      "device": {
+        "account": "Please select brand to be activated",
+        "device": "Please select device to be activated",
+        "store": "Please select store to be activated"
+      },
+      "activating": {
+        "device": [
+          "",
+          " devices are selected, activating... (",
+          " / ",
+          ")"
+        ],
+        "store": [
+          "",
+          " stores are selected, activating... (",
+          " / ",
+          ")"
+        ]
+      }
     },
     "confirm": {
       "serial_number": "Confirm to add service serial number?",
-      "activate_service": ["", " devices are selected, confirm to activate these devices?"]
+      "activate_service": {
+        "device": [
+          "",
+          " device is selected, confirm to activate the device?",
+          "",
+          " devices are selected, confirm to activate these devices?"
+        ],
+        "store": [
+          "",
+          " store is selected, confirm to activate the store?",
+          "",
+          " stores are selected, confirm to activate these stores?"
+        ],
+        "account": "Brand service has been selected, confirm to activate the service?"
+      }
     },
     "success": {
-      "serial_number": "Add service serial number successfully!",
-      "activate_service": [
-        "Activate successfully, in ",
-        " devices, ",
-        " devices have been activated successfully"
-      ]
+      "serial_number": "Add service serial number successful!",
+      "activate": "Activate successful",
+      "activate_service": {
+        "device": [
+          "Activate complete, in ",
+          " devices, ",
+          " devices have been activated successful!"
+        ],
+        "store": [
+          "Activate complete, in ",
+          " stores, ",
+          " stores have been activated successful!"
+        ]
+      }
     },
     "failed": {
-      "serial_number": "Add service serial number failed!"
+      "serial_number": "Add service serial number failed!",
+      "activate": "Activate failed",
+      "existed": "The serial number already exists!",
+      "none": "Unknown serial number！"
     }
   },
   "validate": {
     "success": {
-      "tip": "If you don't receive password, please do contact your account administrator.",
+      "tip": "If you don't receive password, please do contact your organization administrator.",
       "title": "Validation Successful 驗證成功",
-      "descr1": "Your email have been verified and your account has been created.",
-      "descr2": "Please check your email for the password."
+      "descr1": "Your email have been verified and your account has been created."
     },
     "failed": {
       "title": "Validation Failed 驗證失敗",
-      "descr": "Please contact your account administrator."
+      "descr": "Please contact your organization administrator."
     }
   },
   "country": {

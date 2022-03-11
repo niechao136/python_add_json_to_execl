@@ -1,37 +1,59 @@
 {
   "views": {
     "login": {
-      "email": "賬號名稱",
+      "email": "用戶信箱",
       "password": "密碼",
-      "remember": "記住賬號",
+      "remember": "記住帳號",
       "forget": "忘記密碼？",
-      "submit": "登 錄",
-      "message": "密碼错误",
-      "noAccount": "沒有賬號？",
+      "submit": "登 入",
+      "message": "登入失敗, 請確認帳號及密碼",
+      "noAccount": "尚未有訂閱組織帳號",
       "join": "加入我們",
-      "tip": "請輸入郵箱地址",
-      "reset": "請輸入你的電子郵箱以重設密碼",
+      "tip": "用戶信箱不能為空或空格",
+      "reset": "請輸入您的電子信箱以重設密碼",
+      "notfound": "系統中找不到電子信箱：",
       "success": "發送成功",
       "failed": "發送錯誤",
-      "check": "請檢查您的電子郵件，並按照步驟重置密碼。"
+      "check": "請檢查您的電子信件，並按照步驟重置密碼。",
+      "stop": "登錄失敗，用戶已停用。",
+      "changeAccount": "切換失敗，用戶或訂閱組織已停用。",
+      "title": "切換訂閱組織失敗",
+      "or": "或"
     },
     "join": {
-      "title": "訂閱賬號申請",
-      "name": "企業名稱",
-      "tip_name": "請輸入企業名稱",
-      "email": "賬號名稱（eMail）",
-      "tip": "請輸入賬號名稱",
+      "title": "訂閱組織申請",
+      "link": "了解有關訂閱組織的更多資訊？",
+      "name": "公司名稱(訂閱組織)",
+      "type": "產業類別",
+      "user_name": "用戶名稱",
+      "tip_name": "公司名稱(訂閱組織)不能為空或空格",
+      "tip_user_name": "用戶名稱不能為空或空格",
+      "topic": "已經有一個訂閱帳號？",
+      "email": "用戶信箱",
+      "tip": "用戶信箱不能為空或空格",
       "check": "輸入驗證碼",
-      "submit": "確認送出",
+      "submit": "創建帳號",
       "thank": "謝謝您的訂閱申請。",
-      "please": "請登錄您的eMail信箱啟動您的賬號",
-      "phone": "若有任何問題歡迎來電諮詢，客服專線：+8862-792-7818 #2527",
-      "contact": "或來信給我們，eMail：Contact.StoreVue@advantech.com"
+      "please": "請登錄您的電子信箱啟動您的帳號",
+      "phone": "若有任何問題歡迎來信給我們，電子信箱：Contact.StoreVue@advantech.com",
+      "contact": "或來信給我們，電子信箱：Contact.StoreVue@advantech.com"
+    },
+    "select": {
+      "Retailer": "零售業",
+      "Restaurant": "餐飲業",
+      "Advertising": "廣告行銷",
+      "Media": "媒體出版",
+      "Telecom": "電信網路",
+      "Solution": "解決方案提供商",
+      "Consultant": "顧問服務",
+      "Education": "教育研究",
+      "Others": "其他"
     },
     "reset": {
       "title": "重設密碼",
       "new": "新密碼",
       "confirm": "確認新密碼",
+      "error": "確認新密碼不能為空或空格",
       "tip": {
         "enter": "請輸入密碼",
         "confirm": "請再次輸入密碼",
@@ -39,14 +61,35 @@
         "error": "頁面地址錯誤，缺失驗證密鑰。",
         "success": "密碼重設成功. 請重新登入。"
       }
+    },
+    "reset_op": {
+      "old": "當前訂閱組織名稱",
+      "new": "新的訂閱組織名稱",
+      "back": "返回登錄頁",
+      "success": "變更訂閱組織成功. 請重新登入。",
+      "failed": "變更訂閱組織失敗！",
+      "tip": {
+        "old": "當前訂閱組織名稱不能為空或空格",
+        "new": "新的訂閱組織名稱不能為空或空格",
+        "error": "當前訂閱組織名稱錯誤",
+        "same": "新的訂閱組織名稱和原來相同"
+      }
     }
   },
   "common": {
+    "op": "訂閱站",
     "sidebar": {
+      "op_acc": "訂閱組織",
       "overview": "訂閱總覽",
       "brand": "品牌管理",
       "user": "用戶管理",
-      "subscribe": "訂閱管理"
+      "subscribe": "訂閱管理",
+      "login": "登錄",
+      "join": "註冊",
+      "reset": "重設密碼",
+      "resetopname": "變更訂閱組織名稱",
+      "user_validate": "用戶驗證",
+      "op_account_validate": "訂閱組織驗證"
     },
     "loading": {
       "add": "新增中...",
@@ -60,18 +103,24 @@
       "upload": "上傳中..."
     },
     "search": "請輸入關鍵詞",
+    "get_started": "開始使用",
+    "started": "https://support.aics.advantech.com/zh-tw/Guides_and_API_References/1613727436539769400/1613906275084430700/1613909199630292600/v1.0.0.1",
     "operation": "操作",
-    "detail": "詳細信息",
+    "detail": "詳細資訊",
     "no_data": "沒有數據",
     "all": "全部選擇",
     "logout": "登出",
     "success": "成功",
-    "failed": "錯誤",
+    "failed": "失敗",
+    "error": {
+      "title": "帳號異常",
+      "message": "帳號已登出，請重新登錄！"
+    },
     "card": {
       "overview": "服務門店總數",
-      "one_month": "下月到期門店數",
-      "two_week": "逾期2週門店數",
-      "three_month": "逾期3個月門店數",
+      "one_month": "15天內到期門店數",
+      "two_week": "逾期15天內門店數",
+      "three_month": "逾期3個月內門店數",
       "total": "設備總數",
       "abnormal": "異常",
       "offline": "離線",
@@ -79,7 +128,7 @@
     }
   },
   "button": {
-    "confirm": "確定",
+    "confirm": "確認",
     "cancel": "取消",
     "save": "儲存",
     "select": "選擇",
@@ -106,8 +155,8 @@
       "status": "狀態",
       "stores": "門店數量",
       "initial_date": "加入日期",
-      "base_info": "品牌基本信息",
-      "admin_info": "品牌管理員信息"
+      "base_info": "品牌基本資訊",
+      "admin_info": "品牌管理員資訊"
     },
     "status": {
       "20": "正常",
@@ -115,53 +164,73 @@
     },
     "title": {
       "add": "新增品牌",
-      "update": "修改品牌信息",
-      "info": "品牌信息",
-      "activate": "啟用品牌賬戶",
-      "deactivate": "停用品牌賬戶",
-      "delete": "刪除品牌賬戶"
+      "update": "修改品牌資訊",
+      "info": "品牌資訊",
+      "activate": "啟用品牌帳戶",
+      "deactivate": "停用品牌帳戶",
+      "delete": "刪除品牌帳戶"
     },
     "tip": {
-      "add": "請輸入品牌信息, 輸入完成後請點擊「確認」。 ",
+      "add": "請輸入品牌資訊, 輸入完成後請點擊「確認」。 ",
+      "add_max": "新增品牌失敗，已達到品牌的最大註冊數量：20",
       "add_confirm": "確認新增品牌？",
-      "update": "確認修改品牌信息？",
-      "activate": "確認啟用品牌賬戶？",
-      "deactivate": "確認停用品牌賬戶？",
-      "delete": "確認刪除品牌賬戶？",
-      "deactivate_confirm": "此賬號下已分配了分店，確認停用品牌賬戶請點擊 「確認停用」。 ",
-      "delete_confirm": "此賬號下已分配了分店，確認刪除品牌賬戶請點擊 「確認刪除」。 ",
+      "update": "確認修改品牌資訊？",
+      "activate": "確認啟用品牌帳戶？",
+      "deactivate": "確認停用品牌帳戶？",
+      "deactivated": "品牌帳戶已停用",
+      "delete": "刪除品牌帳戶後品牌帳戶下所有門店資料將從系統移除，刪除後無法復原；此外，已啟用的服務將失效且無法復原或移轉。若您仍確定要刪除品牌帳戶，請再次輸入密碼後，點擊「確認」來執行刪除任務。",
+      "deactivate_confirm": "此帳號下已分配了分店，確認停用品牌帳戶請點擊 「確認停用」。",
+      "delete_confirm": "此帳號下已分配了分店，確認刪除品牌帳戶請點擊 「確認刪除」。 ",
       "name": "請輸入品牌名稱",
+      "name_error": "品牌名稱不能為空或空格",
       "contact_name": "請輸入聯絡人",
+      "contact_name_error": "聯絡人不能為空格",
       "contact_email": "請輸入聯絡郵箱",
+      "contact_email_error": "聯絡郵箱不能為空格",
       "contact_phone": "請輸入聯絡電話",
+      "contact_phone_error": "聯絡電話不能為空格",
       "contact_address": "請輸入聯絡地址",
+      "contact_address_error": "聯絡地址不能為空格",
       "admin_email": "請輸入管理員郵箱",
+      "admin_email_error": "管理員郵箱不能為空或空格",
       "admin_name": "請輸入管理員姓名",
+      "admin_name_error": "管理員姓名不能為空格",
       "admin_phone": "請輸入管理員電話",
-      "email_format": "請輸入正確的郵箱地址"
+      "admin_phone_error": "管理員電話不能為空格",
+      "email_format": "請輸入正確的郵箱地址",
+      "phone_format": "請輸入正確的電話號碼"
     },
     "success": {
       "add": "新增品牌成功！",
-      "update": "修改品牌信息成功！",
-      "activate": "啟用品牌賬戶成功！",
-      "deactivate": "停用品牌賬戶成功！",
-      "delete": "刪除品牌賬戶成功！"
+      "update": "修改品牌資訊成功！",
+      "activate": "啟用品牌帳戶成功！",
+      "deactivate": "停用品牌帳戶成功！",
+      "delete": "刪除品牌帳戶成功！"
     },
     "failed": {
       "add": "新增品牌失敗！",
-      "update": "修改品牌信息失敗！",
-      "activate": "啟用品牌賬戶失敗！",
-      "deactivate": "停用品牌賬戶失敗！",
-      "delete": "刪除品牌賬戶失敗！"
+      "update": "修改品牌資訊失敗！",
+      "activate": "啟用品牌帳戶失敗！",
+      "deactivate": "停用品牌帳戶失敗！",
+      "delete": "刪除品牌帳戶失敗！"
     }
   },
   "store": {
     "push": [
-      "門店ID", "門店名稱", "國家/地區", "區域一", "區域二",
-      "門店地址", "門店電話", "門店時區", "天氣地址", "備註說明", "分店代碼"
+      "門店 ID",
+      "門店名稱",
+      "國家/地區",
+      "區域一",
+      "區域二",
+      "門店地址",
+      "門店電話",
+      "門店時區",
+      "天氣地址",
+      "備註說明",
+      "分店代碼"
     ],
     "label": {
-      "store_id": "門店ID",
+      "store_id": "門店 ID",
       "store_name": "門店名稱",
       "country": "國家/地區",
       "province": "區域一",
@@ -171,59 +240,93 @@
       "time_zone": "門店時區",
       "descr": "備註說明",
       "store_status": "門店狀態",
-      "base_info": "門店基本信息",
-      "area_info": "門店區域信息"
+      "base_info": "門店基本資訊",
+      "area_info": "門店區域資訊"
+    },
+    "status": {
+      "1": "已註冊",
+      "60": "逾期"
     },
     "title": {
       "add": "新增門店",
-      "update": "修改門店信息",
-      "info": "門店信息",
+      "update": "修改門店資訊",
+      "info": "門店資訊",
+      "delete": "刪除門店",
+      "delete_store": "刪除門店資訊",
       "import": "導入門店",
       "export": "導出門店"
     },
     "tip": {
-      "add": "請輸入門店信息, 輸入完成後請點擊「確認」。 ",
+      "add": "請輸入門店資訊, 輸入完成後請點擊「確認」。 ",
       "add_confirm": "確認新增門店？",
-      "update": "確認修改門店信息？",
+      "update": "確認修改門店資訊？",
+      "delete": "刪除門店後所有門店資料將從系統移除，刪除後無法復原；此外，已啟用的服務將失效且無法復原或移轉。若您仍確定要刪除門店，請再次輸入密碼後，點擊「確認」來執行刪除任務。",
+      "password": "密碼錯誤！",
+      "please": "密碼不能為空或空格",
       "import": "文件加載成功, 確認導入門店？",
       "begin": "開始讀取文件",
-      "export": ["已選擇", "門店, 確認導出這些門店？"],
+      "export": [
+        "已選擇",
+        "門店, 確認導出這個門店？",
+        "門店, 確認導出這些門店？"
+      ],
       "error": [
         "請選擇需要導出的門店！",
-        "請上傳xlsx或xls類型的文件！",
-        "請不要上傳空的execl文件！",
-        "execl文件數據格式錯誤！",
-        "execl文件中沒有符合格式要求的門店！"
+        "請上傳xlsx類型的文件！",
+        "請不要上傳空的excel文件！",
+        "excel文件數據格式錯誤！",
+        "excel文件中沒有符合格式要求的門店！"
       ],
-      "row": ["第", "行：", "未填寫！", "不在列表中！", "格式不正確！"],
+      "row": [
+        "第",
+        "行：",
+        "不能為空或空格！",
+        "不在列表中！",
+        "格式不正確！",
+        "不能為空格！",
+        "已存在！"
+      ],
       "upload": [
         "讀取文件成功，共有",
         "門店符合格式。正在上傳中... (",
-        " / ", ")"
+        " / ",
+        ")",
+        "門店符合格式。正在上傳中... ("
       ],
       "success": [
         "導入完成，",
         "家門店中，導入成功",
+        "家",
+        "家門店中，導入成功",
         "家"
       ],
       "store_name": "請輸入門店名稱",
+      "store_name_error": "門店名稱不能為空或空格",
       "country": "請選擇國家/地區",
       "province": "請輸入區域一",
+      "province_error": "區域一不能為空或空格",
       "city": "請輸入區域二",
+      "city_error": "區域二不能為空或空格",
       "address": "請輸入門店地址",
+      "address_error": "門店地址不能為空或空格",
       "tel": "請輸入門店電話",
+      "tel_error": "門店電話不能為空或空格",
+      "telNum": "請輸入門店電話格式不正確",
       "time_zone": "請選擇門店時區",
-      "descr": "請輸入備註說明"
+      "descr": "請輸入備註說明",
+      "descr_error": "備註說明不能為空格"
     },
     "success": {
       "add": "新增門店成功！",
-      "update": "修改門店信息成功！",
+      "update": "修改門店資訊成功！",
+      "delete": "刪除門店成功！",
       "import": "導入門店成功！",
       "export": "導出門店成功！"
     },
     "failed": {
       "add": "新增門店失敗！",
-      "update": "修改門店信息失敗！",
+      "update": "修改門店資訊失敗！",
+      "delete": "刪除門店失敗！",
       "import": "導入門店失敗！",
       "export": "導出門店失敗！"
     }
@@ -232,12 +335,12 @@
     "label": {
       "status": "用戶狀態",
       "name": "用戶名稱",
-      "setting": "賬號設置",
+      "setting": "用戶信箱",
       "role": "系統權限",
       "brand_role": "品牌權限",
-      "base_info": "用戶基本信息",
+      "base_info": "用戶基本資訊",
       "selected": "已選擇的品牌",
-      "account": "賬號",
+      "account": "用戶信箱",
       "brand": "品牌",
       "join": "加入日期"
     },
@@ -253,39 +356,44 @@
     },
     "title": {
       "add": "新增用戶",
-      "update": "修改用戶信息",
-      "info": "用戶信息",
-      "activate": "啟用用戶賬號",
-      "deactivate": "停用用戶賬號",
-      "delete": "刪除用戶賬號"
+      "update": "修改用戶資訊",
+      "info": "用戶資訊",
+      "activate": "啟用用戶帳號",
+      "deactivate": "停用用戶帳號",
+      "delete": "刪除用戶帳號"
     },
     "tip": {
-      "add": "請輸入用戶信息, 輸入完成後請點擊「確認」。 ",
+      "add": "請輸入用戶資訊, 輸入完成後請點擊「確認」。",
+      "add_max": "新增用戶失敗，已達到用戶的最大註冊數量：50",
+      "exist": "已經存在系統之中",
+      "user": "用戶已存在",
       "add_confirm": "確認新增用戶？",
-      "update": "確認修改用戶信息？",
-      "activate": "確認啟用用戶賬號？",
-      "deactivate": "確認停用用戶賬號？",
-      "delete": "確認刪除用戶賬號？",
-      "deactivate_confirm": "此賬號下已分配了品牌，確認停用用戶賬號請點擊 「確認停用」。 ",
-      "delete_confirm": "此賬號下已分配了品牌，確認刪除用戶賬號請點擊 「確認刪除」。 ",
+      "update": "確認修改用戶資訊？",
+      "activate": "確認啟用用戶帳號？",
+      "deactivate": "確認停用用戶帳號？",
+      "delete": "確認刪除用戶帳號？",
+      "deactivate_confirm": "此帳號下已分配了品牌，確認停用用戶帳號請點擊 「確認停用」。 ",
+      "delete_confirm": "此帳號下已分配了品牌，確認刪除用戶帳號請點擊 「確認刪除」。 ",
       "name": "請輸入用戶名稱",
-      "setting": "請輸入賬號設置",
+      "name_error": "用戶名稱不能為空或空格",
+      "setting": "請輸入用戶信箱",
+      "setting_error": "用戶信箱不能為空或空格",
       "role": "請選擇系統權限",
       "brand_role": "請選擇品牌權限"
     },
     "success": {
       "add": "新增用戶成功！",
-      "update": "修改用戶信息成功！",
-      "activate": "啟用用戶賬號成功！",
-      "deactivate": "停用用戶賬號成功！",
-      "delete": "刪除用戶賬號成功！"
+      "update": "修改用戶資訊成功！",
+      "activate": "啟用用戶帳號成功！",
+      "deactivate": "停用用戶帳號成功！",
+      "delete": "刪除用戶帳號成功！"
     },
     "failed": {
       "add": "新增用戶失敗！",
-      "update": "修改用戶信息失敗！",
-      "activate": "啟用用戶賬號失敗！",
-      "deactivate": "停用用戶賬號失敗！",
-      "delete": "刪除用戶賬號失敗！"
+      "update": "修改用戶資訊失敗！",
+      "activate": "啟用用戶帳號失敗！",
+      "deactivate": "停用用戶帳號失敗！",
+      "delete": "刪除用戶帳號失敗！"
     }
   },
   "device": {
@@ -310,8 +418,12 @@
     "activate_date": "啟用日期",
     "expired_date": "到期日期",
     "device_type": "設備類型",
+    "channel": "通道/點數",
     "device_name": "設備名稱",
     "device_status": "設備狀態",
+    "updateTime": "更新時間",
+    "updating": "獲取數據中...",
+    "count": "訂閱門店數量 / 門店數量",
     "number": "數量",
     "cycle": "訂閱週期",
     "status": "訂閱狀態",
@@ -324,40 +436,96 @@
     "serial_number": "新增服務序號",
     "activate_service": "啟用訂閱服務",
     "selected_number": "已選擇數量：",
-    "month": ["個月", "個月"],
-    "subscribe_status": ["下月到期", "逾期兩週", "逾期三個週", "未訂閱"],
+    "point": "目前可用點數",
+    "date": "儲值日期",
+    "store": "門店選擇",
+    "all": "全選",
+    "month": [
+      "個月",
+      "個月"
+    ],
+    "subscribe_status": [
+      "15天內到期",
+      "逾期15天",
+      "逾期3個月",
+      "未訂閱",
+      "正常",
+      "逾期超3月"
+    ],
     "tip": {
       "serial_number": "請輸入需要新增的服務序號",
       "activate_service": "請選擇需要啟用的服務名稱",
-      "device": "請選擇需要啟用的設備",
-      "activating": ["已選擇", "個設備，正在啟用中... (", " / ", ")"]
+      "activate_select": "列表與選擇服務不一致，請點擊「選擇」以刷新清單",
+      "device": {
+        "account": "請選擇需要啟用的品牌",
+        "device": "請選擇需要啟用的設備",
+        "store": "請選擇需要啟用的門店"
+      },
+      "activating": {
+        "device": [
+          "已選擇",
+          "個設備，正在啟用中... (",
+          " / ",
+          ")"
+        ],
+        "store": [
+          "已選擇",
+          "家門店，正在啟用中... (",
+          " / ",
+          ")"
+        ]
+      }
     },
     "confirm": {
       "serial_number": "確認新增服務序號？",
-      "activate_service": ["已選擇", "個設備，確認啟用這些設備？"]
+      "activate_service": {
+        "device": [
+          "已選擇",
+          "個設備，確認啟用這個設備？",
+          "已選擇",
+          "個設備，確認啟用這些設備？"
+        ],
+        "store": [
+          "已選擇",
+          "家門店，確認啟用這個門店？",
+          "已選擇",
+          "家門店，確認啟用這些門店？"
+        ],
+        "account": "已選擇品牌服務，確認啟用該服務？"
+      }
     },
     "success": {
       "serial_number": "新增服務序號成功！",
-      "activate_service": [
-        "啟用成功, ",
-        "個設備中，啟用成功",
-        "個"
-      ]
+      "activate": "啟用成功",
+      "activate_service": {
+        "device": [
+          "啟用完成, ",
+          "個設備中，啟用成功",
+          "個"
+        ],
+        "store": [
+          "啟用完成, ",
+          "家門店中，啟用成功",
+          "家"
+        ]
+      }
     },
     "failed": {
-      "serial_number": "新增服務序號失敗！"
+      "serial_number": "新增服務序號失敗！",
+      "activate": "啟用失敗",
+      "existed": "服務序號已經存在！",
+      "none": "服務序號不存在系統之中！"
     }
   },
   "validate": {
     "success": {
-      "tip": "如果您沒有收到密碼，請與您的帳戶管理員聯繫。",
+      "tip": "如果您沒有收到密碼，請與您的組織管理員聯繫。",
       "title": "Validation Successful 驗證成功",
-      "descr1": "您的電子郵件已驗證，您的帳戶已創建。",
-      "descr2": "請檢查您的電子郵件以獲取密碼。"
+      "descr1": "您的電子郵件已驗證，您的用戶已創建。"
     },
     "failed": {
       "title": "Validation Failed 驗證失敗",
-      "descr": "請與您的帳戶管理員聯繫。"
+      "descr": "請與您的組織管理員聯繫。"
     }
   },
   "country": {

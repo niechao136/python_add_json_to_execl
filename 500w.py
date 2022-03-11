@@ -262,8 +262,12 @@ for row in range(table.nrows):
 for s in num.keys():
     if num[s] > 1:
         print(s)
-    else:
-        print(s, 1)
+    if s == "03/15/17/18/29/33/14" or s == "05/19/21/23/27/32/13" or s == "12/18/21/27/29/32/07":
+        print(s)
+    if s == "04/09/14/20/22/31/04" or s == "02/08/11/14/23/27/16":
+        print(s)
+    # else:
+    #     print(s, 1)
 book = xlwt.Workbook()
 sheet = book.add_sheet('Sheet1', cell_overwrite_ok=True)
 title = [
